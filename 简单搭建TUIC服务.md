@@ -8,7 +8,7 @@
 
 折腾前需要准备的：最新版TF版的surge，并且订阅没有过期；有一个vps，有一个属于你的域名。（一般来说拥有这些东西的都已经不需要看这个教程了，但也不排除有像我这样只会一键SS-Rust的白痴吧）
 
-****建立服务端
+**建立服务端**
 
 进入ssh ，输入指令获取管理员权限
 ```
@@ -43,7 +43,7 @@ chmod +x tuic-server-0.8.5-x86_64-linux-gnu
 
 这里每一行是一条指令，输入后按回车等执行完再进行下一条命令
 
-建立服务器端配置：
+**建立服务器端配置：**
 ```
 nano config.json
 ```
@@ -63,7 +63,7 @@ nano config.json
 
 
 ```
-新建systemd配置文件
+**新建systemd配置文件**
 ```
 nano /lib/systemd/system/tuic.service
 ```
@@ -89,7 +89,7 @@ WantedBy=multi-user.target
 ```
 至此其实服务器端已经建立好了。如果你已经之前玩过trojan有证书的话就直接把证书放入到/opt/tuic 文件夹里按照上面的配置公钥命名为：fullchain.pem，私钥命名为：private.pem那么就已经完成了。如果没有的话就接着往下看，通过certbot申请证书吧
 
-申请证书：
+**申请证书：**
 ```
 certbot certonly \
 --standalone \
