@@ -72,6 +72,7 @@ SyslogIdentifier=snell-server
 [Install]
 WantedBy=multi-user.target
 
+
 ⚠️ 注意：在一些 Linux 发行版 (CentOS7) 中并无 nogroup 群组，但可以尝试修改成 Group=nobody 解决。
 
 然后使用命令：
