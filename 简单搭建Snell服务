@@ -1,7 +1,9 @@
 本文主要参考了神机（花姐）[Surge | 部署 Snell Server – DivineEngine | Site](https://divineengine.net/article/deploying-a-snell-server/)，只是根据自己搭建过程做了一点点改动。感谢花姐以及surge pro群里热心指导的各位。
 
 用ssh连上你的vps后，输入：
+```
 sudo -i
+```
 获取管理权限
 
 
