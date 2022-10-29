@@ -5,7 +5,9 @@
 
 提供一个基于surge作者老刘的最简配置，带一个我的warp 节点的配置。
 
+
 [最简配置](/A easy Surge config.conf)
+
 
 [手动搭建Snell服务器](/简单搭建Snell服务.md)
 
