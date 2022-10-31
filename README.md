@@ -5,6 +5,8 @@
 
 提供一个基于surge作者老刘的最简配置，带一个我的warp 节点的配置。
 
+**💡提醒我所折腾的东西都是基于surge的TF版，如果您不是TF版用户，请谨慎！！！**
+
 
 [最简配置](https://github.com/Zeaphyou/GetSomeCats/blob/Surge/A%20easy%20Surge%20config.conf)
 
