@@ -9,6 +9,14 @@
 
 
 [最简配置](https://github.com/Zeaphyou/GetSomeCats/blob/Surge/A%20easy%20Surge%20config.conf)
+使用方法：打开surge配置页面，选择从URL下载配置，然后输入:
+
+“
+
+https://raw.githubusercontent.com/Zeaphyou/GetSomeCats/Surge/A%20easy%20Surge%20config.conf
+
+“
+
 
 
 [手动搭建Snell服务器](/简单搭建Snell服务.md)
