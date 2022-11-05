@@ -5,7 +5,7 @@
 🔔写在最前面的提醒：检查一下你的surge订阅情况，要开通MITM H2！！！并且开关已经打开，如图所示，另外，现在折腾的wireguard V6 需要最新的TF版。
 
 再次说明：当时写教程用的TF版，和最新的商店版略微有点差别，但是基本的东西还是没变，所以教程截图就不更新了。有问题可以去我的频道[https://t.me/GetsomeCats](https://t.me/GetsomeCats)
-或者(surge讨论频道)[https://t.me/loveapps]
+或者surge讨论频道(https://t.me/loveapps)[https://t.me/loveapps]
 
 ![IMG_3795.png](https://res.craft.do/user/full/3d8a8c5e-ccfa-1873-1c87-72e71ce00df1/81FBC7BE-52C3-4524-A26C-EEB8BA0D7A76_2/e78bDhSQGyxkSEJCfyTuxA7Hh1w6w0sIzJB32u0bEd0z/IMG_3795.png)
 
