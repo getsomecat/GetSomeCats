@@ -214,8 +214,13 @@ Provider（订阅）点击复制后就会得到一个链接，这时候可以去
 ![IMG_4001.png](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/0a4bb09a-bd60-bdbd-f520-eac324065511/XNCyULqImkWZFUnoqNEfzZmbXFSNI2btGyo6vbC5puIz/IMG_4001.png)
 
 依此类推就可以给其它的app建立策略组并进行分流了。然后就可以根据自己的需求和喜好来建立自己的个性配置了。
+顺便推荐一个基于surge作者推荐的官方配置进行了小幅修改并自带了我的warp节点的配置：
+```
+https://raw.githubusercontent.com/Zeaphyou/GetSomeCats/Surge/A%20easy%20Surge%20config.conf
+```
+将上面链接复制下来到surge的配置文件页面选择从url下载配置粘贴进去结合自己的订阅即可使用。
 
-第一部份的建立策略组导入订阅使用规则就先介绍到这里。因Craft的限制，脚本、mitm等等在第二部分再进行了。
+第一部份的建立策略组导入订阅使用规则就先介绍到这里。
 
 第二部分：[https://www.craft.do/s/B0BvrXhpHAtplx](https://www.craft.do/s/B0BvrXhpHAtplx)
 
