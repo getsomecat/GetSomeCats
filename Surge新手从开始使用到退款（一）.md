@@ -2,7 +2,7 @@
 
 个人频道：[https://t.me/GetsomeCats](https://t.me/GetsomeCats)
 
-另外推个关于warp+（zerotrust）的教程[https://www.craft.do/s/avqa8GJuLbLsFv](https://www.craft.do/s/avqa8GJuLbLsFv)
+另外推个关于[warp+（zerotrust）的教程](https://github.com/Zeaphyou/GetSomeCats/blob/8d635114f0f4471ddbb48471b97975a4a9a9c58f/Zero%20Trust%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.md))
 
 > 前言：请原谅我用了这个很俗气的标题，其实动念写这个主要的原因是在telegram的surge群里经常遇到一些朋友，进来问的第一个问题就是：surge怎么导入机场订阅啊？次数多了被戏称surge新手灵魂第一问：如何导入订阅？想想自己虽然是从surge刚上架用到现在，但是因为以前几乎没有加telegram群，也很少交流，也是从小白一路走过来的，虽然对于现在surge5还有很多不满意的地方，但是还是可以为它做一点事情帮助一下好不容易来到墙外的朋友们。
 
