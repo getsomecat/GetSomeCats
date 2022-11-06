@@ -128,13 +128,13 @@
 注意不是上面的格式，而是从1～10中选一个去试
 
 🔔最终格式应该是类似：
-
+```
 162.159.193.5:2408
-
+```
 或者
-
+```
 162.159.195.8:2408
-
+```
 这两个193、195段是Warp+服务的。
 
 千万不要直接填成1～10然后问为什么不行🫠
@@ -143,3 +143,23 @@
 
 顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：[https://dlercloud.com/auth/register?affid=126669](https://dlercloud.com/auth/register?affid=126669)
 
+最后的最后：如果看到最后也按照步骤来了一遍发现还是搞不定，那么可以选择加入我的team：getsomecats，验证方式：gmail。
+
+如果还是搞不定，那么下面这个应该能帮到你：
+```
+[Proxy]
+# 将我的GetSomeCats Team 配置放出来供使用。也可以加入我的Team：Getsomecats，验证方式为：gmail
+Warp+GSC = wireguard, section-name=GetSomeCats, test-url=http://cp.cloudflare.com/generate_204
+
+[Proxy Group]
+Proxy = select, Warp+GSC, no-alert=0, hidden=0, include-all-proxies=0
+
+[WireGuard GetSomeCats]
+private-key = oFl4IF42oioy2rU9Dc2af5vi6X6+zbFDnY/CUckU23g=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8f71:49f:13f4:55d6:a577
+prefer-ipv6 = true
+dns-server = 162.159.36.1, 2606:4700:4700::1111
+mtu = 1380
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.195.9:2408, keepalive = 45)
+```
