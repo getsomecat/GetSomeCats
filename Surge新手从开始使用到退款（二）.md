@@ -2,7 +2,7 @@
 
 个人频道：[https://t.me/GetsomeCats](https://t.me/GetsomeCats)
 
-在上一篇[《Surge新手从开始使用到退款（一）》](https://www.craft.do/s/rXHk8AmmqaHJJz) 中初步教了一下如何通过空白配置建立策略组和使用规则，可能会有人说这样也太麻烦了，我就是想伸手即用，那这里准备开始说一下如何使用别人的懒人配置。
+在上一篇[《Surge新手从开始使用到退款（一）》]([https://www.craft.do/s/rXHk8AmmqaHJJz](https://github.com/Zeaphyou/GetSomeCats/blob/Surge/Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E5%88%B0%E9%80%80%E6%AC%BE%EF%BC%88%E4%B8%80%EF%BC%89.md)) 中初步教了一下如何通过空白配置建立策略组和使用规则，可能会有人说这样也太麻烦了，我就是想伸手即用，那这里准备开始说一下如何使用别人的懒人配置。
 
 以surge大群[https://t.me/loveapps](https://t.me/loveapps)里面的新手配置指导员@深巷有喵 的新手配置为例 他的GitHub地址：[https://github.com/Rabbit-Spec/Surge/tree/Master/Conf](https://github.com/Rabbit-Spec/Surge/tree/Master/Conf)
 
