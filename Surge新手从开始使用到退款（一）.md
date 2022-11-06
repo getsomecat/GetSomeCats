@@ -222,5 +222,5 @@ https://raw.githubusercontent.com/Zeaphyou/GetSomeCats/Surge/A%20easy%20Surge%20
 
 第一部份的建立策略组导入订阅使用规则就先介绍到这里。
 
-第二部分：[https://www.craft.do/s/B0BvrXhpHAtplx](https://www.craft.do/s/B0BvrXhpHAtplx)
+第二部分：[Surge新手从开始使用到退款（二）](https://github.com/Zeaphyou/GetSomeCats/blob/ba52acb5b91f874a0ee50e73c8a963910fcb602c/Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E5%88%B0%E9%80%80%E6%AC%BE%EF%BC%88%E4%BA%8C%EF%BC%89.md)
 
