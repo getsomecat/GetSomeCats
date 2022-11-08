@@ -7,7 +7,7 @@ sudo -i
 获取管理权限
 
 
-# 如果系统没有预装可能需要先下载安装 wget 及 unzip
+# 如果系统没有预装可能需要先下载安装 vim，wget 及 unzip
 
 # APT
 ```
@@ -18,7 +18,10 @@ sudo apt update && sudo apt install wget unzip
 ```
 sudo dnf install unzip
 ```
-
+# 安装vim
+```
+apt install vim
+```
 # 下载 Snell Server
 # 如果你的服务器是其它版本的去官网[Snell Protocol · GitBook](https://manual.nssurge.com/others/snell.html)下载相应服务器版本。这里以linux-amd64为例
 
