@@ -71,6 +71,24 @@ Provider（订阅）点击复制后就会得到一个链接，这时候可以去
 
 ![IMG_3974.png](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/b523e8c1-5cbb-cc67-14da-9c2872a20c82/EdYe8PqZiVxpMrHWcvoDwxNJHpm0Izj4ISnjjwLsBxsz/IMG_3974.png)
 
+### 订阅转换
+
+上面我举例的是以墙洞为例的，作为一线机场，提供了各种App的订阅链接，有些人买的可能没有提供surge的订阅链接，但是也不是没有办法，可以用订阅转换。
+
+这里以墙洞的订阅转换为例：
+
+[https://sub.dler.io](https://sub.dler.io)
+
+然后拿出我那封存的垃圾机场为例：可以看出没有提供 surge 的订阅或者托管，但是一般会提供一个通用订阅，如下图的 v2ray/Trojan 通用订阅，点击复制后去转换网址，然后将复制的通用订阅粘贴进去，客户端那里选择 surge4，讲输出为 node list 勾选上，点击生成订阅链接并复制就可以拿到 surge 里面用了
+
+![IMG_4777.png](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/881B8808-616A-4A54-B7EB-FFC43527E48A_2/6Riqayf6zDdrP2pirUMKDCoNT823ikpX6iTrYVUhF7Mz/IMG_4777.png)
+
+![IMG_4778.jpeg](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/BC5BBECE-4A3C-43C4-B024-C9F6C3F58D38_2/CQP74jruN8YvU87gvc43mxuXKJ0VWExlRupKJjMtN6Az/IMG_4778.jpeg)
+
+![IMG_4779.jpeg](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/FD02C58F-D201-49E7-8DAC-30702EF1447A_2/XqxyWohiL2oKnXk1kjuG23CxN078YWha5SACfWdCK1kz/IMG_4779.jpeg)
+
+![IMG_4780.png](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/B1E02104-7ACC-45F5-9CC0-37C5CFD97897_2/FxN6nG3nrD6eOuMXRiCJGAyTyJfBEXSre0DjLVvVyNQz/IMG_4780.png)
+
 ### 建立规则
 
 如果你这个时候去上一些外网可能发现还是会上不了，为什么？因为你虽然有策略组但是没有规则啊，规则的作用就是让流量走指定的线路，国内的一般直连就好啦，国外一些被屏蔽的就通过机场代理使用。
