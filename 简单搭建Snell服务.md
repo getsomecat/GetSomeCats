@@ -80,6 +80,7 @@ User=nobody
 Group=nogroup
 LimitNOFILE=32768
 ExecStart=/usr/local/bin/snell-server -c /etc/snell/snell-server.conf
+AmbientCapabilities=CAP_NET_BIND_SERVICE
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=snell-server
@@ -88,7 +89,7 @@ SyslogIdentifier=snell-server
 WantedBy=multi-user.target
 ```
 
-⚠️ 注意：在一些 Linux 发行版 (CentOS7) 中并无 nogroup 群组，但可以尝试修改成 Group=nobody 解决。
+⚠️ 注意：在一些 Linux 发行版 (CentOS7) 中并无 nogroup 群组，但可以尝试修改成 Group=nobody 解决。如果需要使用特权端口，可以在 [Service] 增加一条：AmbientCapabilities=CAP_NET_BIND_SERVICE 以解决权限不足不能绑定的问题；
 
 然后使用命令：
 
