@@ -126,7 +126,7 @@ cat /etc/snell/snell-server.conf
 ```
 AWS-EC2-SG = snell, XXX.XXX.XXX.XXX, 11807, psk=AijHCeos15IvqDZTb1cJMX5GcgZzIVE, version=4, tfo=true
 ```
-⏰提醒：目前surge的TF版UI界面没有版本4的选项，所以输完密码 IP地址那些后要进入文本编辑器改一下version=4
+
 
 
 
