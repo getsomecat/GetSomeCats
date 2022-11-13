@@ -88,7 +88,11 @@ Provider（订阅）点击复制后就会得到一个链接，这时候可以去
 ![IMG_4779.jpeg](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/FD02C58F-D201-49E7-8DAC-30702EF1447A_2/XqxyWohiL2oKnXk1kjuG23CxN078YWha5SACfWdCK1kz/IMG_4779.jpeg)
 
 ![IMG_4780.png](https://res.craft.do/user/full/2836ab8f-218e-dbc1-14a1-769cf7733ced/B1E02104-7ACC-45F5-9CC0-37C5CFD97897_2/FxN6nG3nrD6eOuMXRiCJGAyTyJfBEXSre0DjLVvVyNQz/IMG_4780.png)
-
+###加入节点
+如果你是通过某些热心朋友赠送你节点，加入方式是通过surge的首页，选择代理服务器，然后选择添加代理，根据协议类型添加相应数据进去。
+对于新手我不是很建议通过文本方式进行，因为如果出错又不知道如何排查修正，会导致surge都没法使用。
+surge的其中一个强大之处就是有比较直观的UI界面，参数基本都可以通过UI进行。
+所以建议尽量用UI来进行节点的添加。
 ### 建立规则
 
 如果你这个时候去上一些外网可能发现还是会上不了，为什么？因为你虽然有策略组但是没有规则啊，规则的作用就是让流量走指定的线路，国内的一般直连就好啦，国外一些被屏蔽的就通过机场代理使用。
