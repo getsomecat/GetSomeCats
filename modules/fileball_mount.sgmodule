@@ -10,7 +10,7 @@ force-http-engine-hosts = %APPEND% aliyun.example.com:0,quark.example.com:0,pikp
 
 
 [Script]
-阿里云挂载 = type=http-request,pattern=^http:\/\/aliyun\.example\.com,requires-body=1,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/Aliyun_mount.jsmax-size=0,debug=0
+阿里云挂载 = type=http-request,pattern=^http:\/\/aliyun\.example\.com,requires-body=1,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/Aliyun_mount.js,max-size=0,debug=0
 
 夸克 = type=http-request,pattern=^http:\/\/quark\.example\.com,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/Quark.js,max-size=0,debug=0
 
