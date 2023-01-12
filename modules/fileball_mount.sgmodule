@@ -3,6 +3,7 @@
 # 阿里云Token获取地址(需要用阿里云盘扫描alist的二维码获得)[ https://alist-doc.nn.ci/docs/driver/aliyundrive ]
 # 夸克登录网页版抓包，路径https://drive.quark.cn/1/clouddrive/file
 # pikpak 直接填账号密码
+# 作者是telegram Surge Pro群的小白脸大佬，我这里只是进行一个整理整合
 
 [General]
 force-http-engine-hosts = %APPEND% aliyun.example.com:0,quark.example.com:0,pikpak.example.com:0
