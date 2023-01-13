@@ -58,6 +58,7 @@ sudo vim /etc/snell/snell-server.conf
 sudo mkdir /etc/snell
 
 ```
+# 执行完建立文件夹操作后再进行写入配置
 
 # 将下面的复制粘贴进去，按esc 后输入"：wq"保存退出
 # Tips 如果要进行修改，按“i”后移动光标到相应位置，进行修改完毕后按esc退出并输入“：wq”保存（这个说明给像我这样对vim不熟悉的）
