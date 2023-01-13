@@ -50,7 +50,15 @@ sudo snell-server --wizard -c /etc/snell/snell-server.conf
 # 或者自己编写一个
 ```
 sudo vim /etc/snell/snell-server.conf
+
 ```
+# 如果执行上面过程中出现报错，则先执行新建文件夹操作
+
+```
+sudo mkdir /etc/snell
+
+```
+
 # 将下面的复制粘贴进去，按esc 后输入"：wq"保存退出
 # Tips 如果要进行修改，按“i”后移动光标到相应位置，进行修改完毕后按esc退出并输入“：wq”保存（这个说明给像我这样对vim不熟悉的）
 ```
