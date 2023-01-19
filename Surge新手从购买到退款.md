@@ -8,9 +8,45 @@
 
 *https://manual.nssurge.com/book/understanding-surge/cn/*
 
+- [Surge新手从购买到退款](#surge新手从购买到退款)
+  - [一，注册外区ID](#一，注册外区id)
+  - [二，购买Surge授权](#二，购买surge授权)
+  - [三 开始使用](#三开始使用)
+  - [四，使用教程](#四，使用教程)
+    - [1，基本操作](#1，基本操作)
+      - [**Surge快速上手流程：从URL导入配置-＞导入机场托管配置；即可使用**](#surge快速上手流程：从url导入配置＞导入机场托管配置；即可使用)
+    - [2， 导入配置](#2，导入配置)
+    - [3，导入单个节点](#3，导入单个节点)
+    - [4，新建策略组（机场订阅）](#4，新建策略组（机场订阅）)
+    - [5，订阅转换](#5，订阅转换)
+    - [进阶操作：](#进阶操作：)
+      - [节点筛选](#节点筛选)
+    - [6，建立规则](#6，建立规则)
+      - [域名规则](#域名规则)
+      - [域名和主机名](#域名和主机名)
+      - [IP 地址规则](#ip地址规则)
+      - [HTTP 相关规则](#http相关规则)
+      - [其他规则](#其他规则)
+      - [规则集](#规则集)
+      - [RULE-SET 和 DOMAIN-SET 的不同](#rule-set和-domain-set的不同)
+      - [逻辑规则](#逻辑规则)
+    - [规则的操作步骤](#规则的操作步骤)
+      - [6.1 建立本地规则](#6-1建立本地规则)
+      - [6.2 建立远程规则集](#6-2建立远程规则集)
+    - [7，模块的使用](#7，模块的使用)
+      - [基本概念](#基本概念)
+      - [编写模块](#编写模块)
+    - [模块样例](#模块样例)
+    - [本地模块](#本地模块)
+    - [Boxjs](#boxjs)
+    - [Sub-Store](#sub-store)
+    - [五，推荐资源：](#五，推荐资源：)
+    - [Corn定时设置教程](#corn定时设置教程)
+      - [模块：](#模块：)
+    - [推荐的GitHub](#推荐的github)
+  - [常用仓库](#常用仓库)
+  - [**其他**](#其他)
 
-
-[TOC]
 
 
 
@@ -240,7 +276,7 @@ Surge的官方网站的网址是：https://nssurge.com
 
 ### 1，基本操作
 
-#### **Surge快速上手流程：从URL导入配置-＞导入机场托管配置；即可使用**
+**Surge快速上手流程：从URL导入配置-＞导入机场托管配置；即可使用**
 
 在完成上述操作后，打开以下功能开关，点击配置根证书，请点击生成新的CA证书，安装证书，根据页面中文提示操作。如下图所示。
 
@@ -868,7 +904,7 @@ http-api页面
 
 <img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4398.jpeg" alt="IMG_4398" style="zoom:50%;" />
 
-### **Sub-Store**
+### Sub-Store
 
  适用于 Loon 、 Surge 和 Quantumult X 的高级订阅管理工具。完全本地解析，无订阅泄露的风险。
 
@@ -894,9 +930,15 @@ https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge.sg
 
 ### 五，推荐资源：
 
+### Corn定时设置教程
+本教程来源于telegram群里面流传的一个pdf文件，原作者未署名我也不知道是谁，反正大家知道不是我写的就行了，在此对原作者表示感谢！
+
+cron定时怎么设置?不愿记就对照着⽐划⽐划#语法懒得去学，直接抄作业得了！够⽤就得了嘛！常⽤定时示例：1、定点运⾏的⼏种常⽤格式每天0：00运⾏⼀次0 0 * * *每天凌晨1:00运⾏⼀次0 1 * * *每天凌晨1:30运⾏⼀次30 1 * * *每天下午13:30分运⾏⼀次30 13 * * *对照以上，可以凑出想要的定点格式了2、按⼩时定点频率运⾏的⼏种格式0 0-23/1 * * ***每⼩时运⾏1次**运⾏时间示例：1:00、2:00、3:00.....直到第⼆天1:00 循环0 * * * *和上⾯那个⼀样，每个⼩时运⾏⼀次，运⾏时间示例：1:00、2:00、3:00.....直到第⼆天1:00 循环0 0-23/2 * * *每2个⼩时运⾏⼀次，运⾏时间示例：2:00、4:00、6:00.....直到第⼆天2:00 循环0 */2 * * *每2个⼩时运⾏⼀次，运⾏时间示例：2:00、4:00、6:00.....直到第⼆天2:00 循环0 2-4/1 * * *每天凌晨2点到4点之间，每⼩时运⾏⼀次。运⾏示例：2:00、3:00、4:00 ，第⼆天的2:00、3:00、4:00，循环⽐照以上规律，可写出按任意⼩时定点的格式3、按分钟定点频率运⾏的⼏种格式*/10 * * * *每10分钟 运⾏1次 ，示例22:30、22:40类推3,15 * * * *每个⼩时的第3分钟和第15分钟运⾏ ⼀次**懒得示例了，应该都懂**3,15 8-11 * * *每天早上8-11点间，每⼩时的第3分钟和第15分钟运⾏⼀次
+
+
 #### 模块：
 
-#### 点击链接，内附详细教程以及模块链接
+ 点击链接，内附详细教程以及模块链接
 
 DoH : https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/DoH
 
@@ -962,107 +1004,97 @@ macOS翻译 : https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec/macOS
 
 ## 常用仓库
 
-```
-#### BlackMatrix7，包含大部分常用分流规则，整合各个仓库脚本以及重写
+
+**BlackMatrix7，包含大部分常用分流规则，整合各个仓库脚本以及重写**
+
+
+[https://github.com/blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 
 
 
-https://github.com/blackmatrix7/ios_rule_script
-```
-
-
-
-```
 **NobyDa 野比**
 
-https://github.com/NobyDa/Script
-```
+[https://github.com/NobyDa/Script
+](https://github.com/NobyDa/Script)
 
 
-
-```
 **DivineEngine 神机**
 
-https://github.com/DivineEngine/Profiles/tree/master
-
-
-```
+[https://github.com/DivineEngine/Profiles/tree/master](https://github.com/DivineEngine/Profiles/tree/master)
 
 
 
 ## **其他**
 
 
-
-```
 GitHub - VirgilClyne/iRingo: 解锁完整的 Apple功能和集成服务
 
-https://github.com/VirgilClyne/iRingo
+[https://github.com/VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo)
 
 
-```
 
-```
+
+
 GitHub - VirgilClyne/GetSomeFries: 个人独立作品或公共组件库
 
-https://github.com/VirgilClyne/GetSomeFries
+[https://github.com/VirgilClyne/GetSomeFries](https://github.com/VirgilClyne/GetSomeFries)
 
 
-```
 
-```
+
+
 GitHub - Rabbit-Spec/Surge: Surge自用配置以及模块和脚本
 
-https://github.com/Rabbit-Spec/Surge
+[https://github.com/Rabbit-Spec/Surge](https://github.com/Rabbit-Spec/Surge)
 
 
-```
 
-```
+
+
 GitHub - mieqq/mieqq
 
-https://github.com/mieqq/mieqq
-```
+[https://github.com/mieqq/mieqq](https://github.com/mieqq/mieqq)
 
 
 
-```
+
+
 GitHub - githubdulong/Script: QuantumultX｜Surge｜Loon
 
-https://github.com/githubdulong/Script
+[https://github.com/githubdulong/Script](https://github.com/githubdulong/Script)
 
 
-```
 
-```
+
+
 GitHub - Loyalsoldier/surge-rules: 🦄 🎃 👻 Surge 规则集(DOMAIN-SET 和 RULE-SET)，兼容 Surge for iOS 和 Surge for Mac 客户端。
 
-https://github.com/Loyalsoldier/surge-rules
-```
+[https://github.com/Loyalsoldier/surge-rules
+](https://github.com/Loyalsoldier/surge-rules)```
 
 
 
 
 
-```
+
 GitHub - Hackl0us/GeoIP2-CN: 最小巧、最准确、最全面、最实用的中国大陆 GeoIP2 数据库及 IP 地址段
 
-https://github.com/Hackl0us/GeoIP2-CN
-```
+[https://github.com/Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)
 
 
 
-```
+
+
 附上本人的GitHub库：
 
 由本人和Alice共同维护
 
-https://github.com/getsomecat/GetSomeCats
-```
+[https://github.com/getsomecat/GetSomeCats](https://github.com/getsomecat/GetSomeCats)
+
 
 对于各种破解类型的脚本，因为我本人的态度是如果某些app确实是你需要的而且经常使用的，还是建议入正，所以对于脚本部分不做介绍了，而对于经常问的很多的将圈叉上的东西转到surge上使用可以通过如下模块
 
-https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/QX_to_Surge.sgmodule
+[https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/QX_to_Surge.sgmodule](https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/QX_to_Surge.sgmodule)
 
 可以直接在surge/火箭里添加模块时在线转化。
 
@@ -1070,9 +1102,9 @@ https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/QX_to_Surge.
 
 具体可看这个视频：
 
-https://t.me/GetsomeCats/111
+[https://t.me/GetsomeCats/111](https://t.me/GetsomeCats/111)
 
-其他的圈叉东西弄到surge上无非也就是一些对应问题，可以去telegram的surge交流群 https://t.me/loveapps
+其他的圈叉东西弄到surge上无非也就是一些对应问题，可以去telegram的surge交流群 [https://t.me/loveapps](https://t.me/loveapps)
 
 注意群规：禁止谈论政治，色情，盗版，破解，免流以及淘宝兑换码等话题。
 
