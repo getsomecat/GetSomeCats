@@ -86,19 +86,19 @@
 
 https://appleid.apple.com/account
 
-具体注册方法如下长图，跟着我的步骤走就行了，一定要严格按照我写的要求操作<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-3e1c026cc9396785f6c2f747d2e9bc8f_1440w-2.webp" alt="v2-3e1c026cc9396785f6c2f747d2e9bc8f_1440w-2" style="zoom:50%;" />
+具体注册方法如下长图，跟着我的步骤走就行了，一定要严格按照我写的要求操作<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-3e1c026cc9396785f6c2f747d2e9bc8f_1440w-2.webp" alt="v2-3e1c026cc9396785f6c2f747d2e9bc8f_1440w-2" style="zoom:33%;" />
 
 
 
 接着需要对**电子邮件/手机号码**进行验证。把收到的验证码输入进去，依次点击**下一步**就行了。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-b1cc10399838e94328ca56cd55b0499f_r-2898731-2898733-2898734.jpg" alt="v2-b1cc10399838e94328ca56cd55b0499f_r" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-b1cc10399838e94328ca56cd55b0499f_r-2898731-2898733-2898734.jpg" alt="v2-b1cc10399838e94328ca56cd55b0499f_r" style="zoom:33%;" />
 
 注册成功后，账号会自动登录，如果没登录的话重新登录一遍刚注册的账号即可。
 
 接着点击退出登录左边的“箭头”然后点击**付款方式**，接着再点击**添加付款方式**。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-b30ec45de66285d41370200e1fba7885_r.jpg" alt="v2-b30ec45de66285d41370200e1fba7885_r" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-b30ec45de66285d41370200e1fba7885_r.jpg" alt="v2-b30ec45de66285d41370200e1fba7885_r" style="zoom:33%;" />
 
 
 
@@ -118,13 +118,13 @@ https://appleid.apple.com/account
 
 下图中标注的**由美国地址生成器生成**的内容，直接复制美国地址生成器中生成的内容即可。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-bf50ef49ee10e4d872aa8dc8d0454b9b_r.jpg" alt="v2-bf50ef49ee10e4d872aa8dc8d0454b9b_r" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-bf50ef49ee10e4d872aa8dc8d0454b9b_r.jpg" alt="v2-bf50ef49ee10e4d872aa8dc8d0454b9b_r" style="zoom:33%;" />
 
 接着勾选**拷贝账单寄送地址**，最后点击**更新**就行了。
 
 
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-15a59fa3ac51284991b3685743231a73_r-2.jpg" alt="v2-15a59fa3ac51284991b3685743231a73_r-2" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-15a59fa3ac51284991b3685743231a73_r-2.jpg" alt="v2-15a59fa3ac51284991b3685743231a73_r-2" style="zoom:33%;" />
 
 到这里我们的美区 Apple ID 就注册完成了！下面教大家如何登录。
 
@@ -132,19 +132,19 @@ https://appleid.apple.com/account
 
 打开 App Store，首先退出当前账号。点击右上角的头像，然后拉到末尾，点击**退出登录**即可。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-81f62cbca06b4df4416c233b331db22b_r.jpg" alt="v2-81f62cbca06b4df4416c233b331db22b_r" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-81f62cbca06b4df4416c233b331db22b_r.jpg" alt="v2-81f62cbca06b4df4416c233b331db22b_r" style="zoom:33%;" />
 
 接着再次点击 App Store 中右上角的头像，输入前面注册的美区账号&密码，点击**登录**即可。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-c17f93cd1e1ae62820a59e6cd17df48c_r.jpg" alt="v2-c17f93cd1e1ae62820a59e6cd17df48c_r" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-c17f93cd1e1ae62820a59e6cd17df48c_r.jpg" alt="v2-c17f93cd1e1ae62820a59e6cd17df48c_r" style="zoom:33%;" />
 
 然后会跳出一个弹窗，选择**检查**即可，接着打开**同意条款与条件**，选择**下一页**。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-f545d9e8e7919f2ca0415216f5bec514_r.jpg" alt="v2-f545d9e8e7919f2ca0415216f5bec514_r" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-f545d9e8e7919f2ca0415216f5bec514_r.jpg" alt="v2-f545d9e8e7919f2ca0415216f5bec514_r" style="zoom:33%;" />
 
 不要修改任何内容，直接点击**下一页**，然后点击**继续**。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-079753dbdbe6a367c0f940265f052752_r.jpg" alt="v2-079753dbdbe6a367c0f940265f052752_r" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/v2-079753dbdbe6a367c0f940265f052752_r.jpg" alt="v2-079753dbdbe6a367c0f940265f052752_r" style="zoom:33%;" />
 
 点击**Continue**，到这里我们的美区 Apple ID 就已经成功登录了。
 
@@ -152,11 +152,11 @@ https://appleid.apple.com/account
 
 注册登录成功后，我们就能下载美区中的各种 App 了。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_B060D5C88E48-1.jpeg" alt="IMG_B060D5C88E48-1" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_B060D5C88E48-1.jpeg" alt="IMG_B060D5C88E48-1" style="zoom:33%;" />
 
 本篇是Surge教程，当然是去搜索Surge后进行下载了。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_24D6FC3BFF41-1.jpeg" alt="IMG_24D6FC3BFF41-1" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_24D6FC3BFF41-1.jpeg" alt="IMG_24D6FC3BFF41-1" style="zoom:33%;" />
 
 4、一些需要注意的地方
 
@@ -206,7 +206,7 @@ Surge的官方网站的网址是：https://nssurge.com
 
 在进入网站后，点击右上角的Buy Now
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0378-2902571.JPEG" alt="IMG_0378" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0378-2902571.JPEG" alt="IMG_0378" style="zoom:33%;" />
 
 
 
@@ -214,11 +214,11 @@ Surge的官方网站的网址是：https://nssurge.com
 
 
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0384-2902626.JPEG" alt="IMG_0384" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0384-2902626.JPEG" alt="IMG_0384" style="zoom:33%;" />
 
 本片教程以iOS为例，那么就是选择Buy Surge iOS ，点击后跳转到下一个页面，显示价格$49.99，然后下面的 License Email Address 就是输入**你的常用email**，**注意邮箱地址不要输错了。**
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0476.PNG" alt="IMG_0476" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0476.PNG" alt="IMG_0476" style="zoom:33%;" />
 
 直接使用支付宝就没什么好说的了，点了后跳转到二维码的页面用支付宝扫了付款就会将授权码通过email发到你刚才输入的邮箱了，注意去查收就行了。
 
@@ -226,11 +226,11 @@ Surge的官方网站的网址是：https://nssurge.com
 
 有些用户可能不想用支付宝，可以在输入邮箱后选择pay another way，点击底下的checkout
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0556.jpg" alt="IMG_0556" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0556.jpg" alt="IMG_0556" style="zoom:33%;" />
 
 然后可以通过信用卡、Apple Pay等方式进行付款
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0557.PNG" alt="IMG_0557" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0557.PNG" alt="IMG_0557" style="zoom:33%;" />
 
 **⚠️注意：千万千万看清楚你输入的邮箱有没有错误**
 
@@ -244,31 +244,31 @@ Surge的官方网站的网址是：https://nssurge.com
 
 在上一步我们提到了surge的下载以及购买，在购买后，会发一个授权码到你的邮箱里
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0487.JPG" alt="IMG_0487" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0487.JPG" alt="IMG_0487" style="zoom:33%;" />
 
 这时候打开surge app，刚开始打开它会提示给网络权限、添加VPN等，都接受并同意吧，不然肯定是没法用的
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0413-2903629.PNG" alt="IMG_0413" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0413-2903629.PNG" alt="IMG_0413" style="zoom:33%;" />
 
 在都允许之后，需要对surge进行授权激活，不然出站模式就只有一个直接连接，没法使用代理功能
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0477.PNG" alt="IMG_0477" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0477.PNG" alt="IMG_0477" style="zoom:33%;" />
 
 随意点击一下其他的出站规则，会提示你升级到Surge Pro，并会有已经推出的功能的介绍及解锁价格等等
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0478.PNG" alt="IMG_0478" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0478.PNG" alt="IMG_0478" style="zoom:33%;" />
 
 因为我们之前已经在官方网站上通过支付宝的方式获得了授权码，这时候只需要点击一下恢复购买，就会弹出恢复购买的方式，这里当然是选择使用邮箱恢复了。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0479.PNG" alt="IMG_0479" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0479.PNG" alt="IMG_0479" style="zoom:33%;" />
 
 选择邮箱恢复后会进入到下一个页面，输入你的激活邮箱并输入授权码
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0489.JPG" alt="IMG_0489" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0489.JPG" alt="IMG_0489" style="zoom:33%;" />
 
 点击继续，确认后进入下一步
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0483.PNG" alt="IMG_0483" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0483.PNG" alt="IMG_0483" style="zoom:33%;" />
 
 至此，你就已经获得了全功能的Surge了，接下来就是具体的一些使用教程了。
 
@@ -348,19 +348,19 @@ Surge的官方网站的网址是：https://nssurge.com
 
 1，选择代理服务器（所有**添加策略组**或者**单个节点或者订阅**都是在代理服务器里面进行的）
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0495.jpg" alt="IMG_0495" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0495.jpg" alt="IMG_0495" style="zoom:33%;" />
 
 2，选择添加代理
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0497.jpg" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0497.jpg" style="zoom:33%;" />
 
 选择相应代理协议
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0498.jpg" alt="IMG_0498" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0498.jpg" alt="IMG_0498" style="zoom:33%;" />
 
 根据节点协议类型选择相应的选项，选择好后填入相应的参数
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0499.PNG" alt="IMG_0499" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0499.PNG" alt="IMG_0499" style="zoom:33%;" />
 
 
 
@@ -370,19 +370,19 @@ Surge的官方网站的网址是：https://nssurge.com
 
 [首页]->[通用]->[代理服务器]->[新增策略组]->[使用外部代理列表]->[粘贴订阅或者本地节点文件（带后缀名）]
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3960.png" alt="IMG_3960" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3960.png" alt="IMG_3960" style="zoom:33%;" />
 
 新增策略组并且给策略组取个名字，拉到底下点上使用外部代理列表并贴上订阅链接
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3963.jpeg" alt="IMG_3963" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3963.jpeg" alt="IMG_3963" style="zoom:33%;" />
 
 保存后即可
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3964.png" alt="IMG_3964" style="zoom: 50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3964.png" alt="IMG_3964" style="zoom: 33%;" />
 
 点开可看到里面的全部节点
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3974.png" alt="IMG_3974" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3974.png" alt="IMG_3974" style="zoom:33%;" />
 
 
 
@@ -392,7 +392,7 @@ Surge的官方网站的网址是：https://nssurge.com
 
 这个机场没有提供surge的订阅链接，需要进行订阅转换后使用
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4777.png" alt="IMG_4777" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4777.png" alt="IMG_4777" style="zoom:33%;" />
 
 这里以墙洞的订阅转换为例：
 
@@ -400,19 +400,19 @@ Surge的官方网站的网址是：https://nssurge.com
 
 客户端选择Surge4
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4778.jpeg" alt="IMG_4778" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4778.jpeg" alt="IMG_4778" style="zoom:33%;" />
 
 
 
 输出为 node list 勾选上，点击生成订阅链接
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4779.jpeg" alt="IMG_4779" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4779.jpeg" alt="IMG_4779" style="zoom:33%;" />
 
 
 
 复制生成的订阅链接
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4780.png" alt="IMG_4780" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4780.png" alt="IMG_4780" style="zoom:33%;" />
 
 
 
@@ -428,15 +428,15 @@ Surge的官方网站的网址是：https://nssurge.com
 
 建立一个名为香港节点的策略组，底下选择使用外部代理列表，并且贴上机场的订阅，同时在底下过滤器中输入关键字：香港
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3980-3763374.jpeg" alt="IMG_3980" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3980-3763374.jpeg" alt="IMG_3980" style="zoom:33%;" />
 
 进行保存
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3978-3763422.png" alt="IMG_3978" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3978-3763422.png" alt="IMG_3978" style="zoom:33%;" />
 
 点开看下效果
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3979-3763462.png" alt="IMG_3979" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3979-3763462.png" alt="IMG_3979" style="zoom:33%;" />
 
 **注意：这里的策略组的类型选择的是手动选择（select），如果你想自动测速后自动选择为延迟最低的节点，将组类型改为延迟自动测试（Url-test）即可，或者根据你的需要改为url可用性自动测试（fallback）、负载均衡（load-balance）。**
 
@@ -446,19 +446,19 @@ Surge的官方网站的网址是：https://nssurge.com
 
 建立个策略组，命名为新加坡节点，选择包含另外一个策略组的策略，选择机场订阅策略组，同时过滤器中以新加坡为关键词
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3986.jpeg" alt="IMG_3986" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3986.jpeg" alt="IMG_3986" style="zoom:33%;" />
 
 包含另一个策略组的策略中选择机场订阅
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3982.png" alt="IMG_3982" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3982.png" alt="IMG_3982" style="zoom:33%;" />
 
 保存
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3984.png" alt="IMG_3984" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3984.png" alt="IMG_3984" style="zoom:33%;" />
 
 点开看下效果
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3985.png" alt="IMG_3985" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3985.png" alt="IMG_3985" style="zoom:33%;" />
 
 
 
@@ -466,19 +466,19 @@ Surge的官方网站的网址是：https://nssurge.com
 
 建立个机场二策略组，使用外部代理列表，贴上机场订阅，类型选的是手动选择（select）
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4012.jpeg" alt="IMG_4012" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4012.jpeg" alt="IMG_4012" style="zoom:33%;" />
 
 保存后可以看到有两个机场的订阅
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4008.png" alt="IMG_4008" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4008.png" alt="IMG_4008" style="zoom:33%;" />
 
 再建立一个策略组所有节点，来包含机场一和机场二
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4010.png" alt="IMG_4010" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4010.png" alt="IMG_4010" style="zoom:33%;" />
 
 保存即可看到效果
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4011.png" alt="IMG_4011" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4011.png" alt="IMG_4011" style="zoom:33%;" />
 
 
 
@@ -561,7 +561,7 @@ IP 类型规则有一个专有的参数 no-resolve，如果一个 IP 规则带�
 
 仅对 HTTP 请求有效的规则，包含 URL-REGEX 和 USER-AGENT。
 
-比较特殊的是，只有由于只有进行 MITM 解密后才可获取到 URL，所以 URL-REGEX 对未解密的 HTTPS 连接无效。但是 USER-AGENT 规则却对未解密的 HTTPS 也连接有效，因为程序在使用 HTTP 代理时，会在发送 CONNECT 请求时带上自己 User Agent 的明文。
+比较特殊的是，只有由于只有进行 MITM 解密后才可获取到 URL，所以 URL-REGEX 对未解密的 HTTPS 连接无效。但是 USER-AGENT 规则却对未解密的 HTT33%PS 也连接有效，因为程序在使用 HTTP 代理时，会在发送 CONNECT 请求时带上自己 User Agent 的明文。
 
 ####  其他规则
 
@@ -608,23 +608,23 @@ AND,((PROCESS-NAME,Google Chrome),(PROTOCOL,UDP)),REJECT
 
 首页选择代理规则，选择新增，增加新规则
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3999.jpeg" alt="IMG_3999" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3999.jpeg" alt="IMG_3999" style="zoom:33%;" />
 
 根据IP来判断的属于Geoip规则，故规则类型选择geoip
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4900.png" alt="IMG_4900" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4900.png" alt="IMG_4900" style="zoom:33%;" />
 
 geoip规则选择好以后，在底下选择geoip的区域，这里选择中国 CN，
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0559.jpg" alt="IMG_0559" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0559.jpg" alt="IMG_0559" style="zoom:33%;" />
 
 选好区域后，选择默认的规则 DIRECT
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0558.PNG" alt="IMG_0558" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0558.PNG" alt="IMG_0558" style="zoom:33%;" />
 
 点击右上角的完成保存设置。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_13972.png" alt="IMG_13972" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_13972.png" alt="IMG_13972" style="zoom:33%;" />
 
 #### 6.2 建立远程规则集
 
@@ -638,39 +638,39 @@ https://github.com/blackmatrix7/ios_rule_script
 
 以添加去广告为例：先进入上面链接
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3988.png" alt="IMG_3988" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3988.png" alt="IMG_3988" style="zoom:33%;" />
 
 选择rule（规则）
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3989.png" alt="IMG_3989" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3989.png" alt="IMG_3989" style="zoom:33%;" />
 
 在里面找到Advertise（广告）（一般去广告或者类似的都会以advertise或者类似的进行命名
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3990.png" alt="IMG_3990" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3990.png" alt="IMG_3990" style="zoom:33%;" />
 
 可以看到里面有好多种，拉到底下有使用说明
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3991.png" alt="IMG_3991" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3991.png" alt="IMG_3991" style="zoom:33%;" />
 
 选择advertising.list，并点击右上角的…出现的菜单选择view raw即可获得真实链接地址（备注：注意在Github获取的规则链接开头必须是`https://raw.githubusercontent.com/.... `
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3992.png" alt="IMG_3992" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3992.png" alt="IMG_3992" style="zoom:33%;" />
 
 获取到真实链接地址后在浏览器的地址栏进行全选后复制链接地址
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3993.png" alt="IMG_3993" style="zoom: 50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3993.png" alt="IMG_3993" style="zoom: 33%;" />
 
 打开surge的主页，选择代理规则里面的增加新规则集（这种一个list里面包含了很多条规则的都是属于规则集），选择底下的外部规则集，而因为是去广告的，策略当然是REJECT（拒绝
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3994.png" alt="IMG_3994" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3994.png" alt="IMG_3994" style="zoom:33%;" />
 
 这里新手比较容易迷惑的一点就是底下有个说明：Advertising_Domain.list采用Domain-Set，是的就是域名规则，这种添加方式不是增加规则集，而是增加规则，规则类型为Domain-set
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3995.png" alt="IMG_3995" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3995.png" alt="IMG_3995" style="zoom:33%;" />
 
 选择好类型和策略后保存即可
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3996.png" alt="IMG_3996" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3996.png" alt="IMG_3996" style="zoom:33%;" />
 
 
 
@@ -680,17 +680,17 @@ https://github.com/blackmatrix7/ios_rule_script
 
 这里以Netflix为例，先建立个策略组：Netflix，然后包含香港节点和新加坡节点两个区域策略组：将香港节点和新加坡节点这两个策略组从可用的策略**拖动**到包含的策略里面并保存。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3997.png" alt="IMG_3997" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3997.png" alt="IMG_3997" style="zoom:33%;" />
 
 看下策略组的效果
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3998.png" alt="IMG_3998" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3998.png" alt="IMG_3998" style="zoom:33%;" />
 
 
 
 然后去Blackmatrix7的GitHub里面找到Netflix的分流，复制好RAW地址后，在surge里面代理规则-增加规则集-外部规则集，在底下的粘贴上地址后，策略里面选择Netflix并保存，以后就可以在看Netflix时候根据需要选择区域了。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3999.png" alt="IMG_3999" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_3999.png" alt="IMG_3999" style="zoom:33%;" />
 
 选择增加新规则集，并在外部规则集里面贴上链接
 
@@ -698,7 +698,7 @@ https://github.com/blackmatrix7/ios_rule_script
 
 ，策略选择之前建好的Netflix策略组点击完成保存即可。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4001.png" alt="IMG_4001" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4001.png" alt="IMG_4001" style="zoom:33%;" />
 
 
 
@@ -782,29 +782,29 @@ Module（模块）是一系列设置的集合，可用于覆盖当前配置的�
 
 这里以深[巷有喵的库](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Spec)为例：一般作者模块的文件夹都是以module命名，点进去后找到想要的模块，这里以京东比价模块为例，找到后点击文件右上角的view raw 会跳转到内容页面
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4105.jpeg" alt="IMG_4105" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4105.jpeg" alt="IMG_4105" style="zoom:33%;" />
 
 找到京东比价的模块，并选择view raw获得地址
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4107.png" alt="IMG_4107" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4107.png" alt="IMG_4107" style="zoom:33%;" />
 
 view raw可以看到模块的具体内容，建议都看一下内容，尤其是如果模块内含有mitm字段的话，检查是否有加 %APPEND%或者%INSERT% ,不然会覆盖其他的mitm主机导致其他模块或脚本等相关功能失效。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4108.png" alt="IMG_4108" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4108.png" alt="IMG_4108" style="zoom:33%;" />
 
 这时可以在浏览器的底部选择网址，全选后复制，切换到surge的首页-模块-选择安装新模块，并将复制的模块地址填入并选择安装保存即可。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4109.jpeg" alt="IMG_4109" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4109.jpeg" alt="IMG_4109" style="zoom:33%;" />
 
 粘贴网址（再次提醒，网址是以 https://raw.githubusercontent.com/....开始
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4110.png" alt="IMG_4110" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4110.png" alt="IMG_4110" style="zoom:33%;" />
 
 如果网址正确的话会将模块的内容呈现出来让你进行检查并确认是否安装（提示：模块中如果包括mitm字段，主机名都是以红色显示，这是正常的）
 
 而且模块的安装也都会提醒你恶意模块的安全问题，所以建议不要随便安装来历不明的模块。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4111.jpeg" alt="IMG_4111" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4111.jpeg" alt="IMG_4111" style="zoom:33%;" />
 
 ### 本地模块
 
@@ -814,15 +814,15 @@ view raw可以看到模块的具体内容，建议都看一下内容，尤其是
 
 找到模块的地址，按照说明要求raw后将模块的内容全部复制到本地模块并命名保存。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4112.jpeg" alt="IMG_4112" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4112.jpeg" alt="IMG_4112" style="zoom:33%;" />
 
 全选复制模块内容
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4113.png" alt="IMG_4113" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4113.png" alt="IMG_4113" style="zoom:33%;" />
 
 在surge的首页点击模块进入后在本地模块选择新建本地模块，在弹出的窗口中，将复制的全部内容粘贴进去并点击右上角的完成进行保存，这时会弹出对话框，填写模块的名字后进行保存
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4114.jpeg" alt="IMG_4114" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4114.jpeg" alt="IMG_4114" style="zoom:33%;" />
 
 然后根据说明将订阅地址encode：
 
@@ -830,27 +830,27 @@ https://www.urlencoder.org
 
 复制encode后的机场订阅地址，打开刚才保存的模块将提示内容进行更改，勾选使用后即可去首页看到效果了。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4115.jpeg" alt="IMG_4115" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4115.jpeg" alt="IMG_4115" style="zoom:33%;" />
 
 复制encode后的地址到模块相应位置，并点击右上角完成进行保存：
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4116.jpeg" alt="IMG_4116" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4116.jpeg" alt="IMG_4116" style="zoom:33%;" />
 
 可以看到相应效果：
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4117.png" alt="IMG_4117" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4117.png" alt="IMG_4117" style="zoom:33%;" />
 
 如果有多个机场，就需要将Panel和script字段复制一份，并按照上面的步骤重复进行，需要注意的是画圈的几个地方要分别对应起来。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4118.jpeg" alt="IMG_4118" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4118.jpeg" alt="IMG_4118" style="zoom:33%;" />
 
 画圈的地方要对应起来
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4119-3786329.jpeg" alt="IMG_4119" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4119-3786329.jpeg" alt="IMG_4119" style="zoom:33%;" />
 
 正确的话可以看到效果：可以同时显示两个机场的流量和订阅情况。
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4120-3786364.png" alt="IMG_4120" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4120-3786364.png" alt="IMG_4120" style="zoom:33%;" />
 
 **提醒，有些订阅禁止用head访问，试试后面加上&method=get，来进行获取流量信息**。
 
@@ -880,29 +880,29 @@ Surge Module
 
 在安装上面那个模块后，打开safari浏览器，并输入boxjs.com，即可进入boxjs的页面，再根据页面的内容进行添加订阅并使用
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0561.jpg" alt="IMG_0561" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0561.jpg" alt="IMG_0561" style="zoom:33%;" />
 
 为便于使用，可以在底下选择分享添加到主屏幕
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0562.jpg" alt="IMG_0562" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0562.jpg" alt="IMG_0562" style="zoom:33%;" />
 
 就可以当作一个app来方便使用了
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0563.jpg" alt="IMG_0563" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0563.jpg" alt="IMG_0563" style="zoom:33%;" />
 
 这里只做一个surge的设置方面的提醒：
 
 在surge的首页-底下更多设置里面的http Api页面设置的端口和密码，要跟boxjs的控制端口密码一致
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4396.jpeg" alt="IMG_4396" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4396.jpeg" alt="IMG_4396" style="zoom:33%;" />
 
 boxjs的页面：
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4397.jpeg" alt="IMG_4397" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4397.jpeg" alt="IMG_4397" style="zoom:33%;" />
 
 http-api页面
 
-<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4398.jpeg" alt="IMG_4398" style="zoom:50%;" />
+<img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_4398.jpeg" alt="IMG_4398" style="zoom:33%;" />
 
 ### Sub-Store
 
@@ -925,11 +925,9 @@ https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge.sg
 
    
 
-   <img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0564.PNG" alt="IMG_0564" style="zoom:50%;" />
+   <img src="./Surge%E6%96%B0%E6%89%8B%E4%BB%8E%E8%B4%AD%E4%B9%B0%E5%88%B0%E9%80%80%E6%AC%BE.assets/IMG_0564.PNG" alt="IMG_0564" style="zoom:33%;" />
 
    具体到sub-store使用，在它的官方文档中已经有详细的使用教程，请参阅使用。
-
-### 五，推荐资源：
 
 ### Corn定时设置教程
 本教程来源于telegram群里面流传的一个pdf文件，原作者未署名我也不知道是谁，反正大家知道不是我写的就行了，在此对原作者表示感谢！
@@ -1016,7 +1014,9 @@ cron定时怎么设置?不愿记就对照着⽐划⽐划
 
 
 
-#### 模块：
+### 五，推荐资源：
+
+#### 常用模块：
 
  点击链接，内附详细教程以及模块链接
 
