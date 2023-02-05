@@ -1,0 +1,18 @@
+#!name=Fileball挂载阿里,夸克,pikpak三合一
+#!desc=添加Synoogy协议，账号随便填，密码填cookie 获取ck的方法
+# 转自Tg：https://t.me/SURGEPRO ID：小白脸
+# 阿里云Token获取地址(需要用阿里云盘扫描alist的二维码获得)[ https://alist-doc.nn.ci/docs/driver/aliyundrive ]
+# 夸克登录网页版抓包，路径https://drive.quark.cn/1/clouddrive/file
+# pikpak 直接填账号密码
+
+#aliyun.example.com
+#quark.example.com
+#pikpak.example.com
+
+[General]
+force-http-engine-hosts = %APPEND% *.example.com:0
+//要开mpv的话必须添加
+
+
+[Script]
+3合一挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,requires-body=1,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/fileball.js,max-size=0
