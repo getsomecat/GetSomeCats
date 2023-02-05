@@ -1,7 +1,7 @@
 # Telegram从玩bot到被销号
 
 ## 写在前面
-本教程基于 Ubuntu 22.04 系统，搭建 Pagermaid-Pyro ，其他系统请自行修改命令安装。理论上支持 AMD64 和 ARM 架构。 Windows 系统请参考 这篇文章 。
+本教程基于 Ubuntu 22.04 系统，搭建 Pagermaid-Pyro ，其他系统请自行修改命令安装。理论上支持 AMD64 和 ARM 架构。
 GitHub 开源地址：https://github.com/TeamPGM/PagerMaid-Pyro
 GitLab 开源地址：https://gitlab.com/Xtao-Labs/PagerMaid-Pyro
 官方网站：https://xtaolabs.com/
