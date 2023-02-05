@@ -2,9 +2,13 @@
 
 ## 写在前面
 本教程基于 Ubuntu 22.04 系统，搭建 Pagermaid-Pyro ，其他系统请自行修改命令安装。理论上支持 AMD64 和 ARM 架构。
+
 GitHub 开源地址：https://github.com/TeamPGM/PagerMaid-Pyro
+
 GitLab 开源地址：https://gitlab.com/Xtao-Labs/PagerMaid-Pyro
+
 官方网站：https://xtaolabs.com/
+
 官方 Telegram 频道：@PagerMaid_Modify
 
 
@@ -216,14 +220,18 @@ TEXT
 
 #### 常用指令
 Vi编辑器的操作：按"i"底下会出现INSERT提示，然后就可以进行编辑了，编辑完成后按"ESC"后再按":wq"保存退出
+
 所有用vi进行编辑操作的都可以用nano进行，nano的底下就有快捷键提示：
 保存退出：control+X
+
 启动程序：`sudo systemctl start pagermaid`
+
 设置为开机自启：`sudo systemctl enable pagermaid`
+
 停止程序：`sudo systemctl stop pagermaid`
 
-写在最后的一点提醒：滥用bot可能导致你的telegram
-帐号被删除，请谨慎使用。
+写在最后的一点提醒：**滥用bot可能导致你的telegram帐号被删除，请谨慎使用。**
+
 怂别用，用别怂。
  
  本文有部份内容来源于：https://owo.cab/32/ 对作者表示感谢，如果有异议可以联系我删除。
