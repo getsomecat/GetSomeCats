@@ -1,6 +1,4 @@
----
-typora-copy-images-to: upload
----
+
 
 # 通过s3协议，把Oracle存储桶当图床用
 
