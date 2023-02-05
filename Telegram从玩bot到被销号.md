@@ -50,13 +50,19 @@ PagerMaid 是一个开源的 Telegram 人形自走 Bot 方案，基于 Python �
 
 ## 二，在VPS上搭建pagermaid-pyro bot
 在上面已经申请好API后，就可以根据[官方文档](https://xtaolabs.com/#/install_dependencies)进行Bot的安装了。
+
 本文以我东京甲骨文4+24的ARM为例，系统是Ubuntu 22.04，其它版本请根据情况结合官方文档进行。
-按照本教程的步骤会将 Pagermaid-Pyro 安装至 /var/lib/pgp 目录下。
+
+按照本教程的步骤会将 Pagermaid-Pyro 安装至 /var/lib/pagermaid 目录下。
+
 同时也可以在不同目录同时搭建以实现一机多账号，例如：
-/var/lib/pgp1, /var/lib/pgp2, …
+
+/var/lib/pagermaid1, /var/lib/pagermaid2, …
+
 如果需要一机多帐号，请注意后面安装的目录和相应的服务进行修改。
 
 ### 配置环境：
+
 #### 开放端口
 由于需要与 Telegram 服务器通信，首先开放服务器端口。
 
@@ -73,7 +79,26 @@ sudo iptables -F
 
 ```
 
+#### 一键安装
+
+一键安装就没啥好介绍的，一把梭哈吧！
+
+```
+
+wget https://raw.githubusercontent.com/TeamPGM/PagerMaid-Pyro/development/utils/install.sh -O install.sh && chmod +x install.sh && bash install.sh
+
+```
+#### Docker一键安装
+
+```
+
+wget https://raw.githubusercontent.com/TeamPGM/PagerMaid-Pyro/development/utils/docker.sh -O docker.sh && chmod +x docker.sh && bash docker.sh
+
+
+```
+
 #### 为 PagerMaid 创建用户
+
 为了您的操作不当而造成不可预期的后果，应避免应用直接运行在 root 用户，此处我们为 PagerMaid 创建用户。（如果你跟我一样是喜欢root下一把梭的可以跳过此段）
 
 1，创建用户
@@ -139,8 +164,21 @@ cd ~                    # 进入 pagermaid 用户家目录
 ### 安装并配置 PagerMaid
 
 #### 拉取项目
+
+如果你跳过了上面的创建用户的步骤，那么需要进行如下操作：
+
 ```
 
+sudo -i
+
+cd /var/lib && git clone https://github.com/TeamPGM/PagerMaid-Pyro.git pagermaid && cd pagermaid
+
+
+```
+
+如果你是按照上面创建了用户一步一步进行的则按照下面步骤进行：
+
+```
 git clone https://github.com/TeamPGM/PagerMaid-Pyro.git pagermaid
 
 ```
