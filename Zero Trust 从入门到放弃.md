@@ -139,6 +139,28 @@
 
 千万不要直接填成1～10然后问为什么不行🫠
 
+
+2023年2月10日补充：
+
+老刘于昨天更新了surge中的wireguard配置：
+
+WireGuard 新增 Peer 参数 client-id，用于兼容 Cloudflare 或其他一些特殊的 WireGuard 实现。
+
+例如：
+
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, /0", endpoint = [2606:4700:d0a29f:c002]:2408, client-id = 83/12/235)
+
+注：
+
+
+1. 该参数仅被 Cloudflare 用于负载均衡，不涉及防滥用问题
+2. 若使用 Surge 作为客户端连接 WARP 服务，请阅读并遵守 Cloudflare 的服务条款，合理使用。
+
+如果使用最新的薯条面板抓出来的已经包含了client-id了（reserved参数即是）
+
+根据示例自行添加进去即可，无其他变化
+
+
 最后再次感谢各位大佬们凭借着热情写出来的东西，让我们这些小白用户有东西可以折腾！
 
 顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：[https://dlercloud.com/auth/register?affid=126669](https://dlercloud.com/auth/register?affid=126669)
