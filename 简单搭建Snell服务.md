@@ -27,7 +27,7 @@ apt install vim
 # 如果你的服务器是其它版本的去官网[Snell Protocol · GitBook](https://manual.nssurge.com/others/snell.html)下载相应服务器版本。这里以linux-amd64为例
 
 ```
-wget https://dl.nssurge.com/snell/snell-server-v4.0.0-linux-amd64.zip
+wget https://dl.nssurge.com/snell/snell-server-v4.0.1-linux-amd64.zip
 ```
 
 # 解压 Snell Server 到指定目录
