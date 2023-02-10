@@ -168,20 +168,22 @@ peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips =
 最后的最后：如果看到最后也按照步骤来了一遍发现还是搞不定，那么可以选择加入我的team：getsomecats，验证方式：gmail。
 
 如果还是搞不定，那么下面这个应该能帮到你：
-```
+
+想玩设备 ID 又懒得再抓配置的，这里有一个配置：
+Surge用配置:
 [Proxy]
-# 将我的GetSomeCats Team 配置放出来供使用。也可以加入我的Team：Getsomecats，验证方式为：gmail
-Warp+GSC = wireguard, section-name=GetSomeCats, test-url=http://cp.cloudflare.com/generate_204
+WARP = wireguard, section-name=Cloudflare, test-url=http://cp.cloudflare.com/generate_204
 
-[Proxy Group]
-Proxy = select, Warp+GSC, no-alert=0, hidden=0, include-all-proxies=0
-
-[WireGuard GetSomeCats]
-private-key = oFl4IF42oioy2rU9Dc2af5vi6X6+zbFDnY/CUckU23g=
+[WireGuard Cloudflare]
+private-key = EMNcZrq0R/P87ZbJcJ8sX8qDfCMlL/Tlb6Ln/6S7+lE=
 self-ip = 172.16.0.2
-self-ip-v6 = 2606:4700:110:8f71:49f:13f4:55d6:a577
-prefer-ipv6 = true
+self-ip-v6 = 2606:4700:110:8a81:2af4:55c2:34cc:8058
 dns-server = 162.159.36.1, 2606:4700:4700::1111
-mtu = 1380
-peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.195.9:2408, keepalive = 45)
-```
+mtu = 1280
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::/0", endpoint = engage.cloudflareclient.com:2408, client-id = 139/184/125)
+
+注意：目前UI 界面无法添加client-id 参数，且通过 UI 界面编辑后无法保存，要使用代理链的，先添加好代理链后再在文本模式下编辑加入 client-id 参数。
+
+
+# 将我的GetSomeCats Team 配置放出来供使用。也可以加入我的Team：Getsomecats，验证方式为：gmail
+
