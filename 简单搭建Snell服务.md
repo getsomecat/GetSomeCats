@@ -29,11 +29,21 @@ apt install vim
 ```
 wget https://dl.nssurge.com/snell/snell-server-v4.0.1-linux-amd64.zip
 ```
+如果ARM的机器：
+```
+wget https://dl.nssurge.com/snell/snell-server-v4.0.1-linux-aarch64.zip
+
+```
 
 # 解压 Snell Server 到指定目录
 
+AMD
 ```
 sudo unzip snell-server-v4.0.1-linux-amd64.zip -d /usr/local/bin
+```
+ARM
+```
+sudo unzip snell-server-v4.0.1-linux-aarch64.zip -d /usr/local/bin
 ```
 
 # 赋予服务器权限
