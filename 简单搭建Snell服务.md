@@ -33,7 +33,7 @@ wget https://dl.nssurge.com/snell/snell-server-v4.0.1-linux-amd64.zip
 # 解压 Snell Server 到指定目录
 
 ```
-sudo unzip snell-server-v4.0.0-linux-amd64.zip -d /usr/local/bin
+sudo unzip snell-server-v4.0.1-linux-amd64.zip -d /usr/local/bin
 ```
 
 # 赋予服务器权限
