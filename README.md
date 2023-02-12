@@ -4,7 +4,7 @@
 希望不会鸽。
 
 ###推一个[新手教程](https://book.surge.ga/surge-ios) 由Alice（主要）和我（打酱油）整理完成。
-提供一个基于surge作者老刘的最简配置，带一个我的warp 节点的配置。
+
 
 以及另外一个教程：
 
@@ -14,7 +14,7 @@
 
 
 
-
+提供一个基于surge作者老刘的最简配置，带一个我的warp 节点的配置。
 使用方法：打开surge配置页面，选择从URL下载配置，将下方的配置链接复制粘贴进去即可
 
 
@@ -32,6 +32,7 @@ https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/A_mini.conf
 ```
 wget -O snell.sh --no-check-certificate http://mtw.so/67eP0r && chmod +x snell.sh && ./snell.sh 
 ```
+下面是两个手动搭建服务器的教程
 
 [手动搭建Snell服务器](/简单搭建Snell服务.md)
 
