@@ -9,7 +9,7 @@
 **💡提醒我所折腾的东西都是基于surge的TF版，如果您不是TF版用户，请谨慎！！！**
 
 
-[最简配置](https://github.com/Zeaphyou/GetSomeCats/blob/Surge/A%20easy%20Surge%20config.conf)
+
 
 使用方法：打开surge配置页面，选择从URL下载配置，将下方的配置链接复制粘贴进去即可
 
