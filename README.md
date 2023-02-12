@@ -19,7 +19,15 @@ https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/Surge.conf
 
 ```
 
+如果你希望拥有一个做好了策略组的配置那么可以选择以下配置：
 
+```
+https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/A_mini.conf
+```
+这里还有个自己修改版的一键snell脚本：
+```
+wget -O snell.sh --no-check-certificate http://mtw.so/67eP0r && chmod +x snell.sh && ./snell.sh 
+```
 
 [手动搭建Snell服务器](/简单搭建Snell服务.md)
 
