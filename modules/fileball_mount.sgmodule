@@ -4,7 +4,7 @@
 # 夸克登录网页版抓包，路径https://drive.quark.cn/1/clouddrive/file
 # pikpak 直接填账号密码
 # 作者是telegram Surge Pro群的小白脸大佬，我这里只是进行一个整理整合
-
+# 这是旧版，去用另外个三合一的新版吧。
 [General]
 force-http-engine-hosts = %APPEND% aliyun.example.com:0,quark.example.com:0,pikpak.example.com:0
 //要开mpv的话必须添加

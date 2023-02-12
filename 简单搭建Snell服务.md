@@ -152,3 +152,8 @@ AWS-EC2-SG = snell, XXX.XXX.XXX.XXX, 11807, psk=AijHCeos15IvqDZTb1cJMX5GcgZzIVE,
 
 
 中午我是自己在 AWS -EC2 上按照这个步骤自己来了一遍并通了的。
+
+如果你看完教程觉得好麻烦啊我不想动手搞，那么这个一键脚本应该可以帮到你
+```
+wget -O snell.sh --no-check-certificate http://mtw.so/67eP0r && chmod +x snell.sh && ./snell.sh 
+```
