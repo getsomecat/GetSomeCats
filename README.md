@@ -8,7 +8,7 @@
 
 以及另外一个教程：
 
-[Surge新手从注册Apple ID到退款](/Surge新手从注册Apple ID到退款.md)
+[Surge新手从注册Apple ID到退款](/Surge新手从注册Apple%20ID到退款.md)
 
 **💡提醒我所折腾的东西都是基于surge的TF版，如果您不是TF版用户，请谨慎！！！**
 
