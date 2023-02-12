@@ -15,7 +15,7 @@
 
 
 ```
-https://raw.githubusercontent.com/Zeaphyou/GetSomeCats/Surge/A%20easy%20Surge%20config.conf
+https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/Surge.conf
 
 ```
 
