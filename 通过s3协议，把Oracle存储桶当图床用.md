@@ -16,52 +16,52 @@
 
 1，进入甲骨文的控制台，点击左上角的存储–存储桶
 
-![iShot_2023-02-04_11.35.44](assets/iShot_2023-02-04_11.35.44.png)
+![iShot_2023-02-04_11.35.44](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936229.png)
 
 2，点进去存储桶后，点击创建存储桶，然后给存储桶取一个名字（英文+数字），并且要记住，因为后面要用到的。目前Oracle给的存储桶的免费空间是20G，做图床是完全足够使用的。
 
-![iShot_2023-02-04_11.39.00](assets/iShot_2023-02-04_11.39.00.png)
+![iShot_2023-02-04_11.39.00](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936231.png)
 
 
 3，创建好存储桶后，点击一下存储桶名称，进去后可以看到存储桶的一些详细信息，按照下图箭头指示的地方，将名称空间后面的字符串（namespace）记录下来
 
-![iShot_2023-02-04_13.40.26](assets/iShot_2023-02-04_13.40.26.png)
+![iShot_2023-02-04_13.40.26](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936234.png)
 
 
 4，点击一下右上角的用户图标，点击租户名，进入租户详情页
 
-![iShot_2023-02-04_13.48.34](assets/iShot_2023-02-04_13.48.34.png)
+![iShot_2023-02-04_13.48.34](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936237.png)
 
 
 5，在租户详情页，对象存储设置底下，对象存储名称空间页可以看到第三步里面提到的namespace，在浏览器的地址栏里面，region=ap-tokyo-1，里面的ap-tokyo-1既是region名称，也把它记下来，如果你是别的区域的Oracle可能此处会不一样，记下相应的字符串就好了。
 
-![iShot_2023-02-04_13.54.34](assets/iShot_2023-02-04_13.54.34.png)
+![iShot_2023-02-04_13.54.34](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936237.png)
 
 
 6，点击右上角的用户图标，选择我的概要信息
 
-![iShot_2023-02-04_14.07.15](assets/iShot_2023-02-04_14.07.15.png)
+![iShot_2023-02-04_14.07.15](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936239.png)
 
 7，进入我的概要信息后，在左侧找到**资源`-`客户密钥**，英文下是**Customer secret keys**，点击后进入到客户密钥界面。
 
-![iShot_2023-02-04_14.10.43](assets/iShot_2023-02-04_14.10.43.png)
+![iShot_2023-02-04_14.10.43](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936240.png)
 
 8，点击生成密钥，按照要求取一个名字，然后点击生成密钥，来生成一个密钥
 
-![iShot_2023-02-04_14.14.59](assets/iShot_2023-02-04_14.14.59.png)
+![iShot_2023-02-04_14.14.59](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936242.png)
 
 
 9，复制并记录好生成的密钥，**切记一定要保存好，因为只显示一次。**
 
-![iShot_2023-02-04_14.15.26](assets/iShot_2023-02-04_14.15.26.png)
+![iShot_2023-02-04_14.15.26](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936243.png)
 
 10，我们就能在列表里看到刚才生成的密钥了。
 
-![iShot_2023-02-04_14.21.19](assets/iShot_2023-02-04_14.21.19.png)
+![iShot_2023-02-04_14.21.19](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936243.png)
 
 在访问密钥那里，将鼠标移到字符串会显示访问密钥的完整内容，将它也复制出来后面要用到。
 
-![iShot_2023-02-04_14.32.13](assets/iShot_2023-02-04_14.32.13.png)
+![iShot_2023-02-04_14.32.13](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936244.png)
 
 
 至此在Oracle这边的设置就是已经完成了，接下来就是PicGo的安装和设置了。
@@ -78,11 +78,11 @@ PicGo的GitHub地址：https://github.com/Molunerfinn/PicGo
 
 2.1 下载安装好后，在**插件设置**中搜索**s3**并安装**s3协议插件**。
 
-![iShot_2023-02-04_14.45.26](assets/iShot_2023-02-04_14.45.26.png)
+![iShot_2023-02-04_14.45.26](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936244.png)
 
 2.2 安装完后点击**图床设置-AmazonS3**，我们会看到很多很多需要填写的东西
 
-![9cfe01532fd84826e04b3d6c14d4e78d](assets/9cfe01532fd84826e04b3d6c14d4e78d.png)
+![9cfe01532fd84826e04b3d6c14d4e78d](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936246.png)
 
 
 2.3 首先看应用密钥ID和密钥，密钥ID是刚才最后一步在列表中看到的那一串字符；密钥是倒数第二步中只显示一次的那一串字符。把它们俩分别拷贝进输入框中。
@@ -105,11 +105,11 @@ PicGo的GitHub地址：https://github.com/Molunerfinn/PicGo
 
 `https://objectstorage.[region].oraclecloud.com/n/[namespace]/b/[bucketname]/o`
 
-![iShot_2023-02-04_15.08.39](assets/iShot_2023-02-04_15.08.39.png)
+![iShot_2023-02-04_15.08.39](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936246.png)
 
 
 2.10 按照上面配置好后，可以回到上传区，拖一张图片进去测试一下看是否设置成功。
 
 当图床设置好后，到Typroa里面图床直接选择PicGo测试一下成功的话就可以使用啦。
-![iShot_2023-02-04_14.25.13](assets/iShot_2023-02-04_14.25.13.png)
+![iShot_2023-02-04_14.25.13](https://objectstorage.ap-seoul-1.oraclecloud.com/n/cniucozmhyay/b/imagecloud/o/docs/1675760936248.png)
 
