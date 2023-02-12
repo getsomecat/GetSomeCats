@@ -6,6 +6,10 @@
 ###推一个[新手教程](https://book.surge.ga/surge-ios) 由Alice（主要）和我（打酱油）整理完成。
 提供一个基于surge作者老刘的最简配置，带一个我的warp 节点的配置。
 
+以及另外一个教程：
+
+[Surge新手从注册Apple ID到退款](/Surge新手从注册Apple ID到退款.md)
+
 **💡提醒我所折腾的东西都是基于surge的TF版，如果您不是TF版用户，请谨慎！！！**
 
 
