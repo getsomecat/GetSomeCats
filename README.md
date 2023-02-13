@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/A_mini.conf
 ```
 这里还有个自己修改版的一键snell脚本：
 ```
-wget -O snell.sh --no-check-certificate http://mtw.so/67eP0r && chmod +x snell.sh && ./snell.sh 
+wget -O snell.sh --no-check-certificate https://raw.githubusercontent.com/getsomecat/Snell/master/snell_test.sh && chmod +x snell.sh && ./snell.sh 
 ```
 下面是两个手动搭建服务器的教程
 
