@@ -4,6 +4,8 @@
 # 阿里云Token获取地址(需要用阿里云盘扫描alist的二维码获得)[ https://alist-doc.nn.ci/docs/driver/aliyundrive ]
 # 夸克登录网页版抓包，路径https://drive.quark.cn/1/clouddrive/file
 # pikpak 直接填账号密码
+# Fileball挂载图标：https://raw.githubusercontent.com/githubdulong/Script/master/Images/Fileball.json
+
 
 #aliyun.example.com
 #quark.example.com
@@ -15,4 +17,5 @@ force-http-engine-hosts = %APPEND% *.example.com:0
 
 
 [Script]
+
 3合一挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,requires-body=1,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/fileball.js,max-size=0
