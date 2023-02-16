@@ -1,0 +1,11 @@
+#!name=捷停车签到
+#!desc=活动入口：捷停车APP-积分签到
+# 签到规则：连签奖励，首日1积分、次日2积分，以此类推7天封顶
+# 活动奖励：积分可用于兑换停车券，比例 1:100
+# 脚本作者：bbyy 的 bb（@Fokit_Orz）
+# ================ Boxjs订阅 ================
+# 订阅地址：https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
+# 更新时间：2023-02-16
+
+[Script]
+捷停车签到 = type=cron, cronexp=15 9 * * *, timeout=60, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, script-update-interval=0
