@@ -1,14 +1,14 @@
 //由本群重庆佬提供，key和小白脸大佬修改完善。
 let $ = {
-bilibili:'https://www.bilibili.com',
-baidu:'https://www.baidu.com',
-youtube:'https://www.youtube.com/',
-google:'https://www.google.com/generate_204',
-github:'https://www.github.com'
+Bilibili:'https://www.bilibili.com',
+Baidu:'https://www.baidu.com',
+Youtube:'https://www.youtube.com/',
+Google:'https://www.google.com/generate_204',
+Github:'https://www.github.com'
 }
 
 !(async () => {
-await Promise.all([http($.baidu),http($.bilibili),http($. github),http($. google),http($.youtube)]).then((x)=>{
+await Promise.all([http($.Baidu),http($.Bilibili),http($. Github),http($. Google),http($.Youtube)]).then((x)=>{
 	$done({
     title: 'Network Connectivity Test',
     content: x.join('\n'),
