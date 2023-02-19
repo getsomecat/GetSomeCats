@@ -14,7 +14,7 @@ const REQUEST_HEADERS = {
     'icon-color': '#FF5A9AF9',
   }
 
-  await Promise.all([test_baidu(), test_bilibili(), test_google(), test_youtube(), test_github()])
+  await Promise.all([test_baidu(), test_bilibili(), test_google(), test_github(),test_youtube()])
     .then((result) => {
       let content = result.join('\n')
       panel_result['content'] = content
