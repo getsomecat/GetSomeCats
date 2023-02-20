@@ -1,8 +1,8 @@
 #!name=机场流量信息
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!system=ios
-# 更新日期：2022.08.24
-# 版本：3.2
+# 更新日期：2023.02.20
+# 版本：3.3
 # 先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[encode后的机场节点链接]
 # 可选参数 &reset_day，后面的数字替换成流量每月重置的日期，如1号就写1，8号就写8。如"&reset_day=8",不加该参数不显示流量重置信息。
 # 可选参数 &expire，机场链接不带expire信息的，可以手动传入expire参数，如"&expire=2022-02-01",注意一定要按照yyyy-MM-dd的格式。不希望显示到期信息也可以添加&expire=false取消显示。
@@ -14,4 +14,4 @@
 Sub_info = script-name=Sub_info,update-interval=3600
 
 [Script]
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url=encode后的机场节点链接&reset_day=1&title=你机场名字&icon=externaldrive.fill.badge.icloud=#007aff
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url=encode后的机场节点链接&reset_day=1&title=你机场名字&icon=externaldrive.fill.badge.icloud=#007aff
