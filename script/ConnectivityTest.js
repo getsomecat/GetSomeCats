@@ -8,7 +8,7 @@ Github:'https://www.github.com'
 }
 
 !(async () => {
-await Promise.all([http($.Baidu),http($.Bilibili),http($.Github),http($.Google),http($.Youtube)]).then((x)=>{
+await Promise.all([http('Baidu'),http('Bilibili'),http('Github'),http('Google'),http($.youtube)]).then((x)=>{
 	$done({
     title: 'Network Connectivity Test',
     content: x.join('\n'),
@@ -20,9 +20,10 @@ await Promise.all([http($.Baidu),http($.Bilibili),http($.Github),http($.Google),
 
 function http(req) {
     return new Promise((r) => {
+			let _req = $[req];
 			let time = Date.now();
-        $httpClient.post(req, (err, resp, data) => {
-            r(req.split(".")[1]+
+        $httpClient.post(_req, (err, resp, data) => {
+            r(req +
 						'\xa0\xa0\xa0\xa0\xa0\t: ' +
 						(Date.now() - time)+' ms');
         });
