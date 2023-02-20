@@ -1,3 +1,5 @@
+//*从@xream 大佬复制来的
+
 const $ = new Env('network-speed')
 
 $.isPanel = () => $.isSurge() && typeof $input != 'undefined' && $.lodash_get($input, 'purpose') === 'panel'
