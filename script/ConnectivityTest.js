@@ -20,9 +20,8 @@ await Promise.all([http('Baidu'),http('Bilibili'),http('Github'),http('Google'),
 
 function http(req) {
     return new Promise((r) => {
-			let _req = $[req];
 			let time = Date.now();
-        $httpClient.post(_req, (err, resp, data) => {
+        $httpClient.post($[req], (err, resp, data) => {
             r(req +
 						'\xa0\xa0\xa0\xa0\xa0\t: ' +
 						(Date.now() - time)+' ms');
