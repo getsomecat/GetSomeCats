@@ -64,59 +64,9 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
 source /home/ubuntu/.bashrc
 ```
-#### 8，全局安装pm2
-
-```
-pnpm i -g pm2
-```
-![iShot_2023-02-23_20.18.39](media/16771482248559/iShot_2023-02-23_20.18.39.png)
-
-#### 9，安装pm2 log自动清理插件
-
-```
-pm2 install pm2-logrotate
-```
-
-![iShot_2023-02-23_20.25.21](media/16771482248559/iShot_2023-02-23_20.25.21.png)
-![iShot_2023-02-23_20.27.01](media/16771482248559/iShot_2023-02-23_20.27.01.png)
-
-> pm2-logrotate是PM2（Process Manager 2）的一个插件，它允许对PM2进程的日志进行自动轮转和清理，以防止日志文件变得过大而导致磁盘空间耗尽。
-
-> pm2-logrotate插件可以通过pm2命令行工具来安装，使用以下命令：
-
-> pm2 install pm2-logrotate
 
 
-> 安装完成后，pm2-logrotate将自动在PM2的配置文件中添加一个新的配置块，其中包含了轮转日志的设置，如日志文件的最大大小、要保留的日志文件数等。
-
-> 此外，pm2-logrotate还提供了一些其他的功能，例如日志的压缩和备份等，可以通过配置文件进行自定义配置。
-> 以上由chatgpt解释
-
-
-#### 10，运行pm2，并按照相应的指令进行下一步
-
-
-```
-pm2 startup
-
-```
-
-![iShot_2023-02-23_20.30.10](media/16771482248559/iShot_2023-02-23_20.30.10.png)
-> pm2 startup 是一个命令行工具，可以让 PM2 在系统启动时自动运行。当您在服务器上部署 Node.js 应用程序时，您通常希望应用程序在服务器重启后自动启动。使用 pm2 startup 命令，您可以配置系统服务，以便在启动时启动 PM2，并自动启动您先前使用 PM2 启动的所有应用程序。
-
-> pm2 startup 命令将生成一个启动脚本，并向您的操作系统注册它。该脚本将在系统启动时运行，并启动您之前使用 PM2 启动的所有应用程序。在执行 pm2 startup 命令后，您需要按照命令行中的指示运行生成的脚本，以确保它已正确安装并设置了启动服务。这样，无论何时重启服务器，您的 Node.js 应用程序都将自动启动。
-> 由chatgpt解答
-
-#### 11，执行上一步命令生成的命令：
- > **看上一步的提示复制粘贴 不要抄下面的**
-
-```
-sudo env PATH=$PATH:/home/ubuntu/.local/share/fnm/node-versions/v16.13.2/installation/bin /home/ubuntu/.local/share/pnpm/global/5/.pnpm/pm2@5.2.2/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
-```
-![iShot_2023-02-23_20.31.36](media/16771482248559/iShot_2023-02-23_20.31.36.png)
-![iShot_2023-02-23_20.32.04](media/16771482248559/iShot_2023-02-23_20.32.04.png)
-
-#### 12，创建Sub-store的安装文件夹并进入该文件夹
+#### 8，创建Sub-store的安装文件夹并进入该文件夹
 
 ```
 mkdir -p ~/Sub-Store
@@ -124,7 +74,7 @@ mkdir -p ~/Sub-Store
 cd ~/Sub-Store
 
 ```
-#### 13，下载前端页面压缩包并解压缩
+#### 9，下载前端页面压缩包并解压缩
 
 ```
 wget https://github.com/xream/Sub-Store/releases/download/2.13.5-alpha/dist.zip -O frontend.zip
@@ -136,7 +86,7 @@ unzip frontend.zip
 ```
 ![iShot_2023-02-23_20.49.24](media/16771482248559/iShot_2023-02-23_20.49.24.png)
 
-#### 14，将dist文件夹复制到相应目录，后面前端页面要用到
+#### 10，将dist文件夹复制到相应目录，后面前端页面要用到
 
 ```
 sudo cp -R dist /var/www/html/
@@ -146,52 +96,73 @@ sudo cp -R dist /var/www/html/
 > **注意：有些VPS如果直接执行上面操作会提示没有那个文件或者文件夹
 > 解决办法是如上图所示切换到相应的目录去建立对应的文件夹然后再执行复制操作。**
 
-#### 15，下载后端sub-store脚本
+#### 11，下载后端sub-store脚本
 
 ```
 wget https://github.com/xream/Sub-Store/releases/download/2.13.5-alpha/sub-store.js -O sub-store-bundled.js
 ```
 ![iShot_2023-02-23_20.57.35](media/16771482248559/iShot_2023-02-23_20.57.35.png)
 
-#### 16，运行sub-store脚本
+
+#### 12，创建sub-store服务
+
+Tip：经测试发现使用pm2时因为[pid存在bug](http://github.com/soyuka/pidusage%20)，而导致服务在直接重启VPS时不会自动启动，故改为创建sub-store服务并设置成开机自动启动
+
+编辑 /home/ubuntu/Sub-Store/sub-store.service 
+
+**里面对应的路径要根据实际情况改**
+
+
 
 ```
-pm2 start sub-store-bundled.js
-```
-![](media/16771482248559/16771571282564.jpg)
-
-#### 17，保存脚本运行进程
+vim /home/ubuntu/Sub-Store/sub-store.service
 
 ```
-pm2 save
-```
 
 
-> pm2 save 是 PM2 进程管理器的一个命令，用于将当前所有正在运行的进程信息保存到一个文件中，以便在下次启动时自动加载。
-
-#### 18，列出当前脚本运行状态
+将以下内容复制进去，注意下里面的文件路径对应你自己的实际路径
 
 ```
-pm2 ls
+[Unit]
+Description=Sub-Store
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+[Service]
+LimitNOFILE=32767 
+Type=simple
+User=ubuntu
+Restart=on-failure
+RestartSec=5s
+ExecStartPre=/bin/sh -c ulimit -n 51200
+ExecStart=/home/ubuntu/.local/share/fnm/fnm exec --using v16.13.2 node /home/ubuntu/Sub-Store/sub-store-bundled.js
+WorkingDirectory=/home/ubuntu/Sub-Store/
+[Install]
+WantedBy=multi-user.target
 ```
-![](media/16771482248559/16771576114007.jpg)
-
-
-> pm2 ls 是一个命令行命令，用于列出当前正在使用 PM2 进程管理器管理的所有应用程序。
-
-> 具体来说，它会显示一个表格，其中包含每个应用程序的 ID、名称、状态、CPU 和内存使用情况、启动时间等信息。如果应用程序正在运行，它将显示 "online" 状态，否则将显示 "offline" 状态。
-> 由chatgpt解答
-
-#### 19，查看脚本实时运行日志，看是否有问题
+将创建的服务加入到系统服务
 
 ```
-pm2 logs
+sudo cp /home/ubuntu/Sub-Store/sub-store.service /etc/systemd/system/
 ```
-![](media/16771482248559/16771574846513.jpg)
+重载服务：
 
-> pm2 logs 命令将在终端上打印出所有进程的实时日志。可以使用该命令来查看应用程序的日志，以便及时发现和解决问题。 
+```
+sudo systemctl daemon-reload
+```
+设置成自动启动
+```
+sudo systemctl enable sub-store
+```
+启动服务：
 
-> Tips：按 CTRL+C 退出logs界面
+```
+sudo systemctl start sub-store
+```
+查看sub-store服务状态：
+
+```
+sudo systemctl status sub-store
+```
 
 ### 3，安装设置nginx
 
