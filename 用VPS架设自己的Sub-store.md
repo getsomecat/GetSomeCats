@@ -121,6 +121,7 @@ vim /home/ubuntu/Sub-Store/sub-store.service
 
 
 将以下内容复制进去，注意下里面的文件路径对应你自己的实际路径
+> 本文都是在ubuntu这个用户下进行操作的，如果你是Debian或者root用户，记得修改其中对应的用户名以及文件路径
 
 ```
 [Unit]
