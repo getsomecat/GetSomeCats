@@ -1,0 +1,34 @@
+#!name=服务器 / 运营商 / 网络速率 / 机场信息 / 延迟测试
+#!desc=自用 Panel
+
+[Panel]
+
+机场名 = script-name=机场名, update-interval=1800
+
+local = script-name=local,update-interval=-1
+
+Server = script-name=Server,update-interval=-1
+
+network-speed-panel = script-name=network-speed-panel,update-interval=-1
+
+Connectivity_Test = script-name=Connectivity_Test,update-interval=-1
+
+[Script]
+
+Sub_info = type=http-request,pattern=http://sub\.info,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info.js
+
+Server = type=generic,script-path=https://raw.githubusercontent.com/cnmeeia/profile/main/panel/js/ip.js
+
+local= type=generic,script-path=https://raw.githubusercontent.com/cnmeeia/profile/main/panel/js/local.js
+
+机场名 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/cnmeeia/profile/main/panel/js/liul.js,script-update-interval=0,argument=url=机场订阅链接
+
+network-speed-panel = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/cnmeeia/profile/main/panel/js/Speedtest.js
+
+Connectivity_Test = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/cnmeeia/profile/main/panel/js/ConnectivityTest.js,argument=title=连通测试&server=false
+
+[Rule]
+
+DOMAIN-SUFFIX,ipinfo.io,DIRECT
+
+DOMAIN-SUFFIX,ip-api.com,代理
