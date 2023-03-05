@@ -32,15 +32,23 @@ mkdir /opt/tuic && cd /opt/tuic
 ```
 
 获取服务器端程序
+X86
 ```
 wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-server-0.8.5-x86_64-linux-gnu
 ```
-
+ARM
+```
+wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-server-0.8.5-aarch64-linux-gnu
+```
 赋予服务器端程序权限
+X86
 ```
 chmod +x tuic-server-0.8.5-x86_64-linux-gnu
 ```
-
+ARM
+```
+chmod +x tuic-server-0.8.5-aarch64-linux-gnu
+```
 这里每一行是一条指令，输入后按回车等执行完再进行下一条命令
 
 **建立服务器端配置：**
@@ -69,6 +77,7 @@ nano /lib/systemd/system/tuic.service
 ```
 
 写入如下配置：
+X86:
 ```
 [Unit]
 Description=Delicately-TUICed high-performance proxy built on top of the QUIC protocol
@@ -79,6 +88,25 @@ After=network.target
 User=root
 WorkingDirectory=/opt/tuic
 ExecStart=/opt/tuic/tuic-server-0.8.5-x86_64-linux-gnu -c config.json
+Restart=on-failure
+RestartPreventExitStatus=1
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
+```
+ARM
+```
+[Unit]
+Description=Delicately-TUICed high-performance proxy built on top of the QUIC protocol
+Documentation=https://github.com/EAimTY/tuic
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/tuic
+ExecStart=/opt/tuic/tuic-server-0.8.5-aarch64-linux-gnu -c config.json
 Restart=on-failure
 RestartPreventExitStatus=1
 RestartSec=5
