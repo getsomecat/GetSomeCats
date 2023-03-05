@@ -31,7 +31,8 @@ apt -y install wget certbot
 mkdir /opt/tuic && cd /opt/tuic
 ```
 
-获取服务器端程序
+获取服务器端程序：
+
 X86
 ```
 wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-server-0.8.5-x86_64-linux-gnu
@@ -40,7 +41,8 @@ ARM
 ```
 wget https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-server-0.8.5-aarch64-linux-gnu
 ```
-赋予服务器端程序权限
+赋予服务器端程序权限：
+
 X86
 ```
 chmod +x tuic-server-0.8.5-x86_64-linux-gnu
@@ -77,6 +79,7 @@ nano /lib/systemd/system/tuic.service
 ```
 
 写入如下配置：
+
 X86:
 ```
 [Unit]
