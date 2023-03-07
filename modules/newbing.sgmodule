@@ -5,4 +5,8 @@
 hostname = %APPEND% *.bing.com, bing.com
 
 [Script]
+<<<<<<< Surge
 bing-edge-ua = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/edge-useragent.js,requires-body=false
+=======
+bing-edge-ua = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/edge-useragent.js,requires-body=false
+>>>>>>> upstream/Surge
