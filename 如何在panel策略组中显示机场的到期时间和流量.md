@@ -1,11 +1,14 @@
 # 如何在panel/策略组中显示机场的到期时间和流量
 
+本脚本的作者据我所知是surge pro群的 @mieqq ，而原本的模块是从深巷有喵的库里面直接copy过来的（working copy可适合干这个了），对二位表示感谢
+
 <img src="assets/IMG_A7FAA9751BE8-1.jpeg" alt="IMG_A7FAA9751BE8-1" style="zoom:50%;" />
+
 
 
 经常有人问如同上图那种在surge的面板（panel）和策略组（proxy group）中显示机场的订阅的流量，到期日期等信息，也反复的教过好多次，在此也重新总结一下写一个教程。
 
-本脚本的作者据我所知是surge pro群的 @mieqq ，而原本的模块是从深巷有喵的库里面直接copy过来的（working copy可适合干这个了），对二位表示感谢
+
 
 ## 功能
 1. 查看你机场当前剩余的流量
