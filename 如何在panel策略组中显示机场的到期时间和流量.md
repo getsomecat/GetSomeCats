@@ -1,6 +1,6 @@
 # 如何在panel/策略组中显示机场的到期时间和流量
 
-本脚本的作者据我所知是surge pro群的 @mieqq ，而原本的模块是从深巷有喵的库里面直接copy过来的（working copy可适合干这个了），对二位表示感谢
+本脚本的作者据我所知是surge pro群的 [@mieqq](https://github.com/mieqq/mieqq) ，而原本的模块是从[深巷有喵](https://github.com/Rabbit-Spec/Surge)的库里面直接copy过来的（working copy可适合干这个了），我自己稍微做了一点点改动，对二位表示感谢！
 
 <img src="assets/IMG_A7FAA9751BE8-1.jpeg" alt="IMG_A7FAA9751BE8-1" style="zoom:50%;" />
 
