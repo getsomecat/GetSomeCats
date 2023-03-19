@@ -66,14 +66,14 @@ encode链接：
 补充：有部份机场可能会按照如上操作但是获取不了流量信息，是因为有些订阅禁止用head访问，你试试在订阅后面加上 `&method=get`
 最后，你也可以通过快捷指令的方式生成，再复制到本地模块中：
 
-[https://www.icloud.com/shortcuts/af4420b253174e1a922938d63bd23d68](https://www.icloud.com/shortcuts/af4420b253174e1a922938d63bd23d68)
+[https://www.icloud.com/shortcuts/af4420b253174e1a922938d63bd23d68]
 
 
 ## 通过策略组的方式显示：
 
 策略组的方式相对比较简单，首先是通过快捷指令的方式：
 
-[https://www.icloud.com/shortcuts/ad9ff961507049a0bbdd676b95265626](https://www.icloud.com/shortcuts/ad9ff961507049a0bbdd676b95265626)
+[https://www.icloud.com/shortcuts/ad9ff961507049a0bbdd676b95265626]
 
 将快捷指令安装好后，点右上角的三个小圆点，然后安装词典里面提示的填入相应信息，接着点右下角的运行按钮即可生成。
 
