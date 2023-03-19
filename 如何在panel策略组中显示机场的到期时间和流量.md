@@ -27,7 +27,7 @@
 [https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Sub-info/Moore/Sub-info.sgmodule](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Sub-info/Moore/Sub-info.sgmodule)
 
 <img src="assets/IMG_1391.PNG" alt="IMG_1391" style="zoom:50%;" />
-<img src="assets/iShot_2023-03-19_10.10.03.png" alt="iShot_2023-03-19_10.10.03" style="zoom:50%;" />
+<img src="assets/iShot_2023-03-19_10.10.03.png" alt="iShot_2023-03-19_10.10.03" style="zoom: 33%;" />
 <img src="assets/IMG_1393.PNG" alt="IMG_1393" style="zoom:50%;" />
 
 
