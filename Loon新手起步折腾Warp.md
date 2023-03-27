@@ -250,4 +250,6 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 
 `WARP = wireguard, interface-ip=172.16.0.2, interface-ipv6=2606:4700:110:832c:b21b:4f99:f9fa:417b, private-key="2JkWiH65BRnIZTr5y4i4XVPkYnWZ9Vr18FkpWEc7aEQ=", mtu=1280, dns=162.159.36.1, dnsv6=2606:4700:4700::1111, keepalive=45, peers=[{public-key="bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", allowed-ips="0.0.0.0/0, ::/0", endpoint=engage.nanocat.me:2408, reserved=[195,10,198]}]`
 
+**最后要提醒的是，如果你已通过Loon获取了一组可用的 WireGuard 配置，那么建议卸载 1.1.1.1 这个应用程序，因为重启该应用时可能会自动重置密钥，导致之前获取的配置不再可用，必须重新获取。**
+
 顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669
