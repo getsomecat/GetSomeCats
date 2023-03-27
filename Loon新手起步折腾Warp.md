@@ -130,7 +130,7 @@ https://apps.apple.com/jp/app/1-1-1-1-faster-internet/id1423538627
 
 https://www.morax-xyc.com/post/839e7851/
 
-我这里仅根据上面教程和实际大家注册过程中的一些问题做一些提示：
+**我这里仅根据上面教程和实际大家注册过程中的一些问题做一些提示：**
 
 - 有些人在注册Zero Trust过程中，发现并不能如同文中所提到那样跳过付款，那么我的建议是添加一个付款方式，支持PayPal、Visa、Master、AE等;
 
