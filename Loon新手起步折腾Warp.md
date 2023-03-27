@@ -2,9 +2,9 @@
 
 ## 前言：
 
-最近没什么可以折腾的，加上Loon最近的更新支持了Wireguard协议，所以去Loon群的次数多了一点，然后有人建议我写个Loon从入门到退款，本来都已经建好了文件，结果一查，Loon官方群里本来就已经有写好的官方和非官方的教程，而且都挺好，让我来写也没什么新意，于是转念一想，干脆写一下Loon上抓Warp的wireguard教程算了，虽然熟悉的人知道步骤和Surge上是一样的，但是总会有些不熟悉的来问，干脆另起一片，于是卸载Loon重新安装，从起步开始折腾吧。
+最近没什么可以折腾的，加上Loon最近的更新支持了WireGuard协议，所以去Loon群的次数多了一点，然后有人建议我写个Loon从入门到退款，本来都已经建好了文件，结果一查，Loon官方群里本来就已经有写好的官方和非官方的教程，而且都挺好，让我来写也没什么新意，于是转念一想，干脆写一下Loon上抓Warp的WireGuard教程算了，虽然熟悉的人知道步骤和Surge上是一样的，但是总会有些不熟悉的来问，干脆另起一片，于是卸载Loon重新安装，从起步开始折腾吧。
 
-付我的主教程：[ZeroTrust从入门到放弃](https://www.craft.do/s/avqa8GJuLbLsFv)
+附我的主教程：[ZeroTrust从入门到放弃](https://www.craft.do/s/avqa8GJuLbLsFv)
 
 ## 免责声明：
 
@@ -32,7 +32,7 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 ### 网络代理
 
-- 支持常见的代理协议，http、https、Shadowsock、ShadowsockR、VMess、VLess、Trojan、Wireguard
+- 支持常见的代理协议，http、https、Shadowsock、ShadowsockR、VMess、VLess、Trojan、WireGuard
 - 能够代理TCP和UDP（仅Shadowsock、ShadowsockR、Trojan协议支持）数据
 - 支持IPv4和IPv6
 
@@ -146,9 +146,9 @@ https://www.morax-xyc.com/post/839e7851/
 
 
 
-## 下载Wireguard App
+## 下载WireGuard App
 
-下面链接是日本区的，你们可以直接在自己的App Store搜索wireguard
+下面链接是日本区的，你们可以直接在自己的App Store搜索WireGuard
 
 https://apps.apple.com/jp/app/wireguard/id1441195209
 
