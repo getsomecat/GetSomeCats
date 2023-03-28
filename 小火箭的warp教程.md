@@ -162,6 +162,7 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 6. 如果想了解更多Loon，可以加入官方Telegram群组：https://t.me/Loon0x00
 
 **可以说比Shadowrocket和Quantumult X更加适合新手使用。**
+购买链接：https://apps.apple.com/app/loon/id1373567447
 
 Loon 界面见下图：
 
