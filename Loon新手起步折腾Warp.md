@@ -126,11 +126,7 @@ https://apps.apple.com/jp/app/1-1-1-1-faster-internet/id1423538627
 
 注册帐号操作建议在电脑上进行。
 
-按照下面链接教程：注册warp和加入一个team（Zero Trust），并用1.1.1.1 app进行一次链接以生成数据
-
-https://www.morax-xyc.com/post/839e7851/
-
-**我这里仅根据上面教程和实际大家注册过程中的一些问题做一些提示：**
+#### **我这里仅根据下面教程和实际大家注册过程中的一些问题做一些提示：**
 
 - 有些人在注册Zero Trust过程中，发现并不能如同文中所提到那样跳过付款，那么我的建议是添加一个付款方式，支持PayPal、Visa、Master、AE等;
 
@@ -140,9 +136,19 @@ https://www.morax-xyc.com/post/839e7851/
 
 - 如果设置过程中发现device里面是空白的，这时候去左边的setting里面有个warp client，进去后有个mange 里面添加设备验证规则即可，验证规则一般建议选择邮箱后缀（Emails ending in）：[gmail.com](http://gmail.com) 或者 [outlook.com](http://outlook.com) 不太建议国内邮箱。顺便建议如果有电脑，最好在电脑上进行设置更方便。
 
-- 还有就是在setting里面Authentication里面的Login methods记得选择**One-time PIN**，这样才能在登陆时候收到邮件发送过来的一次性认证PIN
+- 在setting里面Authentication里面的Login methods记得选择**One-time PIN**，这样才能在登陆时候收到邮件发送过来的一次性认证PIN
 
 - 如果还有其他问题可以进[Loon官方telegram群](https://t.me/Loon0x00)找我：🐈🐈‍⬛🐈‍⬛整点猫咪️@yeavast
+
+
+
+按照下面链接教程：注册warp和加入一个team（Zero Trust），并用1.1.1.1 app进行一次链接以生成数据
+
+
+
+注册教程： https://www.morax-xyc.com/post/839e7851/
+
+
 
 
 
@@ -172,6 +178,8 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 
 薯条的脚本json地址：
 
+https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json
+
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.11.18-2.jpg" alt="iShot_2023-03-27_12.11.18-2" style="zoom:50%;" />
 
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.17.47-2.jpg" alt="iShot_2023-03-27_12.17.47-2" style="zoom:50%;" />
@@ -186,7 +194,7 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 
 ### 附上不通过插件仓库的安装地址：
 
-- boxjs：
+- boxjs插件：
 
 手动安装：
 
@@ -200,7 +208,7 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 
   - `插件`链接: [Cloudflare.1.1.1.1.plugin](https://github.com/VirgilClyne/Cloudflare/blob/main/plugin/Cloudflare.1.1.1.1.plugin?raw=true)
 
-  - boxjs订阅：
+  - 薯条的boxjs订阅：
 
     `https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json`		
 
@@ -238,17 +246,21 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 
 
 
-**提醒：在系统自带的邮件客户端里面添加一个可用邮箱，不然会收不到邮件通知**
+**提醒：在系统自带的邮件客户端里面添加一个可用邮箱，不然会收不到邮件通知，可以将收到的邮件发送给自己便于保存。**
 
 将生成的配置文件复制并粘贴到Loon的Proxy字段里面去，即可使用啦。
 
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_15.04.50-2.jpg" alt="iShot_2023-03-27_15.04.50-2" style="zoom:50%;" />
+
+
 
 如果你不想折腾，这里有一个配置：
 
 
 
 `WARP = wireguard, interface-ip=172.16.0.2, interface-ipv6=2606:4700:110:832c:b21b:4f99:f9fa:417b, private-key="2JkWiH65BRnIZTr5y4i4XVPkYnWZ9Vr18FkpWEc7aEQ=", mtu=1280, dns=162.159.36.1, dnsv6=2606:4700:4700::1111, keepalive=45, peers=[{public-key="bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", allowed-ips="0.0.0.0/0, ::/0", endpoint=engage.nanocat.me:2408, reserved=[195,10,198]}]`
+
+
 
 **最后要提醒的是，如果你已通过Loon获取了一组可用的 WireGuard 配置，那么建议卸载 1.1.1.1 这个应用程序，因为重启该应用时可能会自动重置密钥，导致之前获取的配置不再可用，必须重新获取。**
 

@@ -8,7 +8,7 @@
 
 *https://manual.nssurge.com/book/understanding-surge/cn/*
 
-- [Surge新手从购买到退款](#surge新手从购买到退款)
+- [Surge新手从注册Apple ID到退款](#surge新手从注册apple-id到退款)
   - [一，注册外区ID](#一，注册外区id)
   - [二，购买Surge授权](#二，购买surge授权)
   - [三 开始使用](#三开始使用)
