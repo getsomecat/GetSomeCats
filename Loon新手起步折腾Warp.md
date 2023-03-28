@@ -264,4 +264,6 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 **最后要提醒的是，如果你已通过Loon获取了一组可用的 WireGuard 配置，那么建议卸载 1.1.1.1 这个应用程序，因为重启该应用时可能会自动重置密钥，导致之前获取的配置不再可用，必须重新获取。**
 
+**说明一下：目前转出来的节点，只有在电信网络下有比较好的体验，联通和移动的体验均不太好，请根据自己网络运营商看要不要折腾。**
+
 顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669
