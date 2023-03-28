@@ -4,7 +4,7 @@
 
 最近没什么可以折腾的，加上Loon最近的更新支持了WireGuard协议，所以去Loon群的次数多了一点，然后有人建议我写个Loon从入门到退款，本来都已经建好了文件，结果一查，Loon官方群里本来就已经有写好的官方和非官方的教程，而且都挺好，让我来写也没什么新意，于是转念一想，干脆写一下Loon上抓Warp的WireGuard教程算了，虽然熟悉的人知道步骤和Surge上是一样的，但是总会有些不熟悉的来问，干脆另起一篇，于是卸载Loon重新安装，从起步开始折腾吧。
 
-附我的主教程：[ZeroTrust从入门到放弃](https://www.craft.do/s/avqa8GJuLbLsFv)
+附我的另外一个教程：[ZeroTrust从入门到放弃](https://www.craft.do/s/avqa8GJuLbLsFv)（Surge）
 
 ## 免责声明：
 
