@@ -163,7 +163,8 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 **可以说比Shadowrocket和Quantumult X更加适合新手使用。**
 
-界面见下图：
+Loon 界面见下图：
 
 <img src="./%E5%B0%8F%E7%81%AB%E7%AE%AD%E7%9A%84warp%E6%95%99%E7%A8%8B.assets/IMG_1498.png" alt="IMG_1498" style="zoom:50%;" />
 
+Loon上的Warp教程：[https://github.com/getsomecat/GetSomeCats/blob/Surge/Loon新手起步折腾Warp.md](https://github.com/getsomecat/GetSomeCats/blob/Surge/Loon新手起步折腾Warp.md)
