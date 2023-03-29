@@ -130,6 +130,12 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 根据我目前的测试情况来看，小火箭下的Wireguard的速度并不是很好，不过好在它是免费并且不限流量的，如果想获得更好的体验，建议买一个Loon，能获得更好的速度和体验。
 
+可以看下面两个视频有分别的测速对比：
+
+Loon：    https://youtu.be/waKzvRmAJXY
+
+小火箭：  https://youtube.com/shorts/mtFqzbPSg5Q?feature=share
+
 # Loon简介：
 
 ### Loon是什么
