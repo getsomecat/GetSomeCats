@@ -144,7 +144,7 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 ### 网络代理
 
-- 支持常见的代理协议，http、https、Shadowsock、ShadowsockR、VMess、VLess、Trojan、WireGuard
+- 支持常见的代理协议，http、https、Shadowsocks、ShadowsocksR、VMess、VLess、Trojan、WireGuard
 - 能够代理TCP和UDP（仅Shadowsock、ShadowsockR、Trojan协议支持）数据
 - 支持IPv4和IPv6
 
