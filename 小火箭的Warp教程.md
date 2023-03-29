@@ -56,11 +56,11 @@ https://apps.apple.com/jp/app/wireguard/id1441195209
 
 <img src="./%E5%B0%8F%E7%81%AB%E7%AE%AD%E7%9A%84warp%E6%95%99%E7%A8%8B.assets/iShot_2023-03-28_17.32.10-2.jpg" alt="iShot_2023-03-28_17.32.10-2" style="zoom:50%;" />
 
-## 安装Boxjs和薯条的Cloudflare模块
+## 安装BoxJs和薯条的Cloudflare模块
 
 在按照上述步骤开启了HTTPS解密并且安装好证书并且正确的信任了之后，需要安装两个模块：
 
-**boxjs模块地址：**
+**BoxJs模块地址：**
 
 点击一键安装(Shadowrocket): [boxjs.rewrite.surge.sgmodule](http://api.boxjs.app/shadowrocket-install)
 
