@@ -1,4 +1,4 @@
-# 小火箭的warp教程
+# 小火箭的Warp教程
 
 ## 免责声明：
 
@@ -16,17 +16,17 @@
 
 任何以任何方式查看此项目的人或直接或间接使用该项目的任何脚本的使用者都应仔细阅读此声明。本文作者保留随时更改或补充此免责声明的权利。一旦使用并复制了任何本文相关脚本或其他内容，则视为您已接受此免责声明。
 
-## 注册cloudflare帐号
+## 注册Cloudflare帐号
 
 **提醒：注册帐号操作建议在电脑上进行。**
 
 #### **我这里仅根据下面教程和实际大家注册过程中的一些问题做一些提示：**
 
 - 有些人在注册Zero Trust过程中，发现并不能如同文中所提到那样跳过付款，那么我的建议是添加一个付款方式，支持PayPal、Visa、Master、AE等;
-- 如果设置过程中发现device里面是空白的，这时候去左边的setting里面有个warp client，进去后有个manage 里面（Add a Rule）添加设备验证规则即可，验证规则一般建议选择邮箱后缀（Emails ending in）建议选择[gmail.com](http://gmail.com/) 或者 [outlook.com](http://outlook.com/) ，不太建议国内邮箱。顺便建议如果有电脑，最好在电脑上进行设置更方便。如果是手机，manage点进去后往下滑动页面即可看到设置的选项。
+- 如果设置过程中发现device里面是空白的，这时候去左边的setting里面有个Warp client，进去后有个manage 里面（Add a Rule）添加设备验证规则即可，验证规则一般建议选择邮箱后缀（Emails ending in）建议选择[gmail.com](http://gmail.com/) 或者 [outlook.com](http://outlook.com/) ，不太建议国内邮箱。顺便建议如果有电脑，最好在电脑上进行设置更方便。如果是手机，manage点进去后往下滑动页面即可看到设置的选项。
 - 在setting里面Authentication里面的Login methods记得选择**One-time PIN**，这样才能在登陆时候收到邮件发送过来的一次性认证PIN
 
-按照下面链接教程：注册warp和加入一个team（Zero Trust），并用1.1.1.1 app进行一次链接以生成数据
+按照下面链接教程：注册Warp和加入一个team（Zero Trust），并用1.1.1.1 app进行一次链接以生成数据
 
 注册参照教程： https://www.morax-xyc.com/post/839e7851/ 
 
@@ -56,7 +56,7 @@ https://apps.apple.com/jp/app/wireguard/id1441195209
 
 <img src="./%E5%B0%8F%E7%81%AB%E7%AE%AD%E7%9A%84warp%E6%95%99%E7%A8%8B.assets/iShot_2023-03-28_17.32.10-2.jpg" alt="iShot_2023-03-28_17.32.10-2" style="zoom:50%;" />
 
-## 安装Boxjs和薯条的cloudflare模块
+## 安装Boxjs和薯条的Cloudflare模块
 
 在按照上述步骤开启了HTTPS解密并且安装好证书并且正确的信任了之后，需要安装两个模块：
 
@@ -66,7 +66,7 @@ https://apps.apple.com/jp/app/wireguard/id1441195209
 
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule
 
-**薯条cloudflare模块地址：**
+**薯条Cloudflare模块地址：**
 
 点击一键安装地址(Shadowrocket)：[Cloudflare.1.1.1.1.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/sgmodule/Cloudflare.1.1.1.1.sgmodule)
 
@@ -92,11 +92,11 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 ## 在1.1.1.1 App中复制出设备ID
 
-如果你已经按照上面的教程注册了cloudflare账户并且登陆了1.1.1.1 App，现在打开1.1.1.1 App，进入到设置-诊断中找到，复制并保存
+如果你已经按照上面的教程注册了Cloudflare账户并且登陆了1.1.1.1 App，现在打开1.1.1.1 App，进入到设置-诊断中找到，复制并保存
 
 <img src="./%E5%B0%8F%E7%81%AB%E7%AE%AD%E7%9A%84warp%E6%95%99%E7%A8%8B.assets/iShot_2023-03-27_14.22.56-2.jpg" alt="iShot_2023-03-27_14.22.56-2" style="zoom:50%;" />
 
-## 设置Boxjs
+## 设置BoxJs
 
 接下来的操作都需要在启动小火箭的过程中进行
 
@@ -138,8 +138,8 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 ### 网络代理
 
-- 支持常见的代理协议，http、https、Shadowsock、ShadowsockR、VMess、VLess、Trojan、WireGuard
-- 能够代理TCP和UDP（仅Shadowsock、ShadowsockR、Trojan协议支持）数据
+- 支持常见的代理协议，http、https、Shadowsocks、ShadowsocksR、VMess、VLess、Trojan、WireGuard
+- 能够代理TCP和UDP（仅Shadowsocks、ShadowsocksR、Trojan协议支持）数据
 - 支持IPv4和IPv6
 
 ### 网络调试
