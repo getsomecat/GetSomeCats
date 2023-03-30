@@ -117,5 +117,6 @@
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_13.32.38.png" alt="iShot_2023-03-30_13.32.38" style="zoom:25%;" />
 
 后面要抓配置，先链接一次生成设备ID等信息，你如果不在意全局模式可以直接使用。
+一个小提醒：在链接Zerotrust之前，关闭掉其它的代理App，surge loon 小火箭这些，手动关掉。
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_13.33.25.png" alt="iShot_2023-03-30_13.33.25" style="zoom:25%;" />
