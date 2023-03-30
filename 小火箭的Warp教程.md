@@ -28,7 +28,9 @@
 
 按照下面链接教程：注册warp和加入一个team（Zero Trust），并用1.1.1.1 app进行一次链接以生成数据
 
-注册参照教程： https://www.morax-xyc.com/post/839e7851/ 
+新教程：https://surge.ga/?p=2116
+
+~~注册参照教程： https://www.morax-xyc.com/post/839e7851/~~ 
 
 ## 下载1.1.1.1 App
 
