@@ -2,7 +2,7 @@
 
 ## 前言
 
-在之前写用Surge、Loon和小火箭上，关于获得ZeroTrust这块，我都是附带的这篇文章：https://blog.moraxyc.com/post/839e7851/#fn3，然后发现因为这个文章写的时间比较早，有写东西Cloudflare改了，但是没有更新，正好最近自己也需要重新注册一个CF帐号，干脆抓图也写一篇~~（GetSomeCats团队人数满了我自己都没得用了）~~
+在之前写用Surge、Loon和小火箭上，关于获得ZeroTrust这块，我都是附带的这篇文章：https://blog.moraxyc.com/post/839e7851 ，然后发现因为这个文章写的时间比较早，有写东西Cloudflare改了，但是没有更新，正好最近自己也需要重新注册一个CF帐号，干脆抓图也写一篇~~（GetSomeCats团队人数满了我自己都没得用了）~~
 
 ## 首先需要准备的
 
