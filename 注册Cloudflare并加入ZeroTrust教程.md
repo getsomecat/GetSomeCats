@@ -44,31 +44,69 @@
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.20.54.png" alt="iShot_2023-03-30_12.20.54" style="zoom:50%;" />
 
-8.在上面付的那个教程里说添加付款可以取消再进去的方式跳过，我经过多次试验，包括套warp等诸多方式发现是无法跳过的，所以是必须选择一个Plan并且添加付款的
+8.~~在上面付的那个教程里说添加付款可以取消再进去的方式跳过，我经过多次试验，包括套warp等诸多方式发现是无法跳过的，所以是必须选择一个Plan并且添加付款的~~已经发现可以跳过付款的步骤
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.23.52.png" alt="iShot_2023-03-30_12.23.52" style="zoom:50%;" />
 
-9.我选择了添加Paypal的方式（我添加信用卡没成功）
+8.1跳过添加付款方式步骤
+
+在上面选择好Plan后，到了添加付款方式页面，将地址栏：https://one.dash/cloudflare.com 后面的全部删掉然后回车
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.02.36.png" alt="iShot_2023-03-30_17.02.36" style="zoom:50%;" />
+
+
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.03.51.png" alt="iShot_2023-03-30_17.03.51" style="zoom:50%;" />
+
+8.2跳转到了首页
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.04.31.png" alt="iShot_2023-03-30_17.04.31" style="zoom:50%;" />
+
+8.3 这时候点一下左侧的My Team，会发现里面没有东西
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.38.16-0168618.png" alt="iShot_2023-03-30_12.38.16" style="zoom:50%;" />
+
+8.4点一下浏览器的后退接着按前进，My Team页面就会出现链接设备的选项了
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.07.28.png" alt="iShot_2023-03-30_17.07.28" style="zoom:50%;" />
+
+8.5 按照流程走完
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.07.59.png" alt="iShot_2023-03-30_17.07.59" style="zoom:50%;" />
+
+![iShot_2023-03-30_17.08.40](./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.08.40.png)
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.09.22.png" alt="iShot_2023-03-30_17.09.22" style="zoom:50%;" />
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.10.33.png" alt="iShot_2023-03-30_17.10.33" style="zoom:50%;" />
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.11.13.png" alt="iShot_2023-03-30_17.11.13" style="zoom:50%;" />
+
+<img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.11.58.png" alt="iShot_2023-03-30_17.11.58" style="zoom:50%;" />
+
+接下来就是去Cloudflare WARP App里面的操作了
+
+~~9.我选择了添加Paypal的方式（我添加信用卡没成功）~~
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.35.45.png" alt="iShot_2023-03-30_12.35.45" style="zoom:50%;" />
 
-10.之前那个教程里面说添加后进入Device里面添加设备，我估计现在是Cloudflare改了，因为进去后Team里面Device下是空白的，而且也提示了要添加认证方式
+~~10.之前那个教程里面说添加后进入Device里面添加设备，我估计现在是Cloudflare改了，因为进去后Team里面Device下是空白的，而且也提示了要添加认证方式~~
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.38.16.png" alt="iShot_2023-03-30_12.38.16" style="zoom:50%;" />
 
-11.这时候去左边的settings里面选择Warp Client，选择Manage
+~~11.这时候去左边的settings里面选择Warp Client，选择Manage~~
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.39.11.png" alt="iShot_2023-03-30_12.39.11" style="zoom:50%;" />
 
-12.选择Add a rule 添加规则
+~~12.选择Add a rule 添加规则~~
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.40.06.png" alt="iShot_2023-03-30_12.40.06" style="zoom:50%;" />
 
-13.添加设备的验证规则，Rule name（规则名称）：自己随便取一个，建议选择 email ending in
+~~13.添加设备的验证规则，Rule name（规则名称）：自己随便取一个，建议选择 email ending in~~
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_12.44.07.png" alt="iShot_2023-03-30_12.44.07" style="zoom:50%;" />
 
-这里设置完后点击左边的Save保存即可生效了。
+~~这里设置完后点击左边的Save保存即可生效了。~~
 
 14.另外就是也检查一下Settings里面的
 
