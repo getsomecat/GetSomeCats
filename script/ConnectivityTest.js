@@ -8,24 +8,15 @@ Github:'https://www.github.com'
 }
 
 !(async () => {
-<<<<<<< HEAD
-await  Promise.allSettled([http('Baidu'),http('Bilibili'),http('Github'),http('Google'),http('Youtube')]).then(results => {
- $done({
-=======
 await Promise.all([http('Baidu'),http('Bilibili'),http('Github'),http('Google'),http('Youtube')]).then((x)=>{
 	$done({
->>>>>>> parent of 25452f6 (薯条大佬进行的修订)
     title: 'Network Connectivity Test',
-    content: results.map(result => result.value).join('\n'),
+    content: x.join('\n'),
     icon: 'timer',
     'icon-color': '#FF5A9AF9',
   })
-<<<<<<< HEAD
-});
-=======
 })
 })();
->>>>>>> parent of 25452f6 (薯条大佬进行的修订)
 
 function http(req) {
     return new Promise((r) => {
