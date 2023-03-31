@@ -1,4 +1,4 @@
-//由本群重庆佬提供，key和小白脸大佬修改完善。
+//由本群重庆佬提供，key和小白脸大佬修改完善。修改了一下
 let $ = {
 Bilibili:'https://www.bilibili.com',
 Baidu:'https://www.baidu.com',
