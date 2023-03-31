@@ -58,7 +58,7 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 界面见下图：
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/IMG_1498.png" alt="IMG_1498" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/IMG_1498.png" alt="IMG_1498" style="zoom: 25%;" />
 
 
 
@@ -80,7 +80,7 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 **首次添加订阅节点：**
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/Untitled.png" alt="Untitled" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/Untitled.png" alt="Untitled" style="zoom: 50%;" />
 
 **首次添加单个节点：**
 
@@ -96,11 +96,11 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 首先进入配置页面，将脚本、复写、MitM这三个开关都打开，如下图：
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.01.53.png" alt="iShot_2023-03-27_11.01.53" style="zoom: 33%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.01.53.png" alt="iShot_2023-03-27_11.01.53" style="zoom: 25%;" />
 
 接下来需要进入到设置的MitM的域名设置里面，将MitM over HTTP/2 开关打开
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.10.39-2.jpg" alt="iShot_2023-03-27_11.10.39-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.10.39-2.jpg" alt="iShot_2023-03-27_11.10.39-2" style="zoom: 25%;" />
 
 接下来是安装证书并且信任，文字步骤如下：
 
@@ -108,9 +108,9 @@ Loon是一个集网络代理、网络调试、网络改写等一系列功能于�
 
 图片步骤见下面的图示：
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.12.39-2.jpg" alt="iShot_2023-03-27_11.12.39-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.12.39-2.jpg" alt="iShot_2023-03-27_11.12.39-2" style="zoom: 25%;" />
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.15.33-2.jpg" alt="iShot_2023-03-27_11.15.33-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.15.33-2.jpg" alt="iShot_2023-03-27_11.15.33-2" style="zoom: 25%;" />
 
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_11.17.28-2.jpg" alt="iShot_2023-03-27_11.17.28-2" style="zoom:50%;" />
 
@@ -172,7 +172,7 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 
 配置-插件-右上角添加-URL中粘贴上面地址-信任插件安装，并且按照图示的点击进入插件仓库
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.02.13-2.jpg" alt="iShot_2023-03-27_12.02.13-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.02.13-2.jpg" alt="iShot_2023-03-27_12.02.13-2" style="zoom: 25%;" />
 
 安装boxjs插件并订阅薯条的脚本json：
 
@@ -180,15 +180,15 @@ https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugi
 
 https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.11.18-2.jpg" alt="iShot_2023-03-27_12.11.18-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.11.18-2.jpg" alt="iShot_2023-03-27_12.11.18-2" style="zoom: 25%;" />
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.17.47-2.jpg" alt="iShot_2023-03-27_12.17.47-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.17.47-2.jpg" alt="iShot_2023-03-27_12.17.47-2" style="zoom: 25%;" />
 
 安装薯条的插件：
 
 在插件仓库中找到：VIRGICLYNE/CLOUDFLARE点开后选择右边的安装按钮按照上面教过的步骤进行安装
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.22.49-2.jpg" alt="iShot_2023-03-27_12.22.49-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.22.49-2.jpg" alt="iShot_2023-03-27_12.22.49-2" style="zoom: 25%;" />
 
 
 
@@ -218,7 +218,7 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 提示：建议先复制公钥再复制私钥，因为进行app间程序切换回来，公钥似乎会消失；复制私钥时候用全选再复制，避免漏字母
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_13.35.05-2.jpg" alt="iShot_2023-03-27_13.35.05-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_13.35.05-2.jpg" alt="iShot_2023-03-27_13.35.05-2" style="zoom: 25%;" />
 
 
 
@@ -228,7 +228,7 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 设备ID可在1.1.1.1 app的设置-诊断中找到，复制并保存
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.22.56-2.jpg" alt="iShot_2023-03-27_14.22.56-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.22.56-2.jpg" alt="iShot_2023-03-27_14.22.56-2" style="zoom: 25%;" />
 
 
 
@@ -236,11 +236,11 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 在boxjs中填好相应字段并保存：
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.37.28.png" alt="iShot_2023-03-27_14.37.28" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.37.28.png" alt="iShot_2023-03-27_14.37.28" style="zoom: 25%;" />
 
 接下来进入到1.1.1.1 app的设置-高级-连接选项-拉到底部，重置加密密钥，就会出现Loon的通知打开即是生成的配置文件
 
-<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.43.40-2.jpg" alt="iShot_2023-03-27_14.43.40-2" style="zoom:50%;" />
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.43.40-2.jpg" alt="iShot_2023-03-27_14.43.40-2" style="zoom: 25%;" />
 
 
 
@@ -266,4 +266,37 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 **说明一下：目前转出来的节点，只有在电信网络下有比较好的体验，联通和移动的体验均不太好，请根据自己网络运营商看要不要折腾。**
 
-顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669
+2023.03.30 补充一点：用薯条面板生成的配置的endpoint是[engage.nanocat.me:2408](engage.nanocat.me:2408)，这个是他的私有DNS服务器，里面包含了所有warp的endpoint可用IP，包括free的，有些IP段在国内是不通的，这也是有些人有时候直连ping不通的原因，当时正好分配到不能用的IP，如果这样时候可以试试把endpoint改为：
+
+162.159.193.1～10:2408
+
+或者162.159.195.1～10:2408，
+
+注意不是上面的格式，而是从1～10中选一个去试
+
+最终格式应该是类似：162.159.193.5:2408
+
+或者
+
+162.159.195.8:2408
+
+这两个193、195段是Warp+服务的。
+
+千万不要直接填成1～10然后问为什么不行🫠
+
+或者直接用官方的域名地址：
+
+engage.cloudflareclient.com:2408
+
+然后更改endpoint的方法：
+
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-31_11.22.23-2.jpg" alt="iShot_2023-03-31_11.22.23-2" style="zoom:25%;" />
+
+这里还有一个关于优选Warp+/ZeroTrust的endpoint的教程，可以根据教程来进行优选IP，然后填到endpoint里面（只能填一个）
+
+优选IP教程地址：https://blog.misaka.rest/2023/03/12/cf-warp-yxip/
+
+**顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669**
+
+
+
