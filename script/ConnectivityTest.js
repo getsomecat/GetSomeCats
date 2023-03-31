@@ -17,7 +17,7 @@ await  Promise.allSettled([http('Baidu'),http('Bilibili'),http('Github'),http('G
     icon: 'timer',
     'icon-color': '#FF5A9AF9',
   })
-});
+})();
 
 function http(req) {
     return new Promise((r) => {
