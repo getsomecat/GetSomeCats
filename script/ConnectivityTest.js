@@ -13,7 +13,7 @@ Github:'https://www.github.com'
 await  Promise.allSettled([http('Baidu'),http('Bilibili'),http('Github'),http('Google'),http('Youtube')]).then(results => results.map(result => {
  $done({
     title: 'Network Connectivity Test',
-    content: x.join('\n'),
+    content: result.join('\n'),
     icon: 'timer',
     'icon-color': '#FF5A9AF9',
   })
