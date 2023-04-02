@@ -294,7 +294,7 @@ engage.cloudflareclient.com:2408
 
 这里还有一个关于优选Warp+/ZeroTrust的endpoint的教程，可以根据教程来进行优选IP，然后填到endpoint里面（只能填一个）
 
-优选IP教程地址：https://blog.misaka.rest/2023/03/12/cf-warp-yxip/
+优选IP教程地址：https://surge.ga/?p=2189
 
 **顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669**
 
