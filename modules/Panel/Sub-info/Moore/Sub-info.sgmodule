@@ -1,6 +1,7 @@
 #!name=机场流量信息
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!system=ios
+# 原作者未知，复制自深巷有喵的GitHub
 # 更新日期：2023.03.19
 # 版本：3.4
 # 先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[encode后的机场节点链接]encode链接： https://www.urlencoder.org
