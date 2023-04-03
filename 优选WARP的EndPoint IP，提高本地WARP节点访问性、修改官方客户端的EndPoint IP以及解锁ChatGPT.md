@@ -15,7 +15,7 @@
 
 ### Windows
 
-1. 从这个网站：https://surge.ga/wp-content/uploads/2023/04/warp-yxip-win.7z下载`warp-yxip-win.7z`文件，并解压。如无意外的话文件内容应该是长这样
+1. 从这个网站：[https://surge.ga/wp-content/uploads/2023/04/warp-yxip-win.7z](https://surge.ga/wp-content/uploads/2023/04/warp-yxip-win.7z) 下载`warp-yxip-win.7z`文件，并解压。如无意外的话文件内容应该是长这样
 
 <img src="./%E4%BC%98%E9%80%89WARP%E7%9A%84EndPoint%20IP%EF%BC%8C%E6%8F%90%E9%AB%98%E6%9C%AC%E5%9C%B0WARP%E8%8A%82%E7%82%B9%E8%AE%BF%E9%97%AE%E6%80%A7%E3%80%81%E4%BF%AE%E6%94%B9%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84EndPoint%20IP%E4%BB%A5%E5%8F%8A%E8%A7%A3%E9%94%81ChatGPT.assets/20230328001247.png" alt="20230328001247" style="zoom:75%;" />
 
