@@ -2,6 +2,9 @@
 
 
 ## 写在前面的话
+**文章原作者:** [MisakaNo](https://blog.misaka.rest/)
+**文章链接:** https://blog.misaka.rest/2023/03/12/cf-warp-yxip/
+
 因为群里有小伙伴说这之前的网址打不开所以转到我的Blog备份一下，就我个人试验结果和群里小伙伴的体会，实际上找到一个能通的IP做endpoint就行，也有人反馈说采用优选IP后延迟更高。这个只能说见仁见智了。
 
 ## 准备材料
@@ -149,9 +152,9 @@ https://github.com/XIU2/CloudflareSpeedTest
 
 
 
-**文章原作者:** [MisakaNo](https://blog.misaka.rest/)
 
-**文章链接:** https://blog.misaka.rest/2023/03/12/cf-warp-yxip/
+
+
 
 **版权声明:** 本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。转载请注明来自 [MisakaNo の 小破站](https://blog.misaka.rest/)！
 

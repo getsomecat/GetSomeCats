@@ -84,7 +84,8 @@
 
 <img src="./%E6%B3%A8%E5%86%8CCloudflare%E5%B9%B6%E5%8A%A0%E5%85%A5ZeroTrust%E6%95%99%E7%A8%8B.assets/iShot_2023-03-30_17.11.58.png" alt="iShot_2023-03-30_17.11.58" style="zoom:50%;" />
 
-接下来就是去Cloudflare WARP App里面的操作了
+这一套流程走完就可以关掉页面了，接下来就是去Cloudflare WARP App里面的操作了。
+Tips：如果在1.1.1.1里面按照你设置的团队名字能进行登录而不是提示没有这个团队名，那就是已经成功，至于有些人邮箱没有收到PIN码之类的，有可能是Cloudflare抽风或者发的PIN码被塞到垃圾邮件了。
 
 ~~9.我选择了添加Paypal的方式（我添加信用卡没成功）~~
 
