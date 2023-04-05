@@ -19,7 +19,7 @@
 >**TestFlight 版 4.11.0 (2014) 或更新版本**
 
 ### 2. 模块安装链接
-> **FlushDNS :** https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Flush-DNS/Moore/Flush-DNS.sgmodule<br>
+> **FlushDNS :** https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Flush-DNS/Moore/Flush-DNS.sgmodule<br>
 
 ### 3. 安装方式
 打开 Surge -> 模块 -> 安装新模块... -> 复制粘贴上方的安装链接 -> 完成!
