@@ -1,0 +1,24 @@
+#!name=Multi Panel
+#!desc=IP Ping Speedtest Chatgpt
+#!author=keywos
+
+[Panel]
+# ip isp city
+NetISP = script-name=NetISP,update-interval=-1
+
+# ping
+NetPing = script-name=NetPing,update-interval=-1
+
+# cf speedtest
+NetSpeed = script-name=NetSpeed,update-interval=-1
+
+# GPT
+CFGPT = script-name=CFGPT,update-interval=-1
+[Script]
+NetPing = type=generic,timeout=2,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/NetPing.js
+
+NetISP = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/NetISP.js
+
+NetSpeed = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/NetSpeed.js
+
+CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/CFGPT.js
