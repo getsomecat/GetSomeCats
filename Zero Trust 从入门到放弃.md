@@ -132,6 +132,9 @@ https://github.com/getsomecat/GetSomeCats/blob/Surge/注册Cloudflare并加入Ze
 
 <img src="https://res.craft.do/user/full/3d8a8c5e-ccfa-1873-1c87-72e71ce00df1/C9A46998-CC62-4139-B72C-42FD542B9F69_2/s5MB3ylF93b98cVqFiQ2v0mr8G4D679DNKLnRYzlpxwz/IMG_3814.png" alt="IMG_3814.png" style="zoom:25%;" />
 
+或者按照下图所示方法进入surge的文本编辑模式，复制到相应的字段里面：
+![iShot_2023-04-07_16.01.15](assets/iShot_2023-04-07_16.01.15.png)
+
 🔔说明一下：有些人按照教程生成的配置可能去ping的时候会不通，这是很正常的，服务器在美国呢，所以需要用代理链去拉warp才会快，~~目前香港只有HKT线路可以~~，现在surge加了client-id参数后可以使用HK地区代理链，然后其他地区就是日美新台了。
 
 <img src="https://res.craft.do/user/full/3d8a8c5e-ccfa-1873-1c87-72e71ce00df1/3B5B6405-3B14-4A86-A3F9-5EC05F5736C5_2/7QN83gc0VNzAlpw1W8AtmGx5iDQYfr4WAdON5Y06KMQz/IMG_3789.jpeg" alt="IMG_3789.jpeg" style="zoom:25%;" />
