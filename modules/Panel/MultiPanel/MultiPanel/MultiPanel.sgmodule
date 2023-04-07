@@ -15,10 +15,10 @@ NetSpeed = script-name=NetSpeed,update-interval=-1
 # GPT
 CFGPT = script-name=CFGPT,update-interval=-1
 [Script]
-NetPing = type=generic,timeout=2,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/NetPing.js
+NetPing = type=generic,timeout=2,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/MultiPanel/MultiPanel/NetPing.js
 
-NetISP = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/NetISP.js
+NetISP = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/MultiPanel/MultiPanel/NetISP.js
 
-NetSpeed = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/NetSpeed.js
+NetSpeed = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/MultiPanel/MultiPanel/NetSpeed.js
 
-CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Keywos/rule/key/JS/CFGPT.js
+CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/MultiPanel/MultiPanel/CFGPT.js
