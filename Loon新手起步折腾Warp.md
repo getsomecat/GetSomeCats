@@ -174,7 +174,7 @@ https://apps.apple.com/jp/app/1-1-1-1-faster-internet/id1423538627
 新教程：https://surge.ga/?p=2116
 ~~注册教程： https://www.morax-xyc.com/post/839e7851/~~
 
-
+2023.4.9补充：如果你看了上面的zero trust教程觉得没法解决其中某些问题，可以直接使用warp+（个人版）下面已经补充warp+的操作。
 
 
 
@@ -254,9 +254,21 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 设备ID可在1.1.1.1 app的设置-诊断中找到，复制并保存
 
+**Zero Trust下的操作**：
+
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.22.56-2.jpg" alt="iShot_2023-03-27_14.22.56-2" style="zoom: 25%;" />
 
+**Warp+下的操作**：
 
+通过更改key获取流量
+
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-04-09_13.37.09-2.png" alt="iShot_2023-04-09_13.37.09-2" style="zoom:25%;" />
+
+备注：关注telegram频道：https://t.me/warpplus ，会定时推送key，自己选一个按上面步骤填入即可；可以自己邀请朋友注册获得流量，因为第三方App（Loon、Surge、小火箭等）使用warp+消耗的流量并不会计入账户（只有通过1.1.1.1 App链接消耗的会计入），所以实际上只需要邀请一个朋友注册获得1G流量即可，也可以通过内购的方式获得每月无限流量（土区约4元/月）
+
+在设置-高级-诊断页面客户端配置下的ID中找到设备的ID
+
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-04-09_13.17.33-2.png" alt="iShot_2023-04-09_13.17.33-2" style="zoom:25%;" />
 
 注意：**以下操作是建立在Loon运行过程中**：
 
@@ -264,13 +276,19 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.37.28.png" alt="iShot_2023-03-27_14.37.28" style="zoom: 25%;" />
 
+**Zero Trust下：**
+
 接下来进入到1.1.1.1 app的设置-高级-连接选项-拉到底部，重置加密密钥，就会出现Loon的通知打开即是生成的配置文件
 
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_14.43.40-2.jpg" alt="iShot_2023-03-27_14.43.40-2" style="zoom: 25%;" />
 
 
 
+**Warp+下**：
 
+进入到1.1.1.1 app的设置-高级-连接选项-拉到底部，重置加密密钥，也是和zero trust一样的操作过程。
+
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-04-09_13.30.43-2.png" alt="iShot_2023-04-09_13.30.43-2" style="zoom:25%;" />
 
 **提醒：在系统自带的邮件客户端里面添加一个可用邮箱，不然会收不到邮件通知，可以将收到的邮件发送给自己便于保存。**
 
