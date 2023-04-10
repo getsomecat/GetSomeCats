@@ -9,6 +9,6 @@
 [Panel]
 
 # GPT
-CFGPT = script-name=CFGPT,update-interval=-1
+CFGPT = script-name=CFGPT_nowarp,update-interval=-1
 [Script]
-CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.js,argument=icon=lasso.and.sparkles&icon-color=#000000
+CFGPT_nowarp = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.js,argument=icon=lasso.and.sparkles&icon-color=#000000
