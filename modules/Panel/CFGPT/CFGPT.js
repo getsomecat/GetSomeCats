@@ -38,13 +38,13 @@ if (l != -1) {
 //warp
 let w = tff.indexOf(warp)
 if (w != -1) {
-	warps = "增强"
+	warps = "已开启"
 } else {
 	warps = "未开启"
 }
 body = {
 title: "ChatGPT",
-content: `${gpt}   区域: ${loc}   Warp: ${warp} ${warps}`,
+content: `${gpt}   区域: ${loc}   Warp: ${warps}`,
   icon: iconUrl,
   'icon-color': iconColor,
 },$done(body);})
