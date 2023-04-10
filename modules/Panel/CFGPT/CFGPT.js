@@ -31,16 +31,16 @@ let loc = cf.loc
 //loc
 let l = tf.indexOf(loc)
 if (l != -1) {
-	gpt = "GPT: 支持"
+	gpt = "GPT: ✅"
 } else {
-	gpt = "GPT: 不支持"
+	gpt = "GPT: 🚫"
 }
 //warp
 let w = tff.indexOf(warp)
 if (w != -1) {
-	warps = "已开启"
+	warps = "✅"
 } else {
-	warps = "未开启"
+	warps = "🚫"
 }
 body = {
 title: "ChatGPT",
