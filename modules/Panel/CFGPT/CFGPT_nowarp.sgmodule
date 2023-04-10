@@ -1,0 +1,14 @@
+#!name=ChatGPT Panel
+#!desc=Chatgpt可用区域检测
+#!author=keywos
+# 参数说明
+# 可选参数"icon=xxx" 可以自定义图标，内容为任意有效的 SF Symbol Name，如 bolt.horizontal.circle.fill，详细可以下载app https://apps.apple.com/cn/app/sf-symbols-browser/id1491161336
+# 可选参数"color=xxx" 当使用 icon 字段时，可传入 color 字段控制图标颜色，字段内容为颜色的 HEX 编码。如：color=#007aff
+
+
+[Panel]
+
+# GPT
+CFGPT = script-name=CFGPT,update-interval=-1
+[Script]
+CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.js,argument=icon=lasso.and.sparkles&icon-color=#000000
