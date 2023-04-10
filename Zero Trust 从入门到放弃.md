@@ -211,6 +211,7 @@ Warp+下：
 
 
 <img src="https://res.craft.do/user/full/3d8a8c5e-ccfa-1873-1c87-72e71ce00df1/8F901CEE-C93E-4433-A50E-70839C4DB9DA_2/JgzoNnR2m051PHN83z5LQGKxLBYwW3voS28zkVT5KZsz/IMG_3806.jpeg" alt="IMG_3806.jpeg" style="zoom:25%;" />
+刷新一下后去工具的最近请求里面看如下所示的三个网址是否走了warp的节点
 
 ![IMG_3783.jpeg](https://res.craft.do/user/full/3d8a8c5e-ccfa-1873-1c87-72e71ce00df1/A8BD134F-8802-4804-A991-6B499652D131_2/49VLYavISKlsNhCA8h1IhJCOcBhwvMFSRHdojoNbPBYz/IMG_3783.jpeg)
 
@@ -260,15 +261,11 @@ peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips =
 最后再次感谢各位大佬们凭借着热情写出来的东西，让我们这些小白用户有东西可以折腾！
 
 
-
-顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：[https://dlercloud.com/auth/register?affid=126669](https://dlercloud.com/auth/register?affid=126669)
-
 最后的最后：如果看到最后也按照步骤来了一遍发现还是搞不定，那么可以选择加入我的team：getsomecats，验证方式：gmail。
 
 如果还是搞不定，那么下面这个应该能帮到你：
 
 想玩设备 ID 又懒得再抓配置的，这里有一个配置：
-
 
 
 Surge用配置:
@@ -283,9 +280,11 @@ dns-server = 162.159.36.1, 2606:4700:4700::1111
 mtu = 1280
 peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::/0", endpoint = engage.cloudflareclient.com:2408, client-id = 139/184/125)
 
+顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：[https://dlercloud.com/auth/register?affid=126669](https://dlercloud.com/auth/register?affid=126669)
 
+ ~~将我的GetSomeCats Team 配置放出来供使用。也可以加入我的Team：Getsomecats，验证方式为：gmail~~已满
 
-# ~~将我的GetSomeCats Team 配置放出来供使用。也可以加入我的Team：Getsomecats，验证方式为：gmail~~已满
-
+有问题可以去我的频道https://t.me/GetsomeCats
+或者surge讨论频道https://t.me/loveapps
 
 
