@@ -44,7 +44,7 @@ if (w != -1) {
 }
 body = {
 title: "ChatGPT",
-content: `${gpt}   Loc: ${loc}   Warp: ${warp} ${warps}`,
+content: `${gpt}   Loc: ${loc}   Warp: ${warps}`,
   icon: iconUrl,
   'icon-color': iconColor,
 },$done(body);})
