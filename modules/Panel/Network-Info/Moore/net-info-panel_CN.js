@@ -13,11 +13,11 @@
 class httpMethod {
 	/**
 	 * 回调函数
-	 * @param {*} resolve 
-	 * @param {*} reject 
-	 * @param {*} error 
-	 * @param {*} response 
-	 * @param {*} data 
+	 * @param {*} resolve
+	 * @param {*} reject
+	 * @param {*} error
+	 * @param {*} response
+	 * @param {*} data
 	 */
 	static _httpRequestCallback(resolve, reject, error, response, data) {
 	  if (error) {
@@ -26,11 +26,11 @@ class httpMethod {
 		resolve(Object.assign(response, { data }));
 	  }
 	}
-  
+
 	/**
 	 * HTTP GET
 	 * @param {Object} option 选项
-	 * @returns 
+	 * @returns
 	 */
 	static get(option = {}) {
 	  return new Promise((resolve, reject) => {
@@ -39,11 +39,11 @@ class httpMethod {
 		});
 	  });
 	}
-  
+
 	/**
 	 * HTTP POST
 	 * @param {Object} option 选项
-	 * @returns 
+	 * @returns
 	 */
 	static post(option = {}) {
 	  return new Promise((resolve, reject) => {
@@ -53,25 +53,25 @@ class httpMethod {
 	  });
 	}
   }
-  
+
   class loggerUtil {
 	constructor() {
 	  this.id = randomString();
 	}
-  
+
 	log(message) {
 	  message = `[${this.id}] [ LOG ] ${message}`;
 	  console.log(message);
 	}
-  
+
 	error(message) {
 	  message = `[${this.id}] [ERROR] ${message}`;
 	  console.log(message);
 	}
   }
-  
+
   var logger = new loggerUtil();
-  
+
   function randomString(e = 6) {
 	var t = "ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678",
 	  a = t.length,
@@ -79,7 +79,7 @@ class httpMethod {
 	for (i = 0; i < e; i++) n += t.charAt(Math.floor(Math.random() * a));
 	return n;
   }
-  
+
   function getFlagEmoji(countryCode) {
 	const codePoints = countryCode
 	  .toUpperCase()
@@ -87,7 +87,7 @@ class httpMethod {
 	  .map((char) => 127397 + char.charCodeAt());
 	return String.fromCodePoint(...codePoints);
   }
-  
+
   function loadCarrierNames() {
 	//整理逻辑:前三码相同->后两码相同运营商->剩下的
 	return {
@@ -129,7 +129,7 @@ class httpMethod {
 	  '452-01': 'Mobifone', '452-02': 'VinaPhone', '452-03': 'S-Fone', '452-04': 'Viettel', '452-05': 'VietNamobile', '452-06': 'E-mobile', '452-07': 'Gmobile',
 	};
   }
-  
+
   //获取手机运营商信息(通过内置的 API 调用设备信息)
   function getCellularInfo() {
 	const radioGeneration = {
@@ -147,7 +147,7 @@ class httpMethod {
 	  'NRNSA': '5G',
 	  'NR': '5G',
 	};
-  
+
 	let cellularInfo = '';
 	const carrierNames = loadCarrierNames();
 	if ($network['cellular-data']) {
@@ -161,11 +161,11 @@ class httpMethod {
 	}
 	return cellularInfo;
   }
-  
+
   function getSSID() {
 	return $network.wifi?.ssid;
   }
-  
+
   function getIP() {
 	const { v4, v6 } = $network;
 	let info = [];
@@ -180,7 +180,7 @@ class httpMethod {
 	info = info.join("\n");
 	return info + "\n";
   }
-  
+
   /**
    * 获取 IP 信息
    * @param {*} retryTimes // 重试次数
@@ -199,7 +199,7 @@ class httpMethod {
 		  `[IP 地址]\n` +
 		  getIP() +
 		  `[节点 IP] ${info.query}\n` +
-		  `[节点 ISP] ${info.isp}\n` +
+		  `[节点ISP] ${info.isp}\n` +
 		  `[节点位置] ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}`,
 		icon: getSSID() ? 'wifi' : 'simcard',
 		'icon-color': getSSID() ? '#005CAF' : '#F9BF45',
@@ -231,7 +231,7 @@ class httpMethod {
 	  }
 	});
   }
-  
+
   /**
    * 主要逻辑，程序入口
    */
@@ -253,7 +253,7 @@ class httpMethod {
 		'icon-color': '#CB1B45',
 	  });
 	}, scriptTimeout > surgeMaxTimeout ? surgeMaxTimeout : scriptTimeout);
-  
+
 	// 获取网络信息
 	logger.log("Script start");
 	getNetworkInfo(retryTimes, retryInterval);
