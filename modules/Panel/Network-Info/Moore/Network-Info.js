@@ -1,9 +1,7 @@
 /*
- * Surge 网络详情
- * 由@Nebulosa-Cat编写
- * 由@Rabbit-Spec翻译
- * 更新日期：2022.08.14
- * 版本：3.1
+ * Surge 网络详情面板
+ * @Nebulosa-Cat
+ * 详情见 README
  */
 
 /**
@@ -15,11 +13,11 @@
 class httpMethod {
   /**
    * 回调函数
-   * @param {*} resolve 
-   * @param {*} reject 
-   * @param {*} error 
-   * @param {*} response 
-   * @param {*} data 
+   * @param {*} resolve
+   * @param {*} reject
+   * @param {*} error
+   * @param {*} response
+   * @param {*} data
    */
   static _httpRequestCallback(resolve, reject, error, response, data) {
     if (error) {
@@ -32,7 +30,7 @@ class httpMethod {
   /**
    * HTTP GET
    * @param {Object} option 选项
-   * @returns 
+   * @returns
    */
   static get(option = {}) {
     return new Promise((resolve, reject) => {
@@ -45,7 +43,7 @@ class httpMethod {
   /**
    * HTTP POST
    * @param {Object} option 选项
-   * @returns 
+   * @returns
    */
   static post(option = {}) {
     return new Promise((resolve, reject) => {
@@ -56,19 +54,23 @@ class httpMethod {
   }
 }
 
-class logger {
-  static id = randomString();
+class loggerUtil {
+  constructor() {
+    this.id = randomString();
+  }
 
-  static log(message) {
+  log(message) {
     message = `[${this.id}] [ LOG ] ${message}`;
     console.log(message);
   }
 
-  static error(message) {
+  error(message) {
     message = `[${this.id}] [ERROR] ${message}`;
     console.log(message);
   }
 }
+
+var logger = new loggerUtil();
 
 function randomString(e = 6) {
   var t = "ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678",
@@ -79,11 +81,6 @@ function randomString(e = 6) {
 }
 
 function getFlagEmoji(countryCode) {
-
-if (countryCode.toUpperCase() == 'TW') {
-    countryCode = 'CN'
-  }
-
   const codePoints = countryCode
     .toUpperCase()
     .split('')
@@ -156,10 +153,10 @@ function getCellularInfo() {
   if ($network['cellular-data']) {
     const carrierId = $network['cellular-data'].carrier;
     const radio = $network['cellular-data'].radio;
-    if (carrierId && radio) {
+    if ($network.wifi?.ssid == null && radio) {
       cellularInfo = carrierNames[carrierId] ?
-        carrierNames[carrierId] + ' | ' + radioGeneration[radio] + ' - ' + radio :
-        '蜂窝数据 | ' + radioGeneration[radio] + ' - ' + radio;
+        `${carrierNames[carrierId]} | ${radioGeneration[radio]} - ${radio} ` :
+        `蜂窝数据 | ${radioGeneration[radio]} - ${radio}`;
     }
   }
   return cellularInfo;
@@ -173,12 +170,12 @@ function getIP() {
   const { v4, v6 } = $network;
   let info = [];
   if (!v4 && !v6) {
-    info = ['网路可能中断', '请手动刷新以重新获取 IP'];
+    info = ['网路可能切换', '请手动刷新以重新获取 IP'];
   } else {
-    if (v4?.primaryAddress) info.push(`设备IP：${v4?.primaryAddress}`);
-    if (v6?.primaryAddress) info.push(`IPv6地址：已分配`);
-    if (v4?.primaryRouter && getSSID()) info.push(`路由器IP：${v4?.primaryRouter}`);
-    if (v6?.primaryRouter && getSSID()) info.push(`IPv6地址：已分配`);
+    if (v4?.primaryAddress) info.push(`v4 @ ${v4?.primaryAddress}`);
+    if (v6?.primaryAddress) info.push(`v6 @ ${v6?.primaryAddress}`);
+    if (v4?.primaryRouter && getSSID()) info.push(`Router v4 @ ${v4?.primaryRouter}`);
+    if (v6?.primaryRouter && getSSID()) info.push(`Router IPv6 @ ${v6?.primaryRouter}`);
   }
   info = info.join("\n");
   return info + "\n";
@@ -199,12 +196,13 @@ function getNetworkInfo(retryTimes = 5, retryInterval = 1000) {
     $done({
       title: getSSID() ?? getCellularInfo(),
       content:
+        `[IP 地址]\n` +
         getIP() +
-        `节点IP：${info.query}\n` +
-        `节点ISP：${info.isp}\n` +
-        `节点位置：${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}`,
+        `[节点 IP] ${info.query}\n` +
+        `[节点 ISP] ${info.isp}\n` +
+        `[节点位置] ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}`,
       icon: getSSID() ? 'wifi' : 'simcard',
-      'icon-color': getSSID() ? '#5A9AF9' : '#8AB8DD',
+      'icon-color': getSSID() ? '#005CAF' : '#F9BF45',
     });
   }).catch(error => {
     // 网络切换
