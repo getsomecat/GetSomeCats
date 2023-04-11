@@ -19,7 +19,7 @@ if (args['icon-color']) {
   iconColor = args['icon-color'];
 }
 $httpClient.get(url, function(error, response, data){
-	let lines = data.split("\n"); 
+	let lines = data.split("\n");
 	let cf = lines.reduce((acc, line) => {
 		let [key, value] = line.split("=");
 		acc[key] = value;
@@ -33,18 +33,18 @@ let l = tf.indexOf(loc)
 if (l != -1) {
 	gpt = "GPT: ✓"
 } else {
-	gpt = "GPT: ✕"
+	gpt = "GPT: ✘"
 }
 //warp
 let w = tff.indexOf(warp)
 if (w != -1) {
 	warps = "✓"
 } else {
-	warps = "✕"
+	warps = "✘"
 }
 body = {
 title: "ChatGPT",
-content: `${gpt}   区域: ${loc}   Warp: ${warps}`,
+content: `${gpt}   Loc: ${loc}   Warp: ${warp} ${warps}`,
   icon: iconUrl,
   'icon-color': iconColor,
 },$done(body);})
