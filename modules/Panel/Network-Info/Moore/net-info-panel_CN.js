@@ -196,7 +196,7 @@ class httpMethod {
 	  $done({
 		title: getSSID() ?? getCellularInfo(),
 		content:
-		  `IP 地址\n` +
+		  `[IP 地址\n]` +
 		  getIP() +
 		  `节点 IP：${info.query}\n` +
 		  `节点ISP：${info.isp}\n` +
