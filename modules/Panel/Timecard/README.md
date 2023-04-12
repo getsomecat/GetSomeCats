@@ -18,14 +18,14 @@
 >**TestFlight 版 4.11.0 (2014) 或更新版本**
 
 ### 2. 模块安装链接
-> **稳定版 :** https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Timecard/Moore/Timecard.sgmodule<br>
+> **稳定版 :** https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Timecard/Moore/Timecard.sgmodule<br>
 
 ### 3. 安装方式
 打开 Surge -> 模块 -> 新建本地模块 -> 复制粘贴上方的安装链接里的模块内容到本地（不是复制链接！） -> 在Script中必须修改的参数：group：你策略组的名称 -> 完成!
 
 ### 4. 更新模块方式
 **请按照以下步骤更新**<br>
-#### 更新外部资源 : 
+#### 更新外部资源 :
 >点击首页最上方打开 Profile 页面 -> 更新外部资源 <br>
 
 **两次更新之间建议 _ 间隔 5 分钟以上_，否则又几率页面缓存文档尚未更新导致更新失败<br>
@@ -40,3 +40,5 @@ __以上順序不分排名__
 ## 我用的机场
 **我用着好用不代表你用着也好用，如果想要入手的话，建议先买一个月体验一下。任何机场都有跑路的可能。**<br>
 [墙洞，一个老牌高端机场。](https://dler.pro/auth/register?affid=126669)
+[魔法学院 一个好朋友弄的中端机场](http://www.2220.it/register?aff=czShtQkPmv)
+[炸鱼薯条 整点薯条的机场，月付30以上送emby](https://front.fishport.cloud/#/register?code=vB4AqLDi)

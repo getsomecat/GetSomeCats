@@ -16,7 +16,7 @@
 >**AppStore 版 4.9.3 或更新版本**<br>
 >**TestFlight 版 4.11.0 (2014) 或更新版本**
 ### 2. 模块安装链接
-> **稳定版 :** https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Stream-All/Moore/Stream-All.sgmodule<br>
+> **稳定版 :**https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Stream-All/Moore/Stream-All.sgmodule<br>
 
 ### 3. 安装方式
 打开 Surge -> 模块 -> 安装新模块... -> 复制粘贴上方的安装链接 -> 完成!
@@ -34,6 +34,7 @@
 
 __以上順序不分排名__
 
-## 我用的机场
-**我用着好用不代表你用着也好用，如果想要入手的话，建议先买一个月体验一下。**<br>
-[「Nexitally」佩奇家主站，一家全线中转线路的高端机场。](https://naixii.com/signupbyemail.aspx?MemberCode=0b532ff85dda43e595fb1ae17843ae6d20211110231626) <br>
+**我用着好用不代表你用着也好用，如果想要入手的话，建议先买一个月体验一下。任何机场都有跑路的可能。**<br>
+[墙洞，一个老牌高端机场。](https://dler.pro/auth/register?affid=126669)
+[魔法学院 一个好朋友弄的中端机场](http://www.2220.it/register?aff=czShtQkPmv)
+[炸鱼薯条 整点薯条的机场，月付30以上送emby](https://front.fishport.cloud/#/register?code=vB4AqLDi)
