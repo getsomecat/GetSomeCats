@@ -40,9 +40,8 @@ wget -O snell.sh --no-check-certificate https://raw.githubusercontent.com/getsom
 
 其实如果有兴趣还是可以尝试一下自己手动搭建服务器。
 
-#我用的机场
-
-我用着好用不代表你用着也好用，如果想要入手的话，建议先买一个月体验一下。任何机场都有跑路的可能。
-墙洞，一个老牌高端机场。
-魔法学院 一个好朋友弄的中端机场
-炸鱼薯条 整点薯条的机场，月付30以上送emby
+## 我用的机场
+**我用着好用不代表你用着也好用，如果想要入手的话，建议先买一个月体验一下。任何机场都有跑路的可能。**<br>
+[墙洞，一个老牌高端机场。](https://dler.pro/auth/register?affid=126669)<br>
+[魔法学院 一个好朋友弄的中端机场](http://www.2220.it/register?aff=czShtQkPmv)<br>
+[炸鱼薯条 整点薯条的机场，月付30以上送emby](https://front.fishport.cloud/#/register?code=vB4AqLDi)
