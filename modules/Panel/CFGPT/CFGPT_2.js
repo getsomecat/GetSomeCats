@@ -55,12 +55,12 @@ $httpClient.get(url, function(error, response, data){
   let l = tf.indexOf(cf.loc);
   let gpt, iconUsed;
   if (l !== -1) {
-  gpt = "GPT:支持";
+  gpt = "GPT:✔️";
   iconUsed = icon ? icon : undefined;
   iconCol = iconColor ? iconColor : undefined;
 
   } else {
-  gpt = "GPT:不支持";
+  gpt = "GPT:✖️";
   iconUsed = iconerr ? iconerr : undefined;
   iconCol = iconerrColor ? iconerrColor : undefined;
 
@@ -70,9 +70,9 @@ $httpClient.get(url, function(error, response, data){
   let w = tff.indexOf(warp);
   let warps;
   if (w !== -1) {
-  warps = "支持";
+  warps = "✔️";
   } else {
-  warps = "不支持";
+  warps = "✖️";
   }
 
   // 组装通知数据
