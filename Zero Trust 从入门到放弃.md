@@ -188,7 +188,7 @@ Warp+下：
 
 
 
-正常情况下这时候surge会有个通知，通知内容一个是提示公钥是否一致，另外一个是生成配置，点击生成配置的通知会自动跳转到系统邮件app，里面就是生成的wireguard配置，按照里面内容，进入surge首页-代理服务器-添加代理-代理类型选择wire guard 填入里面相应字段即可。（备注此图中配置仅仅是示例，别问我为什么两边不一样）
+正常情况下这时候surge会有个通知，通知内容是提示公钥是否一致并生成配置，点击生成配置的通知会自动跳转到系统邮件app，里面就是生成的wireguard配置，按照里面内容，进入surge首页-代理服务器-添加代理-代理类型选择wire guard 填入里面相应字段即可。（备注此图中配置仅仅是示例，别问我为什么两边不一样）
 
 <img src="./Zero%20Trust%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.assets/iShot_2023-04-10_17.28.05.png" alt="iShot_2023-04-10_17.28.05" style="zoom:25%;" />
 
@@ -286,5 +286,4 @@ peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips =
 
 有问题可以去我的频道https://t.me/GetsomeCats
 或者surge讨论频道https://t.me/loveapps
-
 
