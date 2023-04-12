@@ -39,3 +39,10 @@ wget -O snell.sh --no-check-certificate https://raw.githubusercontent.com/getsom
 [手动搭建TUIC 服务器](/简单搭建TUIC服务.md)
 
 其实如果有兴趣还是可以尝试一下自己手动搭建服务器。
+
+#我用的机场
+
+我用着好用不代表你用着也好用，如果想要入手的话，建议先买一个月体验一下。任何机场都有跑路的可能。
+墙洞，一个老牌高端机场。
+魔法学院 一个好朋友弄的中端机场
+炸鱼薯条 整点薯条的机场，月付30以上送emby
