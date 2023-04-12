@@ -1,5 +1,5 @@
 #!name=ChatGPT Panel
-#!desc=Chatgpt可用区域检测
+#!desc=Chatgpt可用区域检测随可用性更换ICON
 #!author=keywos wuhu_zz 整点猫咪
 # 参数说明
 # 可选参数"iconerr=xxx" 不支持chatgpt时的图标，内容为任意有效的 SF Symbol Name
