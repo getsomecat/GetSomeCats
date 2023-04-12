@@ -55,12 +55,12 @@ $httpClient.get(url, function(error, response, data){
   let l = tf.indexOf(cf.loc);
   let gpt, iconUsed;
   if (l !== -1) {
-  gpt = "GPT: ✓";
+  gpt = "GPT:支持";
   iconUsed = icon ? icon : undefined;
   iconCol = iconColor ? iconColor : undefined;
 
   } else {
-  gpt = "GPT: ✘";
+  gpt = "GPT:不支持";
   iconUsed = iconerr ? iconerr : undefined;
   iconCol = iconerrColor ? iconerrColor : undefined;
 
@@ -70,15 +70,15 @@ $httpClient.get(url, function(error, response, data){
   let w = tff.indexOf(warp);
   let warps;
   if (w !== -1) {
-  warps = "✓";
+  warps = "支持";
   } else {
-  warps = "✘";
+  warps = "不支持";
   }
 
   // 组装通知数据
   let body = {
     title: titlediy ? titlediy : 'ChatGPT',
-    content: `${gpt}  Loc: ${loc} `,
+    content:`${gpt}  区域:${loc}`,
     icon: iconUsed ? iconUsed : undefined,
     'icon-color': iconCol ? iconCol : undefined
   };
