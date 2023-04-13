@@ -342,5 +342,4 @@ engage.cloudflareclient.com:2408
 
 **顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669**
 
-附我的另外一个教程：[ZeroTrust从入门到放弃](https://www.craft.do/s/avqa8GJuLbLsFv)（Surge）
 
