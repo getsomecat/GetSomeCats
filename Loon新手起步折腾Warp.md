@@ -250,7 +250,7 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 ## boxjs中的设置：
 
-根据上面的教程我们已经安装并且配置好了boxjs，进入薯条的cloudflare 1.1.1.1，按照提示填入设备ID和在上一步生成的一对密钥
+根据上面的教程我们已经安装并且配置好了boxjs，进入薯条的cloudflare 1.1.1.1，按照提示填入设备ID和在上一步Wireguard App中生成的一对密钥，按照提示位置贴好设备ID、私钥和公钥。
 
 设备ID可在1.1.1.1 app的设置-诊断中找到，复制并保存
 
@@ -341,5 +341,4 @@ engage.cloudflareclient.com:2408
 优选IP教程地址：https://surge.ga/?p=2189
 
 **顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669**
-
 
