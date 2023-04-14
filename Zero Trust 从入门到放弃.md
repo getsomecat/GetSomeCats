@@ -94,7 +94,7 @@ https://github.com/getsomecat/GetSomeCats/blob/Surge/注册Cloudflare并加入Ze
 
 
 
-备注：关注telegram频道：https://t.me/warpplus ，会定时推送key，自己选一个按上面步骤填入即可；可以自己邀请朋友注册获得流量，因为第三方App（Loon、Surge、小火箭等）使用warp+消耗的流量并不会计入账户（只有通过1.1.1.1 App链接消耗的会计入），所以实际上只需要邀请一个朋友注册获得1G流量即可，也可以通过内购的方式获得每月无限流量（土区约4元/月）
+备注：关注telegram频道：https://t.me/warpplus ，会定时推送key，自己选一个按上面步骤填入即可；也可以通过telegram的这个bot：@generatewarpplusbot 根据它的命令来获取一个key，还可以自己邀请朋友注册获得流量，因为第三方App（Loon、Surge、小火箭等）使用warp+消耗的流量并不会计入账户（只有通过1.1.1.1 App链接消耗的会计入），所以实际上只需要邀请一个朋友注册获得1G流量即可，也可以通过内购的方式获得每月无限流量（土区约4元/月）
 
 
 
