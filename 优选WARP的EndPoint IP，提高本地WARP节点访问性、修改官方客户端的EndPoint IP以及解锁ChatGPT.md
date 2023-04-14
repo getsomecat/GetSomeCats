@@ -46,12 +46,6 @@
 wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
 ```
 
-Loon群古哈哈朋友提到下面这段更好，效果一样的，所以附上自行选用
-
-```
-curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
-```
-
 2.选择优选模式（默认为IPv4）
 
 <img src="./%E4%BC%98%E9%80%89WARP%E7%9A%84EndPoint%20IP%EF%BC%8C%E6%8F%90%E9%AB%98%E6%9C%AC%E5%9C%B0WARP%E8%8A%82%E7%82%B9%E8%AE%BF%E9%97%AE%E6%80%A7%E3%80%81%E4%BF%AE%E6%94%B9%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84EndPoint%20IP%E4%BB%A5%E5%8F%8A%E8%A7%A3%E9%94%81ChatGPT.assets/20230328001632.png" alt="20230328001632" style="zoom:75%;" />
@@ -68,12 +62,6 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 
 ```
 wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
-```
-
-Loon群古哈哈朋友提到下面这段更好，效果一样的，所以附上自行选用
-
-```
-curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
 ```
 
 
@@ -101,14 +89,6 @@ apk add -f openssh bash wget
 ```
 wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
 ```
-
-Loon群古哈哈朋友提到下面这段更好，效果一样的，所以附上自行选用
-
-```
-curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
-```
-
-
 
 3.选择优选模式（默认为IPv4）
 

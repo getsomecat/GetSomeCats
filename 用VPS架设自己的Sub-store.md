@@ -180,6 +180,8 @@ sudo vim /etc/nginx/sites-enabled/sub-store.conf
 
 根据自己的前面域名设置将以下内容改好后复制进去并保存
 
+**⚠️注意：改完后需要将//后面的注释部份删除掉，否则下一步检查nginx配置可能会出错。**
+
 
 ```
 server {
