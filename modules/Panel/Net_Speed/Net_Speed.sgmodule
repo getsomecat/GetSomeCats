@@ -14,6 +14,6 @@
 
 
 [Panel]
-NetSpeed = script-name=NetSpeed
+NetSpeed = script-name=NetSpeed,update-interval=-1
 [Script]
 NetSpeed = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.js,argument=title=NetSpeed&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=3
