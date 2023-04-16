@@ -1,0 +1,18 @@
+#!name=NetSpeed
+#!desc=花里胡哨才是生产力 测试网络下载速度、延迟并根据速度和延迟改变图标和颜色，乌龟、兔子还是闪电？
+#!auther=@xream @wuhu_zzz @keywos @整点猫咪 技术指导：整点薯条
+##各种花里胡哨参数，通过argument传入，用=连接key及相应value，用&链接各种key，可以任意选择想填入的参数
+##title：标题
+##iconfast、iconmid、iconslow 分别对应测速快中慢时的图标
+##colorlow、colormid、colorhigh 分别对应延迟低中高时的图标颜色
+##配置实例：title=花里胡哨才是生产力&iconfast=bird&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F
+
+##⚠️不想变化多端？？
+##可直接使用最基本的panel参数，title、icon、icon-color
+##配置实例：titile=不想花里胡哨了&icon=hare&icon-color=#CDCDCD
+
+
+[Panel]
+NetSpeed = script-name=NetSpeed
+[Script]
+NetSpeed = type=generic,script-path=test_5https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/NetSpeed/NetSpeed.js,argument=title=NetSpeed&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F
