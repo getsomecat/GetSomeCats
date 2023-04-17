@@ -1,11 +1,11 @@
 /*
-作者：@xream @keywos @wuhu_zzz @整点猫咪 技术指导：整点薯条 
+作者：@xream @keywos @wuhu_zzz @ TEXAS @整点猫咪 技术指导：整点薯条 
 整点花里胡哨
 各种花里胡哨参数，通过argument传入，用=连接key及相应value，用&链接各种key，可以任意选择想填入的参数
 title：标题
+mb参数：每次测试消耗的流量，默认1MB，经测试最大可4MB参数：&mb=4，默认3MB
 iconfast、iconmid、iconslow 分别对应测速快中慢时的图标
 colorlow、colormid、colorhigh 分别对应延迟低中高时的图标颜色
-mb参数：每次测试消耗的流量，默认1MB，经测试最大可4MB参数：&mb=4
 配置实例：title=花里胡哨才是生产力&iconfast=bird&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F
 
 ⚠️不想变化多端？？
@@ -32,9 +32,8 @@ let content = ''
   const res = await $.http.get({
     url: `https://speed.cloudflare.com/__down?bytes=${bytes}`
   })
-  const time = $.lodash_get(res, 'headers.cf-meta-request-time')
   const end = Date.now()
-  const duration = (end - time || start) / 1000
+  const duration = (end - start) / 1000
   const speed = mb / duration
   const pingstart = Date.now()
 	const ping = await $.http.get({
@@ -58,20 +57,25 @@ let content = ''
   console.log(`icon=shifts[${a}]:`+shifts[a])
 	console.log(`icon-color[${b}]:`+shifts[b])
   title = `NetSpeed`
-  content = `下行速率：${round(Math.abs(speed * 8))} Mbps  [${round(Math.abs(speed, 2), 1)} MB/s]\n测试耗时：${round(Math.abs(duration, 2),2)}s\n网络延迟：${pingt} ms\n执行时间：${new Date().toTimeString().split(' ')[0]}`
+  content = `下行速率: ${round(Math.abs(speed * 8))} Mbps [${round(Math.abs(speed, 2), 1)} MB/s]\n测试耗时: ${round(Math.abs(duration, 2),2)}s\n网络延迟: ${pingt} ms\n执行时间: ${new Date().toTimeString().split(' ')[0]}`
   if ($.isTile()) {
     await notify('网络速率', '面板', '查询完成')
   } else if(!$.isPanel()) {
     await notify('网络速率', title, content)
   }
 })()
-  .catch(async e => {
-    $.logErr(e)
-    $.logErr($.toStr(e))
-    const msg = `${$.lodash_get(e, 'message') || $.lodash_get(e, 'error') || e}`
-    title = `❌`
-    content = msg
-    await notify('网络速率', title, content)
+.catch(async e => {
+  $.logErr(e)
+  $.logErr($.toStr(e))
+  const msg = `${$.lodash_get(e, 'message') || $.lodash_get(e, 'error') || e}`
+  title = `❌`
+  content = msg
+  await notify('网络速率', title, content)
+$.log(title)
+$.log(content)
+  const result = { title, content}
+  //$.log($.toStr(result))
+  $.done(result)
   })
   .finally(async () => {
     const result = { title, content, icon, 'icon-color': color, ...arg}
