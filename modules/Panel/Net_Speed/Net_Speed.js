@@ -42,8 +42,8 @@ let content = ''
 	pingt = Date.now()-pingstart
 	console.log('to see:'+pingt)
 	console.log(duration)
-  const a = Diydecide(0,50,100,round(Math.abs(speed * 8)))
-  const b = Diydecide(0,100,200,pingt) + 3
+  const a = Diydecide(0,80,160,round(Math.abs(speed * 8)))
+  const b = Diydecide(0,150,300,pingt) + 3
 	let shifts = {
 		'1': arg?.iconslow,
 		'2': arg?.iconmid,
