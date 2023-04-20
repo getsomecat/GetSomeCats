@@ -6,6 +6,14 @@
 
 本文仅仅初步介绍一下如何进行安装和使用
 
+**本文适合：**
+
+- **有VPS、Mac**
+- **动手能力较强**
+- **有排查解决问题能力，懂一些代码更好**
+
+
+
 ## 通过Docker安装
 
 ### 安装docker
@@ -139,6 +147,26 @@ DNS=9.9.9.11
 
 `systemctl restart systemd-resolved.service`
 
+### 进阶使用
+
+UDP 检测/免流检测/自定义节点名称/自定义过滤/自定义输出等高级配置
+
+
+
+高端玩家可以自己进容器把文件夹复制出来
+
+
+
+然后编辑高级自定义配置 `/root/lite-test/global/config/default.js`
+
+
+
+然后 docker 命令加上 `-v /root/lite-test/global/config:/opt/app/config`
+
+
+
+如果你有更复杂的自定义需求需要修改其他的几个文件夹的话, 也一样操作
+
 ### 自动运行
 
 这里其实还存在一个问题，如果你的节点有变动，那么就需要登录到vps上进行拉取节点和检测节点然后去结果里面进行查看更新，相当麻烦，这里有一个自动运行的脚本，可以设置定时将你的结果上传到你设置的静态页面（需要nginx设置），gist，并给你的telegram发送通知：
@@ -163,9 +191,9 @@ cd /root/lite-test/global
 
 # 跑
 
-docker run --privileged -v /root/lite-test/global/clash:/opt/app/clash -v /root/lite-test/global/config:/opt/app/config -v /root/lite-test/global/data:/opt/app/data xream/lite-test node sub/index.js
+docker run --privileged -v /root/lite-test/global/data:/opt/app/data xream/lite-test node sub/index.js
 
-docker run --privileged -v /root/lite-test/global/clash:/opt/app/clash -v /root/lite-test/global/config:/opt/app/config -v /root/lite-test/global/data:/opt/app/data xream/lite-test node check/index.js
+docker run --privileged -v /root/lite-test/global/data:/opt/app/data xream/lite-test node check/index.js
 
 mkdir -p /etc/nginx/share/global
 
