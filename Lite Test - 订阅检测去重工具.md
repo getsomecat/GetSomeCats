@@ -367,6 +367,37 @@ git@gist.github.com:xxxxxxxxxxxxxxx.git这个地址即为在上一步中复制�
 
 根据这个同步到gist的操作，结合上面给出的自动运行脚本，修改后就可以定时拉取到最新的订阅了。
 
+根据以上过程我自己整理的一个一键运行脚本，在vpn里面建一个sh文件将以下内容根据上面过程修改为自己的gist clone文件夹名字即可：
+
+`vim litetest.sh`
+
+```
+#!/bin/bash
+
+# 进入目录
+
+cd $(cd `dirname $0`; pwd)
+cd /root/lite-test/global
+
+# 运行脚本
+
+docker run --privileged -v /root/lite-test/global/data:/opt/app/data xream/lite-test node sub/index.js
+docker run --privileged -v /root/lite-test/global/data:/opt/app/data xream/lite-test node check/index.js
+
+# 复制文件
+
+cd /root/lite-test/gist clone过来的文件夹名字
+cp -R /root/lite-test/global/clash/provider/normal/* ./
+
+# 提交更改到 Github
+
+git add .
+git commit --author="GitHub ID <xxxxx@xxxx.com>" -m "[!] `date +%Y%m%d-%H:%M:%S`"
+git push --all
+```
+
+
+
 如果在使用过程中，有任何问题，可以进群：https://t.me/zhetengsha_group 找@xream 反馈
 
 
