@@ -163,7 +163,15 @@ UDP 检测/免流检测/自定义节点名称/自定义过滤/自定义输出等
 
 然后 docker 命令加上 `-v /root/lite-test/global/config:/opt/app/config`
 
+运行时候就是这样：
 
+```
+docker run --privileged -v /root/lite-test/global/config:/opt/app/config -v /root/lite-test/global/data:/opt/app/data xream/lite-test node sub/index.js
+
+
+
+docker run --privileged -v /root/lite-test/global/config:/opt/app/config -v /root/lite-test/global/data:/opt/app/data xream/lite-test node check/index.js
+```
 
 如果你有更复杂的自定义需求需要修改其他的几个文件夹的话, 也一样操作
 
