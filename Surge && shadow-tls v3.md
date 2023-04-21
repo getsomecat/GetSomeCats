@@ -78,13 +78,21 @@ WantedBy=multi-user.target
 
 参数说明：
 
-\# --listen 0.0.0.0:8443                 / /这个是你后面在surge里面输入的端口号
+\# --listen 0.0.0.0:8443 
 
-\# --server 127.0.0.1:40172         //SS 或 Snell 的监听端口，SS 那边可以监听改为 127.0.0.1
+这个是你后面在surge里面输入的端口ipv6的话改成[::]:8443 ，8443不用改动
 
-\# --password JsJeWtjiUyJ5yeto       // shadow-tls 的密码
+\# --server 127.0.0.1:40172 
 
-\# --tls  gateway.icloud.com           //tls伪装网址
+监听端口，SS 那边可以监听改为 127.0.0.1,ipv6的话改成[::1]:40172，
+
+\# --password JsJeWtjiUyJ5yeto 
+
+shadow-tls 的密码
+
+\# --tls  gateway.icloud.com 
+
+tls伪装网址 要改TLS的话，作者推荐[V3 Protocol · ihciah/shadow-tls Wiki · GitHub](https://github.com/ihciah/shadow-tls/wiki/V3-Protocol?ref=blog.lalalayyds.top#services-that-support-tls13)
 
 
 
