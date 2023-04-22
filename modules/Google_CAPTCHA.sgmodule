@@ -1,13 +1,14 @@
 
 
-#!name=📺 BiliBili: 🌐 Global β
-#!desc=(BETA) 哔哩哔哩：全球模式（中国站自动线路及全区搜索）
+#!name=Google CAPTCHA
+#!desc=Google搜索内容时并发使用多个策略(组)，以避免可能出现的人机验证
+#!author=NobyDa
 
 [Script]
-Google CAPTCHA = type=http-response,pattern=^https:\/\/www\.google\.com(\.[a-z]+|)\/search\?q=,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Google_CAPTCHA.js,max-size=0,timeout=10,ability=http-client-policy,argument=^(🇸🇬|🇭🇰|HK|Singapore|Hong|SG|US|🇺🇸|坡|港|美|狮城|)\s.*\d+$
+Google CAPTCHA = type=http-response,pattern=^https:\/\/www\.google\.com(\.[a-z]+|)\/search\?q=,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/Google_CAPTCHA.js,max-size=0,timeout=10,ability=http-client-policy,argument=^(🇸🇬|🇭🇰|HK|Singapore|Hong|SG|US|🇺🇸|坡|港|美|狮城)\s.*\d+$
 
 [MITM]
-hostname = www.google.com*
+hostname =%APPEND%  www.google.com*
 
 
 /*
@@ -18,10 +19,10 @@ Google搜索内容时并发使用多个策略(组)，以避免可能出现的人
 Surge脚本配置:
 
 [Script]
-Google CAPTCHA = type=http-response,pattern=^https:\/\/www\.google\.com(\.[a-z]+|)\/search\?q=,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Google_CAPTCHA.js,max-size=0,timeout=10,ability=http-client-policy,argument=^(🇸🇬|🇭🇰|HK|Singapore|Hong|SG|US|🇺🇸|坡|港|美|狮城|)\s.*\d+$
+Google CAPTCHA = type=http-response,pattern=^https:\/\/www\.google\.com(\.[a-z]+|)\/search\?q=,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Google_CAPTCHA.js,max-size=0,timeout=10,ability=http-client-policy,argument=^(🇸🇬|🇭🇰|HK|Singapore|Hong|SG|US|🇺🇸|坡|港|美|狮城)\s.*\d+$
 
 [MITM]
-hostname = www.google.com*
+hostname =%APPEND%  www.google.com*
 
 */
 
