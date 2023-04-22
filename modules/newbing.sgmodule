@@ -1,12 +1,6 @@
 #!name=Bing Edge UA
 #!desc=safari修改UA直接使用newbing，作者: Surge Pro群大佬 小白脸
 
-[MITM]
-hostname = %APPEND% *.bing.com, bing.com
-
-[Script]
-<<<<<<< Surge
-bing-edge-ua = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MyJs/edge-useragent.js,requires-body=false
-=======
-bing-edge-ua = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/edge-useragent.js,requires-body=false
->>>>>>> upstream/Surge
+[Header Rewrite]
+# > New Bing Ai
+^https:\/\/www\.bing\.com\/(search|new) header-replace-regex User-Agent \w+\/[\d\.]+$ "AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0"
