@@ -45,8 +45,13 @@ https://surge.ga/13/2481/
 `apt update && apt upgrade -y`
 
 ##### 下载Shadow-Tls
+ARM
 
 `wget https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-aarch64-unknown-linux-musl -O /usr/local/bin/shadow-tls`
+
+X86_AMD
+
+`wget https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-x86_64-unknown-linux-musl -O /usr/local/bin/shadow-tls`
 
 ##### 给权限
 
