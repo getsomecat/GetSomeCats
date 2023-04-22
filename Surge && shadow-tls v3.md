@@ -78,19 +78,19 @@ WantedBy=multi-user.target
 
 参数说明：
 
-\# --listen 0.0.0.0:8443 
+\# --listen 0.0.0.0:8443
 
-这个是你后面在surge里面输入的端口ipv6的话改成[::]:8443 ，8443不用改动
+这个是你后面在surge里面输入的端口ipv6的话改成::0:8443 ，8443不用改动
 
-\# --server 127.0.0.1:40172 
+\# --server 127.0.0.1:40172
 
 监听端口，SS 那边可以监听改为 127.0.0.1,ipv6的话改成[::1]:40172，
 
-\# --password JsJeWtjiUyJ5yeto 
+\# --password JsJeWtjiUyJ5yeto
 
 shadow-tls 的密码
 
-\# --tls  gateway.icloud.com 
+\# --tls  gateway.icloud.com
 
 tls伪装网址 要改TLS的话，作者推荐[V3 Protocol · ihciah/shadow-tls Wiki · GitHub](https://github.com/ihciah/shadow-tls/wiki/V3-Protocol?ref=blog.lalalayyds.top#services-that-support-tls13)
 
@@ -106,11 +106,11 @@ vim操作：
 
 ##### 将服务单元添加到自启动项
 
- `systemctl enable shadow-tls.service` 
+ `systemctl enable shadow-tls.service`
 
 ##### 重载系统配置文件
 
- `systemctl daemon-reload` 
+ `systemctl daemon-reload`
 
 **启动服务**
 
@@ -249,7 +249,7 @@ docker logs -f shadow-tls
 在确定服务端搭建完成之后，就可以将以下配置，复制到对应的snell节点上了
 
 ```javascript
-, shadow-tls-password=Gm8UXm6aridZ, shadow-tls-sni=mp.weixin.qq.com:443, shadow-tls-version=3
+, shadow-tls-password=Gm8UXm6aridZ, shadow-tls-sni=mp.weixin.qq.com, shadow-tls-version=3
 ```
 
 图中对应上面的配置
@@ -261,7 +261,7 @@ docker logs -f shadow-tls
 最终节点的配置应该是这样
 
 ```javascript
-Snell+TLS = snell, x.x.x.x（vps的ip）, 8443, psk=GLk1ff4wuQNCDSqr97WwsHwe8KBjy3S, version=4, shadow-tls-password=Gm8UXm6aridZ, shadow-tls-sni=mp.weixin.qq.com:443, shadow-tls-version=3
+Snell+TLS = snell, x.x.x.x（vps的ip）, 8443, psk=GLk1ff4wuQNCDSqr97WwsHwe8KBjy3S, version=4, shadow-tls-password=Gm8UXm6aridZ, shadow-tls-sni=mp.weixin.qq.com, shadow-tls-version=3
 ```
 
 至此全部完成！！
