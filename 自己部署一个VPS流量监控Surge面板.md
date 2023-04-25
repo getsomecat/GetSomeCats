@@ -342,7 +342,24 @@ done
 
 
 
-Surge模块安装
+#### Surge模块安装
 
 
 
+将下面内容复制到本地模块中：
+
+```
+#!name=CatVPS
+#!desc=监控VPS流量信息和处理器、内存占用情况
+#!author= 面板和脚本部分@wuhu_zzz VPS端部分 @ATRI0828 由 @整点猫咪 进行整理
+#!howto=将模块内容复制到本地后根据自己VPS IP地址及端口修改 http://127.0.0.1:49155/traffic 部分进行使用
+
+[Panel]
+Cat VPS = script-name=CatVPS
+
+[Script]
+[Script]
+CatVPS = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/CatVPS.js, argument = url=http://127.0.0.1:49155/traffic&title=Cat VPS&icon=exclamationmark.icloud&low=#06D6A0&mid=#FFD166&high=#EF476F
+```
+
+将其中的 `http://127.0.0.1:49155/traffic`部分根据自己上面教程部分改为自己的VPS IP和端口即可使用。
