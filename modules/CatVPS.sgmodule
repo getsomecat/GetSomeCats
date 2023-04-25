@@ -7,5 +7,4 @@
 Cat VPS = script-name=CatVPS
 
 [Script]
-[Script]
 CatVPS = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/CatVPS.js, argument = url=http://127.0.0.1:49155/traffic&title=Cat VPS&icon=exclamationmark.icloud&low=#06D6A0&mid=#FFD166&high=#EF476F
