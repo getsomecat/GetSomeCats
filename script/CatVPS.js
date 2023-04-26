@@ -33,7 +33,7 @@ const request = {
 $httpClient.get(request, function(error, response, data) {
     if (error) {
         console.log('error: '+error);
-        $done({title:'哦吼', content:'完蛋了'+error});
+        $done({title:'哦吼', content:'完蛋了，连不上，看看是不是端口没打开？'+error});
     } else  {
         const Data = JSON.parse(data);
         const col = Diydecide(0, 30 ,70, parseInt(Data.mem));
