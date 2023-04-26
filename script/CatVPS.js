@@ -3,7 +3,8 @@
  * 本地脚本修改URL信息
  * 脚本作者：@wuhu_zzz 整理者：整点猫咪
  * 使用时需要在panel中设置自己的vps端口和IP地址等
- * 详细使用方法请参照教程：
+ * 详细使用方法请参照教程：https://surge.ga/09/2549/
+ * https://github.com/getsomecat/GetSomeCats/blob/Surge/自己部署一个VPS流量监控Surge面板.md
  */
 
 

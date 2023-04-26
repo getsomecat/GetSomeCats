@@ -30,11 +30,11 @@
 
 - ### SSH登录到VPS
 
-  
+
 
 - ### 获取权限
 
-  
+
 
 `sudo -i`
 
@@ -42,7 +42,7 @@
 
 - ### 更新和升级系统
 
-  
+
 
 `apt update && apt upgrade -y`
 
@@ -50,7 +50,7 @@
 
 - ### 安装caddy
 
-  
+
 
 - ####  Caddy 的 GPG 密钥添加到 trusted.gpg.d 目录中
 
@@ -62,7 +62,7 @@ curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo tee /et
 
 - #### 添加 Caddy 的 apt 仓库
 
-  
+
 
 ```
 echo "deb [trusted=yes] https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version main" | sudo tee /etc/apt/sources.list.d/caddy-stable.list
@@ -72,7 +72,7 @@ echo "deb [trusted=yes] https://dl.cloudsmith.io/public/caddy/stable/deb/debian 
 
 - #### apt 软件源列表并安装 Caddy
 
-  
+
 
 ```
 apt update
@@ -84,7 +84,7 @@ apt install caddy
 
 - ### 编写服务
 
-  
+
 
 `vim /etc/systemd/system/traffic.service`
 
@@ -97,7 +97,7 @@ apt install caddy
 Description=traffic
 After=network.target
 
-[Service]  
+[Service]
 Type=simple
 User=root
 WorkingDirectory=/root/
@@ -114,7 +114,7 @@ WantedBy=multi-user.target
 
 - ### 编写运行程序
 
-  
+
 
 `vim /root/traffice.sh`
 
@@ -125,204 +125,117 @@ WantedBy=multi-user.target
 
 
 ```
-\#!/bin/sh
+#!/bin/sh
 
 if [ "$1" == "--help" ];then
-
   cat << EOF
-
 $0 网卡名称
-
 --help 打印帮助菜单
-
 EOF
-
 fi
 
 if [ -z "$1" ];then
-
   if ip a ; then
-
   interface=$(ip a | grep mtu | awk -F ':' '{print $2}' | head -n 2 | tail -n +2 | awk -F ' ' '{print $1}')
-
   else
-
   interface=eth0
-
   fi
-
 else
-
   interface=$1
-
 fi
 
 if [ "$(cat /proc/uptime | awk '{print $1}' | sed 's/\..*//g')" -lt "120" ]; then
-
   if [ -n "$(cat ./all)" ]; then
-
-​    expr "$(cat ./all)" + "$(cat ./all-now)" > ./all
-
+    expr "$(cat ./all)" + "$(cat ./all-now)" > ./all
   else
-
-​    echo "1" > ./all
-
+    echo "1" > ./all
   fi
-
   if [ -n "$(cat ./tx)" ]; then
-
-​    expr "$(cat ./tx)" + "$(cat ./tx-now)" > ./tx
-
+    expr "$(cat ./tx)" + "$(cat ./tx-now)" > ./tx
   else
-
-​    echo "1" > ./tx
-
+    echo "1" > ./tx
   fi
-
   if [ -n "$(cat ./rx)" ]; then
-
-​    expr "$(cat ./rx)" + "$(cat ./rx-now)" > ./rx
-
+    expr "$(cat ./rx)" + "$(cat ./rx-now)" > ./rx
   else
-
-​    echo "1" > ./rx
-
+    echo "1" > ./rx
   fi
-
 else
-
   if [ -z "$(cat ./all)" ]; then
-
-​    echo "1" > ./all
-
+    echo "1" > ./all
   fi
-
   if [ -z "$(cat ./tx)" ]; then
-
-​    echo "1" > ./tx
-
+    echo "1" > ./tx
   fi
-
   if [ -z "$(cat ./rx)" ]; then
-
-​    echo "1" > ./rx
-
+    echo "1" > ./rx
   fi
-
 fi
 
 nohup caddy file-server --browse --listen :49155 &
 
 NIC_RX=$(cat "/sys/class/net/${interface}/statistics/rx_bytes")
-
 NIC_TX=$(cat "/sys/class/net/${interface}/statistics/tx_bytes")
 
+
 calculate() {
-
 str=`expr $str + 2`
-
 str=`expr $str / 4 `
-
-if [ $str = 0 ]; then 
-
+if [ $str = 0 ]; then
 value="$info"B
-
 elif [ $str = 1 ]; then
-
 value=`expr $info / 1024`KB
-
 elif [ $str = 2 ]; then
-
 value=`expr $info / 1024 / 1024`MB
-
 elif [ $str = 3 ]; then
-
 value=`expr $info / 1024 / 1024 / 1024`GB
-
 elif [ $str = 4 ]; then
-
 value=`expr $info / 1024 / 1024 / 1024 / 1024`TB
-
 elif [ $str = 5 ]; then
-
 value=`expr $info / 1024 / 1024 / 1024 / 1024 / 1024`PB
-
 fi
-
 }
 
 while true; do
-
   NIC_RX=$(cat "/sys/class/net/${interface}/statistics/rx_bytes")
-
   NIC_TX=$(cat "/sys/class/net/${interface}/statistics/tx_bytes")
-
   NIC=$(expr $NIC_RX + $NIC_TX)
-
   echo ${NIC} > ./all-now
-
   echo ${NIC_TX} > ./tx-now
-
   echo ${NIC_RX} > ./rx-now
-
   rx=$(cat ./rx)
-
   tx=$(cat ./tx)
-
   all=$(cat ./all)
-
   NIC_RX_ALL=$(expr ${NIC_RX} + ${rx})
-
   NIC_TX_ALL=$(expr ${NIC_TX} + ${tx})
-
   NIC_ALL=$(expr ${NIC} + ${all})
-
   str=${#NIC_RX_ALL} && info=${NIC_RX_ALL} && calculate && NIC_RX_ALL=$value
-
   str=${#NIC_TX_ALL} && info=${NIC_TX_ALL} && calculate && NIC_TX_ALL=$value
-
   str=${#NIC_ALL} && info=${NIC_ALL} && calculate && NIC_ALL=$value
 
   CPU_USAGE=$(top -b -n 1 | grep Cpu | awk '{print $2}' | cut -f 1 -d "%" | sed 's/\..*//g')
-
   CPU_SYS=$(top -b -n 1 | grep Cpu | awk '{print $4}' | cut -f 1 -d "%" | sed 's/\..*//g')
-
   CPU=$(expr $CPU_USAGE + $CPU_SYS)
 
   MEM_TOTAL=$(free -m | awk -F '[ :]+' 'NR==2{print $2}')
-
   MEM_USER=$(free -m | awk -F '[ :]+' 'NR==2{print $3}')
-
   MEM=$(expr $MEM_USER \* 100 / $MEM_TOTAL )
 
   clear
-
   echo "网卡流量监控"
-
   echo "----------------------------------------"
-
   echo "网卡: $interface"
-
   echo "发送: ${NIC_TX_ALL}  接收: ${NIC_RX_ALL}  总流量: ${NIC_ALL}"
-
   echo "CPU使用率:${CPU}%  内存使用率: ${MEM}%"
-
   echo "{" > ./traffic
-
   echo "  \"in\": \"${NIC_RX_ALL}\","  >> ./traffic
-
   echo "  \"out\": \"${NIC_TX_ALL}\"," >> ./traffic
-
   echo "  \"all\": \"${NIC_ALL}\"," >> ./traffic
-
   echo "  \"cpu\": \"${CPU}%\"," >> ./traffic
-
   echo "  \"mem\": \"${MEM}%\"" >> ./traffic
-
   echo "}" >> ./traffic
 
   sleep 1
-
 done
 ```
 
@@ -332,11 +245,11 @@ done
 
 - ### 运行
 
-  
+
 
   进行完上述步骤后，执行下面指令运行
 
-  
+
 
 `systemctl enable --now traffic`
 
