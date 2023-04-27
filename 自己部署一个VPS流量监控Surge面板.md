@@ -60,7 +60,7 @@ curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo tee /et
 
 
 
-- #### 添加 Caddy 的 apt 仓库
+- ####  添加 Caddy 的 apt 仓库
 
 
 
@@ -70,7 +70,7 @@ echo "deb [trusted=yes] https://dl.cloudsmith.io/public/caddy/stable/deb/debian 
 
 
 
-- #### apt 软件源列表并安装 Caddy
+- ####  apt 软件源列表并安装 Caddy
 
 
 
@@ -82,7 +82,7 @@ apt install caddy
 
 
 
-- ### 编写服务
+- ###  编写服务
 
 
 
@@ -103,16 +103,18 @@ User=root
 WorkingDirectory=/root/
 ExecStart=/root/traffic.sh
 Restart=on-failure
+RestartSec=30s
 
 [Install]
 WantedBy=multi-user.target
+
 ```
 
 备注：默认的是网卡名是 **eth0**，如果是其它网卡名，将 `ExecStart=/root/traffic.sh`这里改写为：`ExecStart=/root/traffic.sh ethxx`    **ethxx**为你的网卡名
 
 
 
-- ### 编写运行程序
+- ###  编写运行程序
 
 
 
@@ -146,36 +148,33 @@ fi
 
 if [ "$(cat /proc/uptime | awk '{print $1}' | sed 's/\..*//g')" -lt "120" ]; then
   if [ -n "$(cat ./all)" ]; then
-    expr "$(cat ./all)" + "$(cat ./all-now)" > ./all
+  expr "$(cat ./all)" + "$(cat ./all-now)" > ./all
   else
-    echo "1" > ./all
+  echo "1" > ./all
   fi
   if [ -n "$(cat ./tx)" ]; then
-    expr "$(cat ./tx)" + "$(cat ./tx-now)" > ./tx
+  expr "$(cat ./tx)" + "$(cat ./tx-now)" > ./tx
   else
-    echo "1" > ./tx
+  echo "1" > ./tx
   fi
   if [ -n "$(cat ./rx)" ]; then
-    expr "$(cat ./rx)" + "$(cat ./rx-now)" > ./rx
+  expr "$(cat ./rx)" + "$(cat ./rx-now)" > ./rx
   else
-    echo "1" > ./rx
+  echo "1" > ./rx
   fi
 else
   if [ -z "$(cat ./all)" ]; then
-    echo "1" > ./all
+  echo "1" > ./all
   fi
   if [ -z "$(cat ./tx)" ]; then
-    echo "1" > ./tx
+  echo "1" > ./tx
   fi
   if [ -z "$(cat ./rx)" ]; then
-    echo "1" > ./rx
+  echo "1" > ./rx
   fi
 fi
 
 nohup caddy file-server --browse --listen :49155 &
-
-NIC_RX=$(cat "/sys/class/net/${interface}/statistics/rx_bytes")
-NIC_TX=$(cat "/sys/class/net/${interface}/statistics/tx_bytes")
 
 
 calculate() {
@@ -196,7 +195,13 @@ value=`expr $info / 1024 / 1024 / 1024 / 1024 / 1024`PB
 fi
 }
 
+START_TIME=$(date +%s)
+
 while true; do
+  # 记录执行时间
+  CURRENT_TIME=$(date +%s)
+  TIME_PASSED=$((CURRENT_TIME - START_TIME))
+
   NIC_RX=$(cat "/sys/class/net/${interface}/statistics/rx_bytes")
   NIC_TX=$(cat "/sys/class/net/${interface}/statistics/tx_bytes")
   NIC=$(expr $NIC_RX + $NIC_TX)
@@ -232,10 +237,12 @@ while true; do
   echo "  \"out\": \"${NIC_TX_ALL}\"," >> ./traffic
   echo "  \"all\": \"${NIC_ALL}\"," >> ./traffic
   echo "  \"cpu\": \"${CPU}%\"," >> ./traffic
-  echo "  \"mem\": \"${MEM}%\"" >> ./traffic
+  echo "  \"mem\": \"${MEM}%\"," >> ./traffic
+  echo "  \"last_exec_time\": \"$(date '+%Y-%m-%d %H:%M:%S')\"" >> ./traffic
   echo "}" >> ./traffic
 
-  sleep 1
+  # 休眠 10 秒钟
+  sleep 10
 done
 ```
 
@@ -243,7 +250,7 @@ done
 
 
 
-- ### 运行
+- ###  运行
 
 
 
@@ -255,7 +262,7 @@ done
 
 
 
-#### Surge模块安装
+####  Surge模块安装
 
 
 
