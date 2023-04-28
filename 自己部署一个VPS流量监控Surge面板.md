@@ -148,29 +148,29 @@ fi
 
 if [ "$(cat /proc/uptime | awk '{print $1}' | sed 's/\..*//g')" -lt "120" ]; then
   if [ -n "$(cat ./all)" ]; then
-  expr "$(cat ./all)" + "$(cat ./all-now)" > ./all
+	expr "$(cat ./all)" + "$(cat ./all-now)" > ./all
   else
-  echo "1" > ./all
+	echo "1" > ./all
   fi
   if [ -n "$(cat ./tx)" ]; then
-  expr "$(cat ./tx)" + "$(cat ./tx-now)" > ./tx
+	expr "$(cat ./tx)" + "$(cat ./tx-now)" > ./tx
   else
-  echo "1" > ./tx
+	echo "1" > ./tx
   fi
   if [ -n "$(cat ./rx)" ]; then
-  expr "$(cat ./rx)" + "$(cat ./rx-now)" > ./rx
+	expr "$(cat ./rx)" + "$(cat ./rx-now)" > ./rx
   else
-  echo "1" > ./rx
+	echo "1" > ./rx
   fi
 else
   if [ -z "$(cat ./all)" ]; then
-  echo "1" > ./all
+	echo "1" > ./all
   fi
   if [ -z "$(cat ./tx)" ]; then
-  echo "1" > ./tx
+	echo "1" > ./tx
   fi
   if [ -z "$(cat ./rx)" ]; then
-  echo "1" > ./rx
+	echo "1" > ./rx
   fi
 fi
 
@@ -260,6 +260,10 @@ done
 
 `systemctl enable --now traffic`
 
+可以通过 `bash traffic.sh` 来直接运行
+通过 `systemctl status traffic`  来查看服务状态
+如果发现出来的时间不对，可以通过  `timedatectl set-timezone Asia/Shanghai`  来将vps时区调整为东八区。
+
 
 
 ####  Surge模块安装
@@ -272,14 +276,13 @@ done
 #!name=CatVPS
 #!desc=监控VPS流量信息和处理器、内存占用情况
 #!author= 面板和脚本部分@wuhu_zzz VPS端部分 @ATRI0828 由 @整点猫咪 进行整理
-#!howto=将模块内容复制到本地后根据自己VPS IP地址及端口修改 http://127.0.0.1:49155/traffic 部分进行使用
+#!howto=将模块内容复制到本地后根据自己VPS IP地址及端口修改 http://127.0.0.1:49155/traffic 部分进行使用ddl=后面接你的VPS到期时间，total=输入你的VPS每月流量数目
 
 [Panel]
 Cat VPS = script-name=CatVPS
 
 [Script]
-[Script]
-CatVPS = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/CatVPS.js, argument = url=http://127.0.0.1:49155/traffic&title=Cat VPS&icon=exclamationmark.icloud&low=#06D6A0&mid=#FFD166&high=#EF476F
+CatVPS = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/CatVPS.js, argument = url=http://127.0.0.1:49155/traffic&title=Cat VPS&icon=bolt.horizontal.icloud.fill&low=#06D6A0&mid=#FFD166&high=#EF476F&ddl=2100-01-01&total=10TB
 ```
 
 将其中的 `http://127.0.0.1:49155/traffic`部分根据自己上面教程部分改为自己的VPS IP和端口即可使用。
