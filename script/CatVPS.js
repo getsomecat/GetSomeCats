@@ -48,7 +48,7 @@ $httpClient.get(request, function(error, response, data) {
         $done({title:'啊呃～', content:'完蛋了，出错了！看看是不是端口没打开？'+error});
     } else  {
         const Data = JSON.parse(data);
-        const col = Diydecide(0, 10 ,25, parseInt(Data.mem));
+        const col = Diydecide(0, 30 ,70, parseInt(Data.mem));
         console.log(Data);
     panel["icon-color"] = shifts[col];
     panel.content = `统计时间：${Data.last_exec_time}\n` +

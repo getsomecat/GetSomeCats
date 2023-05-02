@@ -118,7 +118,7 @@ WantedBy=multi-user.target
 
 
 
-`vim /root/traffice.sh`
+`vim /root/traffic.sh`
 
 
 
