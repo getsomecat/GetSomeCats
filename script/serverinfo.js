@@ -1,6 +1,6 @@
 /*
 注⚠️：脚本的运行需提前在VPS上完成相关操作
-原作者：@Sestea 由@clydetime 整点猫咪进行了一些修改
+原作者：@GetSomeNeko 由@clydetime 整点猫咪进行了一些修改
 参数介绍：
 url：你的VPS设置的链接
 name：Panel的标题

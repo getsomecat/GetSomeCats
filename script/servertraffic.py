@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Sestea
+# @GetSomeNeko
 
 import http.server
 import socketserver
@@ -26,7 +26,7 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
         bytes_recv = psutil.net_io_counters().bytes_recv
         bytes_total = bytes_sent + bytes_recv
 
-        
+
         # Get UTC timestamp and uptime
         utc_timestamp = int(time.time())
         uptime = int(time.time() - psutil.boot_time())

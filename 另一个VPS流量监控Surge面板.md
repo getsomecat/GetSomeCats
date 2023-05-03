@@ -4,7 +4,7 @@
 
 在自己的VPS简单部署一个流量统计服务，然后通过Surge的面板进行进出站的流量监控和内存、处理器的占用机器运行时间等进行监控。
 
-之前写过一篇通过 shell +caddy 的方式进行，后面 @Sestea 大佬通过 Python 的方式也写了一个，相对来说更简单，我结合之前的整理一下过程。
+之前写过一篇通过 shell +caddy 的方式进行，后面 @GetSomeNeko 大佬通过 Python 的方式也写了一个，相对来说更简单，我结合之前的整理一下过程。
 
 之前的部署方法链接：[Github](https://github.com/getsomecat/GetSomeCats/blob/Surge/自己部署一个VPS流量监控Surge面板.md)  [Blog](https://surge.ga/09/2549/)
 
@@ -54,13 +54,13 @@
 
   运行以下命令安装 Python3 和 pip 包管理器。
 
-  
+
 
   ```
   sudo apt install python3 python3-pip
   ```
 
-  
+
 
 
 
@@ -115,7 +115,7 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
         bytes_recv = psutil.net_io_counters().bytes_recv
         bytes_total = bytes_sent + bytes_recv
 
-        
+
         # Get UTC timestamp and uptime
         utc_timestamp = int(time.time())
         uptime = int(time.time() - psutil.boot_time())
@@ -216,7 +216,7 @@ WantedBy=multi-user.target
 #!name=CatVPS
 #!desc=监控VPS流量信息和处理器、内存占用情况
 #!author= 面板和脚本部分@Sestea @clydetime  VPS端部分 @Sestea 由 @整点猫咪 进行整理
-#!howto=将模块内容复制到本地后根据自己VPS IP地址及端口修改 http://127.0.0.1:7122 
+#!howto=将模块内容复制到本地后根据自己VPS IP地址及端口修改 http://127.0.0.1:7122
 
 
 
