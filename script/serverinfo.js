@@ -40,7 +40,7 @@ argument = url=http://127.0.0.1:7122&name=花里胡哨才是生产力&icon=bolt.
   panel.content = `CPU:    ${cpuUsage}        |  MEM:    ${memUsage}\n` +
     `Recv: ${bytesToSize(outTraffic)}  |  Sent: ${bytesToSize(inTraffic)}\n` +
     `Total: ${trafficSize}\n` +
-    `Uptime: ${uptime}\n` +
+    `Uptime: ${formatUptime(jsonData.uptime)}\n` +
     `Last Update: ${timeString}`;
 
   $done(panel);
@@ -82,6 +82,22 @@ function getParams(param) {
       .map((item) => item.split('='))
       .map(([k, v]) => [k, decodeURIComponent(v)])
   );
+}
+function formatUptime(seconds) {
+var days = Math.floor(seconds / (3600 * 24));
+var hours = Math.floor((seconds % (3600 * 24)) / 3600);
+var minutes = Math.floor((seconds % 3600) / 60);
+var result = '';
+if (days > 0) {
+  result += days + ' day' + (days > 1 ? 's' : '') + ', ';
+}
+if (hours > 0) {
+  result += hours + ' hour' + (hours > 1 ? 's' : '') + ' ';
+}
+if (minutes > 0 || result === '') {
+  result += minutes + ' min' + (minutes > 1 ? 's' : '');
+}
+return result;
 }
 
 function bytesToSize(bytes) {

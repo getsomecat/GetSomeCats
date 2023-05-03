@@ -115,19 +115,20 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
         bytes_recv = psutil.net_io_counters().bytes_recv
         bytes_total = bytes_sent + bytes_recv
 
-        # Calculate uptime
-        uptime_seconds = int(time.time() - psutil.boot_time())
-        uptime_hours, uptime_seconds = divmod(uptime_seconds, 3600)
-        uptime_minutes, uptime_seconds = divmod(uptime_seconds, 60)
+        
+        # Get UTC timestamp and uptime
+        utc_timestamp = int(time.time())
+        uptime = int(time.time() - psutil.boot_time())
 
         # Get the last statistics time
         last_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
         # Construct JSON dictionary
         response_dict = {
+            "utc_timestamp": utc_timestamp,
+            "uptime": uptime,
             "cpu_usage": cpu_usage,
             "mem_usage": mem_usage,
-            "uptime": f"{uptime_hours}h {uptime_minutes}m",
             "bytes_sent": str(bytes_sent),
             "bytes_recv": str(bytes_recv),
             "bytes_total": str(bytes_total),
