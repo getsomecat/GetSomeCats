@@ -1,12 +1,21 @@
-
 /*
- * 本地脚本修改URL信息
- * 脚本作者：@wuhu_zzz 整理者：整点猫咪
- * 使用时需要在panel中设置自己的vps端口和IP地址等
- * 详细使用方法请参照教程：
- */
+注⚠️：脚本的运行需提前在VPS上完成相关操作
+见教程：https://surge.ga/09/2549/
+脚本作者 @wuhu_zzz 由整点猫咪进行整理
+参数介绍：
+url：你的VPS设置的链接
+title：Panel的标题
+icon：Panel的图标
+low、mid、high分别对应内存不同占比时图标的颜色
+ddl：到期时间
+total：总共流量
 
+实例：
+argument = url=http://guaiguaiqiqi.com&title=花里胡哨才是生产力&icon=bolt.horizontal.icloud.fill&low=#06D6A0&mid=#FFD166&high=#EF476F&ddl=2012.12.12&total=300GB
 
+*/
+
+// 本地脚本修改URL信息
 let your_url = " ";
 let arg;
 if (typeof $argument != 'undefined') {
@@ -22,8 +31,12 @@ panel.icon = arg?.icon;
 let shifts = {
     '1': arg?.low,
     '2': arg?.mid,
-    '3': arg?.fast
-}
+    '3': arg?.high
+};
+// 时间
+let time = new Date();
+const t = time.getHours() + ':' + time.getMinutes() + ':' + time.getSeconds();
+console.log(t)
 // 发送请求获取信息
 const request = {
     url: URL,
@@ -32,19 +45,17 @@ const request = {
 $httpClient.get(request, function(error, response, data) {
     if (error) {
         console.log('error: '+error);
-        $done({title:'哦吼', content:'完蛋了'+error});
+        $done({title:'啊呃～', content:'完蛋了，出错了！看看是不是端口没打开？'+error});
     } else  {
         const Data = JSON.parse(data);
         const col = Diydecide(0, 30 ,70, parseInt(Data.mem));
-//				console.log(typeof parseInt(Data.mem))
-                console.log(parseInt(Data.mem))
-        console.log(col);
-                panel["icon-color"] = shifts.col;
-        panel.content = `入站: ${Data.in}\n`
-        + `出站: ${Data.out}\n`
-        + `所有: ${Data.all}\n`
-        + `CPU: ${Data.cpu}\n`
-        + `内存: ${Data.mem}`;
+        console.log(Data);
+    panel["icon-color"] = shifts[col];
+    panel.content = `统计时间：${Data.last_exec_time}\n` +
+                 `入站: ${Data.in}` + '    |    ' + `出站: ${Data.out}\n` +
+                 `用量: ${Data.all}` + '     |    ' + `总共: ${arg?.total}\n` +
+                 `CPU: ${Data.cpu}` + '           |    ' + `内存: ${Data.mem}\n` +
+                 `服务到期时间：${arg?.ddl}`;
         $done(panel);
     }
 });
