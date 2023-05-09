@@ -1,0 +1,32 @@
+#!name = DNS防泄漏
+#!desc = 专为小白设计的DNS防泄漏
+#!openUrl = 
+#!author = 非正常人类研究中心
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Prevent_DNS_Leaks.png
+
+# 你猜为什么会有这个插件呢？
+
+[Rule]
+# DNS Leak from Shadowrocket Default
+DOMAIN-SUFFIX, dnsleaktest.com, PROXY
+DOMAIN-SUFFIX, dnsleak.com, PROXY
+DOMAIN-SUFFIX, expressvpn.com, PROXY
+DOMAIN-SUFFIX, nordvpn.com, PROXY
+DOMAIN-SUFFIX, surfshark.com, PROXY
+DOMAIN-SUFFIX, ipleak.net, PROXY
+DOMAIN-SUFFIX, perfect-privacy.com, PROXY
+DOMAIN-SUFFIX, browserleaks.com, PROXY
+DOMAIN-SUFFIX, browserleaks.org, PROXY
+DOMAIN-SUFFIX, vpnunlimited.com, PROXY
+DOMAIN-SUFFIX, whoer.net, PROXY
+DOMAIN-SUFFIX, whrq.net, PROXY
+
+# Astrill
+DOMAIN-SUFFIX, astrill.com, PROXY
+DOMAIN-SUFFIX, astrill.org, PROXY
+DOMAIN-SUFFIX, dnsleak.asn247.net, PROXY
+
+# Surfshark
+DOMAIN-SUFFIX, surfshark.com, PROXY
+DOMAIN-SUFFIX, surfsharkdns.com, PROXY
