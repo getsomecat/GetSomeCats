@@ -179,11 +179,17 @@ cat /etc/letsencrypt/live/your.com/privkey.pem > /opt/tuic/privkey.pem
 systemctl enable --now tuic.service
 ```
 
-至此服务器端的配置已经全部完成了。你在surge配置里面就可以按照老刘提供的格式进行节点设置了（暂时无UI添加节点）如下示意配置格式，1.1.1.1换成你的vps的IP，端口就是上面config.json里面设置的端口，token后面就是里面设置的密码，sni后面就是你的域名。
+至此服务器端的配置已经全部完成了。你在surge配置里面就可以按照老刘提供的格式进行节点设置了（暂时无UI添加节点）如下示意配置格式，1.1.1.1换成你的vps的IP，端口就是上面config.json里面设置的端口，password后面就是里面设置的密码，sni后面就是你的域名，uuid就是config.json里面user部分，可以自己去通过相应工具生成。
 
 ```
 
-TUIC V5 = tuic, VPS的ip , 52408, skip-cert-verify=true, sni=your.com, uuid=8e21e704-9ac8-4fb8-bef1-6c9d7d7e390b, alpn=h3, password=RnJ5BfJ3, version=5
+TUIC V5 = tuic, 1.1.1.1 , 52408, skip-cert-verify=true, sni=your.com, uuid=8e21e704-9ac8-4fb8-bef1-6c9d7d7e390b, alpn=h3, password=RnJ5BfJ3, version=5
+```
+
+可以用下面命令获取证书指纹，在surge里面进行证书锁定，来进一步确保安全性。
+
+```
+openssl x509 -noout -fingerprint -sha256 -inform pem -in /opt/tuic/fullchain.pem
 ```
 
 因为certbot申请的证书有期限，所以设置个自动运行的脚本进行自动续期
