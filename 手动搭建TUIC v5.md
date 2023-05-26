@@ -1,6 +1,6 @@
 # 手动搭建TUIC v5
 
-![CleanShot 2023-05-26 at 19.49.09@2x](/Users/zeaphyouwong/Documents/%E6%88%AA%E5%9B%BE/CleanShot%202023-05-26%20at%2019.49.09@2x.png)
+![CleanShot 2023-05-26 at 19.49.09@2x](./%E6%89%8B%E5%8A%A8%E6%90%AD%E5%BB%BATUIC%20v5.assets/CleanShot%202023-05-26%20at%2019.49.09@2x.png)
 
 本来看着这些还是实验性功能，因为目前UI界面上没有version设置，通过配置文件文本模式编辑后的节点，如果用UI打开，会丢失部分配置信息，一般这种情况下我是不想折腾的，但是有几个人问起来了，也就结合以前写的TUIC部署步骤，简单写一下吧
 
