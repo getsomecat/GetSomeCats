@@ -72,7 +72,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=shadow-tls --v3 server --listen ::0:8443 --server 127.0.0.1:40712 --tls  gateway.icloud.com  --password JsJeWtjiUyJ5yeto
+ExecStart=/usr/local/bin/shadow-tls --fastopen --v3 server --listen ::0:8443 --server 127.0.0.1:40712 --tls  gateway.icloud.com  --password JsJeWtjiUyJ5yeto
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=shadow-tls
@@ -82,6 +82,10 @@ WantedBy=multi-user.target
 ```
 
 参数说明：
+
+\# \--fastopen
+
+开启tcp fast open ，参数的位置必须放在— v3 server前面
 
 \# --listen 0.0.0.0:8443
 
