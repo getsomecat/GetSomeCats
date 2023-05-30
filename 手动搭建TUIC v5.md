@@ -40,13 +40,13 @@ mkdir /opt/tuic && cd /opt/tuic
 X86
 
 ```
-wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu -O /opt/tuic/tuic-server
+wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-beta0/tuic-server-1.0.0-beta0-x86_64-unknown-linux-gnu -O /opt/tuic/tuic-server
 ```
 
 ARM
 
 ```
-wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu -O /opt/tuic/tuic-server
+wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-beta0/tuic-server-1.0.0-beta0-aarch64-unknown-linux-gnu -O /opt/tuic/tuic-server
 ```
 
 赋予服务器端程序权限：
