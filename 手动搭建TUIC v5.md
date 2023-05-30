@@ -35,17 +35,18 @@ mkdir /opt/tuic && cd /opt/tuic
 ```
 
 获取服务器端程序：
+因为最近作者一直在更新，版本更新比较快，所以去 [作者的库](https://github.com/EAimTY/tuic/releases)查看下最新版
 
 X86
 
 ```
-wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-pre-alpha2/tuic-server-1.0.0-pre-alpha2-x86_64-unknown-linux-gnu
+wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu
 ```
 
 ARM
 
 ```
-wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-pre-alpha2/tuic-server-1.0.0-pre-alpha2-aarch64-unknown-linux-gnu
+wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu
 ```
 
 赋予服务器端程序权限：
@@ -53,13 +54,13 @@ wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-pre-alph
 X86
 
 ```
-chmod +x tuic-server-1.0.0-pre-alpha2-x86_64-unknown-linux-gnu
+chmod +x tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu
 ```
 
 ARM
 
 ```
-chmod +x tuic-server-1.0.0-pre-alpha2/tuic-server-1.0.0-pre-alpha2-aarch64-unknown-linux-gnu
+chmod +x tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu
 ```
 
 这里每一行是一条指令，输入后按回车等执行完再进行下一条命令
@@ -78,7 +79,7 @@ nano config.json
 {
     "server": "[::]:52408",
     "users": {
-        "8e21e704-9ac8-4fb8-bef1-6c9d7d7e390b": "RnJ5BfJ3"    
+        "8e21e704-9ac8-4fb8-bef1-6c9d7d7e390b": "RnJ5BfJ3"
     },
     "certificate": "/opt/tuic/fullchain.pem",
     "private_key": "/opt/tuic/private.pem",
@@ -115,7 +116,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/opt/tuic
-ExecStart=/opt/tuic/tuic-server-1.0.0-pre-alpha2-x86_64-unknown-linux-gnu -c config.json
+ExecStart=/opt/tuic/tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu -c config.json
 Restart=on-failure
 RestartPreventExitStatus=1
 RestartSec=5
@@ -136,7 +137,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/opt/tuic
-ExecStart=/opt/tuic/tuic-server-1.0.0-pre-alpha2-aarch64-unknown-linux-gnu -c config.json
+ExecStart=/opt/tuic/tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu -c config.json
 Restart=on-failure
 RestartPreventExitStatus=1
 RestartSec=5
