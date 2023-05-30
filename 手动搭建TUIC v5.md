@@ -40,13 +40,13 @@ mkdir /opt/tuic && cd /opt/tuic
 X86
 
 ```
-wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu
+wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu -O /opt/tuic/tuic-server
 ```
 
 ARM
 
 ```
-wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu
+wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu -O /opt/tuic/tuic-server
 ```
 
 赋予服务器端程序权限：
@@ -54,13 +54,13 @@ wget https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0-alpha1/t
 X86
 
 ```
-chmod +x tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu
+chmod +x /opt/tuic/tuic-server
 ```
 
 ARM
 
 ```
-chmod +x tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu
+chmod +x /opt/tuic/tuic-server
 ```
 
 这里每一行是一条指令，输入后按回车等执行完再进行下一条命令
@@ -116,7 +116,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/opt/tuic
-ExecStart=/opt/tuic/tuic-server-1.0.0-alpha1-x86_64-unknown-linux-gnu -c config.json
+ExecStart=/opt/tuic/tuic-server -c config.json
 Restart=on-failure
 RestartPreventExitStatus=1
 RestartSec=5
@@ -137,7 +137,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/opt/tuic
-ExecStart=/opt/tuic/tuic-server-1.0.0-alpha1-aarch64-unknown-linux-gnu -c config.json
+ExecStart=/opt/tuic/tuic-server -c config.json
 Restart=on-failure
 RestartPreventExitStatus=1
 RestartSec=5
