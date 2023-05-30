@@ -82,7 +82,7 @@ nano config.json
         "8e21e704-9ac8-4fb8-bef1-6c9d7d7e390b": "RnJ5BfJ3"
     },
     "certificate": "/opt/tuic/fullchain.pem",
-    "private_key": "/opt/tuic/private.pem",
+    "private_key": "/opt/tuic/privkey.pem",
     "congestion_control": "bbr",
     "alpn": ["h3", "spdy/3.1"],
     "udp_relay_ipv6": false,
