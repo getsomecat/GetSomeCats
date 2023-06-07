@@ -47,11 +47,11 @@ https://surge.ga/13/2481/
 ##### 下载Shadow-Tls
 ARM
 
-`wget https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-aarch64-unknown-linux-musl -O /usr/local/bin/shadow-tls`
+`wget https://github.com/ihciah/shadow-tls/releases/download/v0.2.23/shadow-tls-aarch64-unknown-linux-musl -O /usr/local/bin/shadow-tls`
 
 X86_AMD
 
-`wget https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-x86_64-unknown-linux-musl -O /usr/local/bin/shadow-tls`
+`wget https://github.com/ihciah/shadow-tls/releases/download/v0.2.23/shadow-tls-x86_64-unknown-linux-musl -O /usr/local/bin/shadow-tls`
 
 ##### 给权限
 
@@ -72,7 +72,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=shadow-tls --v3 server --listen ::0:8443 --server 127.0.0.1:40712 --tls  gateway.icloud.com  --password JsJeWtjiUyJ5yeto
+ExecStart=/usr/local/bin/shadow-tls --fastopen --v3 server --listen ::0:8443 --server 127.0.0.1:40712 --tls  gateway.icloud.com  --password JsJeWtjiUyJ5yeto
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=shadow-tls
@@ -85,11 +85,15 @@ WantedBy=multi-user.target
 
 \# --listen 0.0.0.0:8443
 
-这个是你后面在surge里面输入的端口ipv6的话改成::0:8443 ，8443不用改动
+这个是你后面在 **surge** 里面输入的端口，ipv6的话改成::0:8443 ，8443不用改动
+
+/# --fastopen
+
+开启TFO 
 
 \# --server 127.0.0.1:40172
 
-监听端口，SS 那边可以监听改为 127.0.0.1,ipv6的话改成[::1]:40172，
+监听端口，也就是你的snell服务的端口，SS 那边可以监听改为 127.0.0.1,ipv6的话改成[::1]:40172，
 
 \# --password JsJeWtjiUyJ5yeto
 

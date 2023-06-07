@@ -1,0 +1,23 @@
+
+# DNS Leak from Shadowrocket Default
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,dnsleak.com
+DOMAIN-SUFFIX,expressvpn.com
+DOMAIN-SUFFIX,nordvpn.com
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,perfect-privacy.com
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,vpnunlimited.com
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,whrq.net
+
+# Astrill
+DOMAIN-SUFFIX,astrill.com
+DOMAIN-SUFFIX,astrill.org
+DOMAIN-SUFFIX,dnsleak.asn247.net
+
+# Surfshark
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,surfsharkdns.com
