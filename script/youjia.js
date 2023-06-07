@@ -1,6 +1,13 @@
 //转自https://raw.githubusercontent.com/RS0485/network-rules/main/scripts/gas-price.js
 //兼容surge loon
 //由 @keywos 修改
+//需要本地模块
+/*
+[Panel]
+YJ = script-name=YJ,update-interval=43200
+[Script]
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/youjia.js,argument=guangdong
+*/
 
 var region = 'shanxi-3/xian'
 
