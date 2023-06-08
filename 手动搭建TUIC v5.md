@@ -85,7 +85,7 @@ nano config.json
     "private_key": "/opt/tuic/privkey.pem",
     "congestion_control": "bbr",
     "alpn": ["h3", "spdy/3.1"],
-    "udp_relay_ipv6": false,
+    "udp_relay_ipv6": true,
     "zero_rtt_handshake": false,
     "auth_timeout": "3s",
     "max_idle_time": "10s",
