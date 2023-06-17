@@ -164,7 +164,7 @@ https://apps.apple.com/jp/app/1-1-1-1-faster-internet/id1423538627
 
 - 在setting里面Authentication里面的Login methods记得选择**One-time PIN**，这样才能在登陆时候收到邮件发送过来的一次性认证PIN
 
-- 如果还有其他问题可以进[Loon官方telegram群](https://t.me/Loon0x00)找我：🐈🐈‍⬛🐈‍⬛整点猫咪️@yeavast
+- 如果还有其他问题可以进[Loon官方telegram群](https://t.me/Loon0x00)找我：🐈🐈‍⬛🐈‍⬛整点猫咪️
 
 
 
