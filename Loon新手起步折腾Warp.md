@@ -171,10 +171,12 @@ https://apps.apple.com/jp/app/1-1-1-1-faster-internet/id1423538627
 按照下面链接教程：注册warp和加入一个team（Zero Trust），并用1.1.1.1 app进行一次链接以生成数据
 
 
-新教程：https://surge.ga/?p=2116
-~~注册教程： https://www.morax-xyc.com/post/839e7851/~~
+教程：https://surge.tel/?p=2116
+
 
 2023.4.9补充：如果你看了上面的zero trust教程觉得没法解决其中某些问题，可以直接使用warp+（个人版）下面已经补充warp+的操作。
+
+2023.6.17日补充：如果无基础的/折腾不好zero team的建议直接使用warp+，在实际使用中无任何区别。
 
 
 
@@ -192,7 +194,9 @@ https://apps.apple.com/jp/app/wireguard/id1441195209
 
 首先安装Loon社区制作的插件仓库：
 
-https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugin
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/LoonGallery.plugin
+
+或者通过这里[一键添加插件仓库](https://www.nsloon.com/openloon/import?plugin=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/LoonGallery.plugin)
 
 安装方法：
 
@@ -336,9 +340,17 @@ engage.cloudflareclient.com:2408
 
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-31_11.22.23-2.jpg" alt="iShot_2023-03-31_11.22.23-2" style="zoom:25%;" />
 
-这里还有一个关于优选Warp+/ZeroTrust的endpoint的教程，可以根据教程来进行优选IP，然后填到endpoint里面（只能填一个）
+2023.6.17 修订：在Loon TestFlight 3.1.0（573）中，增加了新的策略组类型Chain（代理链），可以将所选策略组连接起来形成代理链，Chain类型的策略组可以嵌套任意类型的策略组、节点，自动策略组（utl-test，fallback，loadbalance） 暂时不能将Chain策略组作为子策略，当前版本的代理链暂不支持UDP，后续会支持
 
-优选IP教程地址：https://surge.ga/?p=2189
+在Loon TestFlight 3.1.0（581）中已经增加了代理链对UDP的支持，至此，Loon也可以通过代理链使用wireguard（warp）了，同时因为开发者对于Loon的优化，所以在Loon上使用warp+（zero trust）转化来的wireguard，可以不用进行endpoint的优选，根据自己需要，通过代理链或者直连的方式进行使用。
 
-**顺便说一下想买机场的可以走我的aff，强烈推荐一线机场墙洞：https://dlercloud.com/auth/register?affid=126669**
+最后打一个小小的广告：
+
+机场推荐： 
+
+两家还不错的中端机场
+
+魔法学院： http://www.2220.it/register?aff=czShtQkPmv （机场主是群里的好朋友）
+
+炸鱼薯条：https://front.fishport.cloud/#/register?code=vB4AqLDi  （机场主就是做这个转化面板的薯条）
 
