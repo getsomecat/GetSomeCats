@@ -350,7 +350,7 @@ engage.cloudflareclient.com:2408
 
 两家还不错的中端机场
 
-魔法学院： http://www.2220.it/register?aff=czShtQkPmv （机场主是群里的好朋友）
+魔法学院： http://www.2220.it/register?aff=czShtQkPmv 
 
-炸鱼薯条：https://front.fishport.cloud/#/register?code=vB4AqLDi  （机场主就是做这个转化面板的薯条）
+炸鱼薯条：https://front.fishport.cloud/#/register?code=vB4AqLDi  
 
