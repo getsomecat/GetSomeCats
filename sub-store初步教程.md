@@ -1,4 +1,4 @@
-# Surge下的Sub-Store初步教程
+5# Surge下的Sub-Store初步教程
 
 
 
@@ -130,4 +130,4 @@ Surge下需要配置根证书、打开MitM开关、Rewrite开关、脚本开关
 
 <img src="./sub-store%E6%95%99%E7%A8%8B.assets/iShot_2023-03-26_17.45.38.png" alt="iShot_2023-03-26_17.45.38" style="zoom:50%;" />
 
-至此在Surge中使用Sub-store的步骤已经全部完成，至于其它想要对节点进行其它操作，在新手阶段不是很建议，等熟悉操作后再进行吧，也可以进[surge群](https://t.me/loveapps)进行学习，也可以来我的[整点猫咪](https://t.me/+xPEp7i13b1FjNjk0)群里聊天
+至此在Surge中使用Sub-store的步骤已经全部完成，至于其它想要对节点进行其它操作，在新手阶段不是很建议，等熟悉操作后再进行吧，也可以进[surge群](https://t.me/SurgeCommunity)进行学习，也可以来我的[整点猫咪](https://t.me/+xPEp7i13b1FjNjk0)群里聊天
