@@ -302,6 +302,10 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 
 
+生成配置和Loon中填入字段对应如下图：
+
+<img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/IMG_3391-1.png" alt="IMG_3391-1" style="zoom:25%;" />
+
 如果你不想折腾，这里有一个配置：
 
 
