@@ -1,0 +1,7 @@
+#!name=监控汇率变化
+#!desc=实时汇率
+
+[Panel]
+CNYUSD = script-name=CNYUSD,update-interval=43200
+[Script]
+CNYUSD = type=generic,timeout=10,script-path=https://github.com/Keywos/rule/raw/main/JS/MBcnyusd.js
