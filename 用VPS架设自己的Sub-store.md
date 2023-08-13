@@ -74,19 +74,10 @@ mkdir -p ~/Sub-Store
 cd ~/Sub-Store
 
 ```
-#### 9，下载前端页面压缩包并解压缩
 
-```
-wget https://github.com/xream/Sub-Store/releases/download/2.13.5-alpha/dist.zip -O frontend.zip
 
-```
-```
-unzip frontend.zip
 
-```
-![iShot_2023-02-23_20.49.24](media/16771482248559/iShot_2023-02-23_20.49.24.png)
-
-#### 10，将dist文件夹复制到相应目录，后面前端页面要用到
+#### 9，将dist文件夹复制到相应目录，后面前端页面要用到
 
 ```
 sudo cp -R dist /var/www/html/
@@ -96,15 +87,23 @@ sudo cp -R dist /var/www/html/
 > **注意：有些VPS如果直接执行上面操作会提示没有那个文件或者文件夹
 > 解决办法是如上图所示切换到相应的目录去建立对应的文件夹然后再执行复制操作。**
 
-#### 11，下载后端sub-store脚本
+#### 10，下载后端sub-store脚本
 
 ```
-wget https://github.com/xream/Sub-Store/releases/download/2.13.5-alpha/sub-store.js -O sub-store-bundled.js
+curl https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/backend/pnpm-lock.yaml -o pnpm-lock.yaml
+curl https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/backend/package.json -o package.json
+pnpm i
+curl -s https://api.github.com/repos/sub-store-org/Sub-Store/releases/latest \
+  | grep "/sub-store.min.js" \
+  | cut -d : -f 2,3 \
+  | tr -d \" \
+  | wget -qi -
 ```
+
 ![iShot_2023-02-23_20.57.35](media/16771482248559/iShot_2023-02-23_20.57.35.png)
 
 
-#### 12，创建sub-store服务
+#### 11，创建sub-store服务
 
 Tip：经测试发现使用pm2时因为[pid存在bug](http://github.com/soyuka/pidusage%20)，而导致服务在直接重启VPS时不会自动启动，故改为创建sub-store服务并设置成开机自动启动
 
@@ -232,7 +231,14 @@ sudo netfilter-persistent save
 > nginx的配置文件没有进行ssl证书设置，请自行搜索教程添加（小一大佬也没加我也不懂
 
 
-至此整个安装部署过程就已经结束了，访问你的sub-store的地址是：
+至此整个安装部署过程就已经结束了，使用公开的前端页面搭配你的后端地址即可
+
+ℹ️ 前端页面只与你的后端地址通信 无任何隐私问题
+
+1. 使用 @xream 的(不可 PWA, 基本与官方库相同): 打开 [https://sub-store-xream.pages.dev?api=http://subapi.domain.com/api-token](https://sub-store-xream.pages.dev/?api=http://subapi.domain.com/api-token)
+或 [https://sub-store.zhetengsha.eu.org?api=http://subapi.domain.com/api-token](https://sub-store.zhetengsha.eu.org/?api=http://subapi.domain.com/api-token)
+
+2. 使用 @keywos 的(可 PWA, 功能更多): [https://keywos.vercel.app](https://keywos.vercel.app/) 或 [https://keysub-store.pages.dev](https://keysub-store.pages.dev/) 在设置中 填写 后端地址保存 刷新
 
 ```
 http://substore.domain.com/?api=http://subapi.domain.com/api-token
