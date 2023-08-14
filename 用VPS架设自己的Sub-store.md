@@ -23,10 +23,10 @@
 Tip：我是在新开的主机上进行部署，所以有更新和安装过程，如果你上面已经安装有相关的可以跳过
 
 ```
-sudo apt update -y 
+sudo apt update -y
 ```
 
-#### 2，安装 `unzip wget git` 
+#### 2，安装 `unzip wget git`
 
 ```
 sudo apt install unzip wget git -y
@@ -107,7 +107,7 @@ curl -s https://api.github.com/repos/sub-store-org/Sub-Store/releases/latest \
 
 Tip：经测试发现使用pm2时因为[pid存在bug](http://github.com/soyuka/pidusage%20)，而导致服务在直接重启VPS时不会自动启动，故改为创建sub-store服务并设置成开机自动启动
 
-编辑 /home/ubuntu/Sub-Store/sub-store.service 
+编辑 /home/ubuntu/Sub-Store/sub-store.service
 
 **里面对应的路径要根据实际情况改**
 
@@ -128,13 +128,13 @@ Description=Sub-Store
 After=network-online.target
 Wants=network-online.target systemd-networkd-wait-online.service
 [Service]
-LimitNOFILE=32767 
+LimitNOFILE=32767
 Type=simple
 User=ubuntu
 Restart=on-failure
 RestartSec=5s
 ExecStartPre=/bin/sh -c ulimit -n 51200
-ExecStart=/home/ubuntu/.local/share/fnm/fnm exec --using v16.13.2 node /home/ubuntu/Sub-Store/sub-store-bundled.js
+ExecStart=/home/ubuntu/.local/share/fnm/fnm exec --using v16.13.2 node /home/ubuntu/Sub-Store/sub-store.min.js
 WorkingDirectory=/home/ubuntu/Sub-Store/
 [Install]
 WantedBy=multi-user.target
@@ -249,4 +249,4 @@ http://substore.domain.com/?api=http://subapi.domain.com/api-token
 
 再次提醒一下，因为目前没有验证，又是vps端的，如果别人知道你的地址相当于就能知道你的全部订阅了，所以api的设置请尽量复杂一点，然后别泄露给其他人
 再一点目前发现可能有点问题的地方，添加到主屏幕后因为iOS的限制会无法使用，也就是只能Safari里面用了，这点我问过小一大佬，他说没啥办法解决，系统层面的限制
-再次感谢小一大佬 @xream 热心帮助！推一下他的频道：https://t.me/zhetengsha_group 
+再次感谢小一大佬 @xream 热心帮助！推一下他的频道：https://t.me/zhetengsha_group
