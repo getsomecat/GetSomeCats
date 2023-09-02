@@ -208,7 +208,7 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/LoonGallery.plu
 
 薯条的脚本json地址：
 
-https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json
+https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/BoxJs/Cloudflare.boxjs.json
 
 <img src="./Loon%E6%96%B0%E6%89%8B%E8%B5%B7%E6%AD%A5%E6%8A%98%E8%85%BEWarp.assets/iShot_2023-03-27_12.11.18-2.jpg" alt="iShot_2023-03-27_12.11.18-2" style="zoom: 25%;" />
 
@@ -228,19 +228,19 @@ https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.box
 
 手动安装：
 
-`https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin`
+https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/BoxJs/Cloudflare.boxjs.json
 
  ☁ [1.1.1.1 by Cloudflare with WARP](https://github.com/VirgilClyne/Cloudflare/wiki/☁-1.1.1.1-by-Cloudflare-with-WARP)
 
 - Loon:
 
-  - 点击一键安装: [Cloudflare.1.1.1.1.plugin](https://api.boxjs.app/loon/import?plugin=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/plugin/Cloudflare.1.1.1.1.plugin)
+  - 点击一键安装: [Cloudflare.1.1.1.1.plugin](https://api.boxjs.app/loon/import?plugin=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/modules/Cloudflare.1.1.1.1.plugin)
 
-  - `插件`链接: [Cloudflare.1.1.1.1.plugin](https://github.com/VirgilClyne/Cloudflare/blob/main/plugin/Cloudflare.1.1.1.1.plugin?raw=true)
+  - `插件`链接: [Cloudflare.1.1.1.1.plugin](https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/modules/Cloudflare.1.1.1.1.plugin)
 
   - 薯条的boxjs订阅：
 
-    `https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json`		
+    `https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/BoxJs/Cloudflare.boxjs.json`		
 
 ### 通过Wireguard app生成一堆密钥
 
@@ -351,10 +351,6 @@ engage.cloudflareclient.com:2408
 最后打一个小小的广告：
 
 机场推荐： 
-
-两家还不错的中端机场
-
-魔法学院： http://www.2220.it/register?aff=czShtQkPmv 
 
 炸鱼薯条：https://front.fishport.cloud/#/register?code=vB4AqLDi  
 
