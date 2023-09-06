@@ -139,9 +139,12 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
         response_json = json.dumps(response_dict).encode('utf-8')
         self.wfile.write(response_json)
 
-with socketserver.ThreadingTCPServer(("", port), RequestHandler) as httpd:
+with socketserver.ThreadingTCPServer(("", port), RequestHandler, bind_and_activate=False) as httpd:
     try:
         print(f"Serving at port {port}")
+        httpd.allow_reuse_address = True
+        httpd.server_bind()
+        httpd.server_activate()
         httpd.serve_forever()
     except KeyboardInterrupt:
         print("KeyboardInterrupt is captured, program exited")
