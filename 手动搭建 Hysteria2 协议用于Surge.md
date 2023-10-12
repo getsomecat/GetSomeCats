@@ -140,11 +140,17 @@ systemctl status hysteria-server.service
 ## 在surge上使用：
 
 因为目前还不能在UI界面配置，需要通过文本模式进行编辑，配置的格式如下：
+如果采用自签证书方法，在配置文件中加入 skip-cert-verify=true
 
 ```
-Proxy = hysteria2, 192.168.20.62, 443, password=pwd, sni=test.com, download-bandwidth=100
+Proxy = hysteria2, 192.168.20.62, 443, password=pwd, sni=test.com, download-bandwidth=500
 ```
+```
+Proxy = hysteria2, 192.168.20.62, 443, password=pwd,  skip-cert-verify=true,sni=test.com, download-bandwidth=0
 
+```
+完整服务端配置文档在此处：
+https://v2.hysteria.network/zh/docs/advanced/Full-Server-Config/
 然后：
 
 ![IMG_5048-6860521](assets/IMG_5048-6860521.png)
