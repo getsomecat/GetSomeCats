@@ -50,6 +50,11 @@ masquerade:
   proxy:
     url: https://www.bing.com/    //想伪装的sni
     rewriteHost: true
+quic:
+  initStreamReceiveWindow: 26843545 
+  maxStreamReceiveWindow: 26843545 
+  initConnReceiveWindow: 67108864 
+  maxConnReceiveWindow: 67108864 
 ```
 
 或者也可以直接对下面的代码进行修改后复制进去使用：
@@ -72,6 +77,11 @@ masquerade:
   proxy:
     url: https://bing.com #伪装网址
     rewriteHost: true
+quic:
+  initStreamReceiveWindow: 26843545 
+  maxStreamReceiveWindow: 26843545 
+  initConnReceiveWindow: 67108864 
+  maxConnReceiveWindow: 67108864 
 EOF
 ```
 ## 自签证书方法
@@ -104,6 +114,11 @@ masquerade:
   proxy:
     url: https://bing.com #伪装网址
     rewriteHost: true
+quic:
+  initStreamReceiveWindow: 26843545 
+  maxStreamReceiveWindow: 26843545 
+  initConnReceiveWindow: 67108864 
+  maxConnReceiveWindow: 67108864 
 EOF
 
 ```
