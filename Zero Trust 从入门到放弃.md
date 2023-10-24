@@ -106,7 +106,7 @@ https://github.com/getsomecat/GetSomeCats/blob/Surge/注册Cloudflare并加入Ze
 
 模块地址：
 
-[https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/sgmodule/Cloudflare.1.1.1.1.sgmodule](https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/sgmodule/Cloudflare.1.1.1.1.sgmodule)
+[https://raw.githubusercontent.com/getsomecat/Cloudflare/main/modules/Cloudflare.1.1.1.1.sgmodule](https://raw.githubusercontent.com/getsomecat/Cloudflare/main/modules/Cloudflare.1.1.1.1.sgmodule)
 
 ### 5.surge 安装boxjs 模块，并订阅薯条的boxjs json：
 
@@ -120,7 +120,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 订阅**薯条的boxjs json地址**如下：
 
-[https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json](https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json)
+[https://raw.githubusercontent.com/getsomecat/Cloudflare/main/BoxJs/Cloudflare.boxjs.json](https://raw.githubusercontent.com/getsomecat/Cloudflare/main/BoxJs/Cloudflare.boxjs.json)
 
 <img src="./Zero%20Trust%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.assets/iShot_2023-03-27_12.17.47-2.jpg" alt="iShot_2023-03-27_12.17.47-2" style="zoom:25%;" />
 
@@ -235,7 +235,7 @@ Warp+下：
 
 千万不要直接填成1～10然后问为什么不行🫠
 
-关于endpoint，可以参照这篇blog： https://surge.ga/?p=2189
+关于endpoint，可以参照这篇blog： https://surge.tel/?p=2189
 
 2023年2月10日补充：
 
