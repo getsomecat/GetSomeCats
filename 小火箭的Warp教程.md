@@ -130,7 +130,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 1.打开safari浏览器，在地址栏输入： http://boxjs.com 
 
-2.在订阅中添加订阅：https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json
+2.在订阅中添加订阅：[https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/box/Cloudflare.boxjs.json](https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/BoxJs/Cloudflare.boxjs.json)
 
 3.在应用页面点开Cloudflare，将上面复制出来的设备ID、私钥、公钥粘贴进去并保存。
 
