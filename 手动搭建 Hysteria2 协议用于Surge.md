@@ -1,6 +1,7 @@
-# 手动搭建 Hysteria2 协议用于Surge
+# 手动搭建 Hysteria2 协议用于Surge/Loon
 
 沉寂了很久的老刘，在今天surge的TF版Surge 5 5.21.0 (2875)给大家带来了最新的订阅项目Hysteria2协议的支持。
+2023年10月29日更新：Loon在TF版3.1.3（629）中也增加了对hysteria2协议的支持。
 
 ## 关于
 
@@ -166,6 +167,17 @@ Proxy = hysteria2, 192.168.20.62, 443, password=pwd,  skip-cert-verify=true,sni=
 
 ```
 不过还是建议通过UI界面的方式进行添加。
+
+## 在Loon上使用
+**强烈建议使用UI界面进行添加！！！**
+
+文本格式：
+```loon-hy2 = Hysteria2,192.168.0.1,443,“ilove3k”,tls-name=www.bing.com,skip-cert-verify=true,udp=true
+
+```
+![IMG_5322](assets/IMG_5322.jpeg)
+
+
 完整服务端配置文档在此处：
 https://v2.hysteria.network/zh/docs/advanced/Full-Server-Config/
 然后：
