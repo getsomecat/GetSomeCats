@@ -172,7 +172,9 @@ Proxy = hysteria2, 192.168.20.62, 443, password=pwd,  skip-cert-verify=true,sni=
 **强烈建议使用UI界面进行添加！！！**
 
 文本格式：
-```loon-hy2 = Hysteria2,192.168.0.1,443,“ilove3k”,tls-name=www.bing.com,skip-cert-verify=true,udp=true
+```
+
+loon-hy2 = Hysteria2,192.168.0.1,443,“ilove3k”,tls-name=www.bing.com,skip-cert-verify=true,udp=true
 
 ```
 ![IMG_5322](assets/IMG_5322.jpeg)
