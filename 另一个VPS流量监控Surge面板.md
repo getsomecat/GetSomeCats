@@ -6,7 +6,7 @@
 
 之前写过一篇通过 shell +caddy 的方式进行，后面 @GetSomeNeko 大佬通过 Python 的方式也写了一个，相对来说更简单，我结合之前的整理一下过程。
 
-之前的部署方法链接：[Github](https://github.com/getsomecat/GetSomeCats/blob/Surge/自己部署一个VPS流量监控Surge面板.md)  [Blog](https://surge.ga/09/2549/)
+之前的部署方法链接：[Github](https://github.com/getsomecat/GetSomeCats/blob/Surge/自己部署一个VPS流量监控Surge面板.md)  [Blog](https://surge.tel/09/2549/)
 
 ## 免责声明：
 
@@ -69,6 +69,16 @@
   ```
   pip3 install psutil
   ```
+  如果在安装psutil中出现如下错误提示，
+![CleanShot 2023-11-09 at 09.58.12@2x](assets/CleanShot%202023-11-09%20at%2009.58.12@2x.png)
+
+无非就是说这样直接安装不安全，要用虚拟环境来安装，但是作为一个一把梭哈的人，我会管这些吗？
+按照提示信息安装命令改为：
+
+   ```
+  pip3 install psutil --break-system-packages
+  ```
+  ![CleanShot 2023-11-09 at 10.03.39@2x](assets/CleanShot%202023-11-09%20at%2010.03.39@2x.png)
 
   在后面运行 py 程序的时候，如果遇到缺少的依赖包，会有相应的提示：ModuleNotFoundError: No module named xxxx  这时候通过上面的 pip3 install xxxx 进行相应的依赖包安装即可解决
 
