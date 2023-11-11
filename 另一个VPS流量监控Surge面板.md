@@ -131,7 +131,7 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
         uptime = int(time.time() - psutil.boot_time())
 
         # Get the last statistics time
-        last_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        last_time = time.strftime("%Y/%m/%d %H:%M:%S", time.localtime())
 
         # Construct JSON dictionary
         response_dict = {
