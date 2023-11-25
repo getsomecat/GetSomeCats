@@ -1,3 +1,6 @@
+#!name=高德地图去广告
+#!desc=高德去广告，搬运自koko
+#!system=ios
 # 通用广告请求
 ^https?:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution - reject
 
