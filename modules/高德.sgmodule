@@ -2,6 +2,7 @@
 #!desc=高德去广告，搬运自koko
 #!system=ios
 # 通用广告请求
+[URL Rewrite]
 ^https?:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution - reject
 
 [Map Local]
