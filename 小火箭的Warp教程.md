@@ -98,7 +98,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 点击一键安装地址(Shadowrocket)：[Cloudflare.1.1.1.1.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/sgmodule/Cloudflare.1.1.1.1.sgmodule)
 
-手动安装地址：https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/sgmodule/Cloudflare.1.1.1.1.sgmodule
+手动安装地址：[https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/sgmodule/Cloudflare.1.1.1.1.sgmodule](https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/modules/Cloudflare.1.1.1.1.sgmodule)
 
 文字步骤：
 
