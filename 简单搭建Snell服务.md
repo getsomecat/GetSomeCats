@@ -155,6 +155,6 @@ AWS-EC2-SG = snell, XXX.XXX.XXX.XXX, 11807, psk=AijHCeos15IvqDZTb1cJMX5GcgZzIVE,
 
 如果你看完教程觉得好麻烦啊我不想动手搞，那么这个一键脚本应该可以帮到你
 ```
-wget -O snell.sh --no-check-certificate getcats.tk/BfhGmR && chmod +x snell.sh && ./snell.sh 
+wget -O snell.sh --no-check-certificate https://raw.githubusercontent.com/getsomecat/Snell/master/snell_new.sh && chmod +x snell.sh && ./snell.sh
  
 ```
